@@ -2,13 +2,13 @@ import React from 'react'
 import Link from 'gatsby-link'
 import SubscribeFrom from "react-mailchimp-subscribe";
 
-const mailchimp = {
+const formData = {
   action: "http://eepurl.com/ceufrn",
   messages: {
-    inputPlaceholder: "Your email",
-    btnLabel: "To send",
+    inputPlaceholder: "Give me the emails",
+    btnLabel: "Let's do this",
     sending: "Sending in progress...",
-    success: "Thanks for your interest!",
+    success: "You'll get a confirmation email soon",
     error: "Oops, can not save this address"
   },
   styles: {
@@ -27,6 +27,6 @@ const mailchimp = {
   }
 };
 
-const Form = () => <SubscribeFrom {...mailchimp}/>;
+const Mailchimp = () => <SubscribeFrom {...formData}/>;
 
-export default Form
+export default Mailchimp

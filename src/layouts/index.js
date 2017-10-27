@@ -6,31 +6,8 @@ import Helmet from 'react-helmet'
 import './index.scss'
 
 const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          This me
-        </Link>
-      </h1>
-    </div>
+  <div>
+
   </div>
 )
 
@@ -38,10 +15,12 @@ const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
       title="New Media Club Website"
+      link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700|Source+Sans+Pro:300,300i,400,600,700" rel="stylesheet"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
+
     />
     <Header />
     <div
