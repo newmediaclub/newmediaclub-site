@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Mailchimp from './components/mailchimp'
 import Posts from './components/posts'
+import Eboard from './components/Eboard'
+import Mailchimp from './components/Mailchimp'
 
 const IndexPage = ({data}) => (
   <div>
@@ -11,7 +12,8 @@ const IndexPage = ({data}) => (
     <p>Now go build something great.</p>
     <Link to="/page-2/">Go to page 2</Link>
     <h2>Index</h2>
-    <Mailchimp />
+    <Mailchimp/>
+    <Eboard/>
   </div>
 )
 
