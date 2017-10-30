@@ -859,6 +859,7 @@
     "rx-lite-aggregates": "^4.0.8",
     "safe-buffer": "^5.1.1",
     "sane": "^1.7.0",
+    "sass-rem": "^2.0.0",
     "sax": "^1.2.4",
     "sc-channel": "^1.0.6",
     "sc-emitter": "^1.1.0",

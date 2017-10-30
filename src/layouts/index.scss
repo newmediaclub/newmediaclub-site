@@ -1,5 +1,20 @@
+// Vendor
 @import 'node_modules/normalize-scss/sass/normalize/import-now';
+@import "../../node_modules/sass-rem/rem";
 
-@import 'components/grid.scss';
+// Functions, Mixins
+@import 'styles/lib/include-media';
+@import 'styles/lib/fluid-type';
+@import 'styles/lib/grid';
 
-@import 'components/main.scss';
+// Globals, Vars
+@import 'styles/global/variables';
+@import 'styles/global/typography';
+@import 'styles/global/breakpoints';
+
+// Components
+@import 'styles/components/eboard';
+
+// Utility Classes
+@import 'styles/utilities/layout';
+@import 'styles/utilities/typography';

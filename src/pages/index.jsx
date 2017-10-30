@@ -7,12 +7,8 @@ import Mailchimp from './components/Mailchimp'
 
 const IndexPage = ({data}) => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-    <h2>Index</h2>
-    <Mailchimp/>
+    {/* <Link to="/page-2/">Go to page 2</Link> */}
+    {/* <Mailchimp/> */}
     <Eboard/>
   </div>
 )

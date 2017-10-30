@@ -1,26 +1,23 @@
 import React from 'react';
-import Image from './Image.jsx';
+import Person from './Person.jsx';
 import data from '../../assets/data.json';
 
 class Eboard extends React.Component {
 
-  createImage = (image) => {
-    return <Image source={image} key={image}/>;
+  createPerson = (person) => {
+    return <Person imageURL={person.image} key={person.name} name={person.name} title={person.title} bio={person.bio}/>;
   };
 
-  createImages = (images) => {
-    return images.map(this.createImage);
+  createPeople = (people) => {
+    return people.map(this.createPerson);
   };
 
   render() {
     return (
       <div className="container">
-        <div className="row">
-          <div className="col-sm-12 text-center">
-
-            {this.createImages(data.faces)}
-
-          </div>
+        <div className="eboard">
+          <h1 className="eboard-header">Brought to you by</h1>
+          <div className="eboard-people">{this.createPeople(data.people)}</div>
         </div>
       </div>
     );

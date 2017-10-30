@@ -1,0 +1,39 @@
+.eboard {
+	background-color: #F2F2F2;
+	margin: 80px 0 0 0;
+  padding-left: 8%;
+	&-people {
+		margin-top: 40px;
+    padding-right: 8%;
+	}
+	&-content {
+		max-width: 259px;
+	}
+  &-person {
+    margin-bottom: 70px;
+    margin-left: 0;
+    @include media ('>md') {
+      max-width: 395px;
+    }
+  }
+	&-name {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.25rem;
+		font-weight: 400;
+		margin-top: rem(12px);
+		margin-bottom: rem(18px);
+	}
+	&-title {
+		text-transform: uppercase;
+		color: $teal;
+	}
+	&-image {
+		& img {
+			width: 100px;
+		}
+    margin-right: 1rem;
+	}
+	&-bio {
+		line-height: rem(18px);
+	}
+}
