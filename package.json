@@ -944,6 +944,7 @@
     "tar-fs": "^1.16.0",
     "tar-pack": "^3.4.1",
     "tar-stream": "^1.5.4",
+    "text-balancer": "^1.0.5",
     "through": "^2.3.8",
     "through2": "^2.0.3",
     "time-stamp": "^2.0.0",

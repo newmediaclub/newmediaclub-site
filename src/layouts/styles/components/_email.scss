@@ -1,0 +1,45 @@
+.email {
+	&-container {
+		background-color: #E1E7E3;
+    width: 100vw;
+    max-width: 1025px;
+    margin: 0;
+	}
+  &-form {
+  }
+	&-button {
+		background: #019082;
+		border: none;
+		text-transform: uppercase;
+		letter-spacing: .05em;
+		font-size: .75rem;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 600;
+		padding: 17px 20px;
+		color: #393141;
+	}
+
+	&-input {
+		width: 247px;
+		height: 40px;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 4px;
+	}
+}
+input[placeholder] {
+	padding-left: 20px;
+  color: #241F29;
+}
+input::-moz-placeholder {
+	padding-left: 20px;
+  color: #241F29;
+}
+input:-moz-placeholder {
+	padding-left: 20px;
+  color: #241F29;
+}
+input:-ms-input-placeholder {
+	padding-left: 20px;
+  color: #241F29;
+}
