@@ -1,12 +1,11 @@
 .email {
 	&-container {
 		background-color: #E1E7E3;
-    width: 100vw;
-    max-width: 1025px;
-    margin: 0;
+		width: 100vw;
+		margin: 0;
+		height: 120px;
 	}
-  &-form {
-  }
+
 	&-button {
 		background: #019082;
 		border: none;
@@ -17,29 +16,52 @@
 		font-weight: 600;
 		padding: 17px 20px;
 		color: #393141;
+		cursor: pointer;
+		&-container {
+			cursor: pointer;
+		}
+		&-container:hover .email-adam {
+			margin-top: -76px;
+			// opacity: 1;
+		}
+	}
+
+
+	&-adam {
+		position: absolute;
+		margin-left: 10px;
+		// opacity: 0;
+		margin-top: -68px;
+		transition: ease-in-out .1s;
 	}
 
 	&-input {
 		width: 247px;
 		height: 40px;
-    border: none;
-    padding-top: 3px;
-    padding-bottom: 4px;
+		border: none;
+		margin-right: 21px;
+		padding-top: 3px;
+		padding-bottom: 4px;
+		@include media ('<md') {
+			width: 50vw;
+			margin-right: 2vw;
+		}
 	}
 }
+
 input[placeholder] {
 	padding-left: 20px;
-  color: #241F29;
+	color: #241F29;
+	@include media ('<md') {
+		padding-left: 5px;
+	}
 }
-input::-moz-placeholder {
+
+
+input::placeholder {
 	padding-left: 20px;
-  color: #241F29;
-}
-input:-moz-placeholder {
-	padding-left: 20px;
-  color: #241F29;
-}
-input:-ms-input-placeholder {
-	padding-left: 20px;
-  color: #241F29;
+	color: #241F29;
+	@include media ('<md') {
+		padding-left: 5px;
+	}
 }

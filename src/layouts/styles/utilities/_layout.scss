@@ -6,6 +6,11 @@ body {
   background-color: $color-background;
 }
 
+.container {
+  max-width: 1025px;
+  margin: 0px auto;
+}
+
 .clearfix {
     &:after {
         content: '';
