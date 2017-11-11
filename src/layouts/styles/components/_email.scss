@@ -8,7 +8,6 @@
 
 	&-button {
 		background: #019082;
-		border: none;
 		text-transform: uppercase;
 		letter-spacing: .05em;
 		font-size: .75rem;
@@ -16,13 +15,14 @@
 		font-weight: 600;
 		padding: 17px 20px;
 		color: #393141;
+		border: none;
+		border-radius: 0;
 		cursor: pointer;
 		&-container {
 			cursor: pointer;
 		}
 		&-container:hover .email-adam {
-			margin-top: -76px;
-			// opacity: 1;
+			margin-top: -80px;
 		}
 	}
 
@@ -30,7 +30,6 @@
 	&-adam {
 		position: absolute;
 		margin-left: 10px;
-		// opacity: 0;
 		margin-top: -68px;
 		transition: ease-in-out .1s;
 	}

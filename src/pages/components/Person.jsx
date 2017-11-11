@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 let Person = function statelessFunctionComponentClass(props) {
   let imageURL = './assets/' + props.imageURL
 
@@ -13,7 +12,7 @@ let Person = function statelessFunctionComponentClass(props) {
     <div className="eboard-content grid__col grid__col--m-6-of-6">
       <p className="eboard-title">{props.title}</p>
       <h2 className="eboard-name">{props.name}</h2>
-      <p className="eboard-bio balance-text">{props.bio}</p>
+      <p className="eboard-bio">{props.bio}</p>
     </div>
 
   </div>)

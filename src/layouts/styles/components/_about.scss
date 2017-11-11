@@ -1,7 +1,81 @@
 .about {
-  &-media {
-    &-NMC_logo {
-      width: 267.887px;
+	margin: 105px 107px 80px;
+	max-width: 810px;
+	width: 81vw;
+  flex-direction: row;
+	@include media('<md') {
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+    flex-direction: column;
+		&-media {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+	&-text {
+    width: 395px;
+    @include media('<xs') {
+      width: 81vw;
     }
-  }
+    @include media('<md') {
+    margin-top: 75px;
+    }
+		&-header {
+			margin-bottom: 35px;
+			&-underline {
+        text-decoration: underline;
+  			text-decoration-color: $teal;
+      }
+		}
+		&-info {
+			font-size: 1rem;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+		&-reference {
+			font-size: .75rem;
+			font-family: 'Source Sans Pro', sans-serif;
+			font-style: italic;
+			color: #7D7D7D;
+			font-weight: 200;
+		}
+	}
+	&-media {
+		margin-left: 24px;
+		margin-right: 10.5vw;
+		@include media('<md') {
+			margin-left: 0;
+      margin-right: 0px;
+		}
+    @include media('>lg') {
+    margin-right: 107px;
+    }
+		&-NMC_logo {
+			width: 267.887px;
+			margin-bottom: 19px;
+		}
+		&-links {
+			width: 30%;
+			margin-top: 37.5px;
+
+			&-sites {
+				font-family: 'Raleway', sans-serif;
+				color: $normal-grey;
+				font-size: rem(12px);
+				&-space {
+					padding-right: 15px;
+				}
+			}
+			&-logos {
+				margin-bottom: 22px;
+			}
+			&-logo {
+				width: 24px;
+				color: $normal-grey;
+				&:first-child {
+					margin-right: 20px;
+				}
+			}
+		}
+	}
 }
