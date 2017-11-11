@@ -7,16 +7,28 @@ body {
 }
 
 input {
-	input:focus::-webkit-input-placeholder {
+	&::-webkit-input-placeholder {
+		font-size: .75rem;
+	}
+	&:-moz-placeholder {
+		font-size: .75rem;
+	} /* Firefox 18- */
+	&::-moz-placeholder {
+		font-size: .75rem;
+	} /* Firefox 19+ */
+	&:-ms-input-placeholder {
+		font-size: .75rem;
+	}
+	&:focus::-webkit-input-placeholder {
 		color: transparent;
 	}
-	input:focus:-moz-placeholder {
+	&:focus:-moz-placeholder {
 		color: transparent;
 	} /* Firefox 18- */
-	input:focus::-moz-placeholder {
+	&:focus::-moz-placeholder {
 		color: transparent;
 	} /* Firefox 19+ */
-	input:focus:-ms-input-placeholder {
+	&:focus:-ms-input-placeholder {
 		color: transparent;
 	} /* oldIE 😉 */
 }
