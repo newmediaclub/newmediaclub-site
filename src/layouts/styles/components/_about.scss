@@ -1,32 +1,36 @@
 .about {
-	margin: 105px 107px 80px;
+	margin: 105px auto 80px;
 	max-width: 810px;
 	width: 81vw;
-  flex-direction: row;
+	flex-direction: row;
 	@include media('<md') {
 		margin-left: auto;
 		margin-right: auto;
 		width: auto;
-    flex-direction: column;
+		flex-direction: column;
 		&-media {
 			margin-left: 0;
 			margin-right: 0;
 		}
 	}
 	&-text {
-    width: 395px;
-    @include media('<xs') {
-      width: 81vw;
-    }
-    @include media('<md') {
-    margin-top: 75px;
-    }
+		@include media('<xs') {
+			width: 81vw;
+		}
+		@include media('<md') {
+			margin-top: 75px;
+			width: 415px;
+		}
 		&-header {
 			margin-bottom: 35px;
+			width: 415px;
+			@include media('<md') {
+				width: inherit;
+			}
 			&-underline {
-        text-decoration: underline;
-  			text-decoration-color: $teal;
-      }
+				text-decoration: underline;
+				text-decoration-color: $teal;
+			}
 		}
 		&-info {
 			font-size: 1rem;
@@ -45,11 +49,11 @@
 		margin-right: 10.5vw;
 		@include media('<md') {
 			margin-left: 0;
-      margin-right: 0px;
+			margin-right: 0px;
 		}
-    @include media('>lg') {
-    margin-right: 107px;
-    }
+		@include media('>lg') {
+			margin-right: 107px;
+		}
 		&-NMC_logo {
 			width: 267.887px;
 			margin-bottom: 19px;
