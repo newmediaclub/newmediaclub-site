@@ -12,14 +12,14 @@ let Clubinfo = function statelessFunctionComponentClass() {
     </MediaQuery>
     <MediaQuery query="(max-width: 517px)">
       <h1 className="about-text-header">Wednesday<sup>*</sup>
-        &middot; 8:30pm <br/>
+        &middot; 8:30pm
+        <br/>
         <span className="about-text-header-underline">BOO-1</span>3<span className="about-text-header-underline">0</span>3
       </h1>
     </MediaQuery>
     <p className="about-text-info">
       New Media Club is&nbsp;
-      <strong>an event oriented club</strong>
-      that seeks to bring New Media Majors, and&nbsp;
+      <strong>an event oriented club</strong>&nbsp; that seeks to bring New Media Majors, and&nbsp;
       <strong>those interested in New Media Design,&nbsp;</strong>
       together outside the classroom.
       <br/>
