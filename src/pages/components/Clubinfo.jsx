@@ -4,13 +4,13 @@ import MediaQuery from 'react-responsive';
 let Clubinfo = function statelessFunctionComponentClass() {
 
   return (<div className="about-text">
-    <MediaQuery query="(min-width: 445px)">
+    <MediaQuery query="(min-width: 518px)">
       <h1 className="about-text-header">Wednesday<sup>*</sup>
         &middot; 8:30pm &middot; &nbsp;
         <span className="about-text-header-underline">BOO-1</span>3<span className="about-text-header-underline">0</span>3
       </h1>
     </MediaQuery>
-    <MediaQuery query="(max-width: 444px)">
+    <MediaQuery query="(max-width: 517px)">
       <h1 className="about-text-header">Wednesday<sup>*</sup>
         &middot; 8:30pm <br/>
         <span className="about-text-header-underline">BOO-1</span>3<span className="about-text-header-underline">0</span>3
@@ -19,8 +19,8 @@ let Clubinfo = function statelessFunctionComponentClass() {
     <p className="about-text-info">
       New Media Club is&nbsp;
       <strong>an event oriented club</strong>
-      that seeks to bring New Media Majors, and
-      <strong>those interested in New Media Design,</strong>
+      that seeks to bring New Media Majors, and&nbsp;
+      <strong>those interested in New Media Design,&nbsp;</strong>
       together outside the classroom.
       <br/>
       <br/>

@@ -1,7 +1,7 @@
 .about {
 	margin: 105px auto 80px;
-	max-width: 810px;
-	width: 81vw;
+	max-width: 820px;
+	width: 82vw;
 	flex-direction: row;
 	@include media('<md') {
 		margin-left: auto;
@@ -19,11 +19,13 @@
 		}
 		@include media('<md') {
 			margin-top: 75px;
-			width: 415px;
+			margin-left: 10vw;
+    	margin-right: 10vw;
+			max-width: 415px;
 		}
 		&-header {
-			margin-bottom: 35px;
-			width: 415px;
+			margin-bottom: 25px;
+			line-height: 1.65;
 			@include media('<md') {
 				width: inherit;
 			}
