@@ -23,7 +23,7 @@ let Clubmedia = function statelessFunctionComponentClass() {
           <a href="https://cias.rit.edu/">cias</a>
         </h3>
         <h3>
-          <a href="http://creativity.cias.rit.edu/">creativity</a>
+          <a href="http://creativity.cias.rit.edu/index.php?major=NMDE-BFA">creativity</a>
         </h3>
       </div>
     </div>
