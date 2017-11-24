@@ -36,11 +36,11 @@
 
 	&-input {
 		width: 247px;
-		height: 40px;
+		height: 46px;
 		border: none;
 		margin-right: 21px;
-		padding-top: 3px;
-		padding-bottom: 4px;
+		padding-top: 0px;
+		padding-bottom: 3px;
 		@include media ('<md') {
 			width: 50vw;
 			margin-right: 2vw;
