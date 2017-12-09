@@ -1,7 +1,7 @@
 ---
 path: '/hompageDup'
 title: 'Second Blog Post'
-published: true
+published: false
 date: '2017-10-25'
 ---
 
