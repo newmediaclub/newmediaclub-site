@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import SubscribeFrom from "react-mailchimp-subscribe";
+// import SubscribeFrom from "react-mailchimp-subscribe";
 // import Adam_head from '../../assets/Adam_head.png';
 
 class Mailchimp extends React.Component {
