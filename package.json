@@ -4,17 +4,17 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.238",
-    "gatsby-link": "^1.6.39",
+    "gatsby": "^1.9.243",
+    "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.8",
-    "gatsby-plugin-sass": "^1.0.23",
+    "gatsby-plugin-sass": "^1.0.25",
     "gatsby-source-filesystem": "^1.5.27",
-    "gatsby-transformer-remark": "^1.7.37",
+    "gatsby-transformer-remark": "^1.7.39",
     "normalize-scss": "^7.0.1",
     "react": "^16.2.0",
     "react-helmet": "^5.2.0",
     "react-mailchimp-subscribe": "^2.0.1",
-    "react-responsive": "^4.0.5",
+    "react-responsive": "^4.1.0",
     "sass-rem": "^2.0.1"
   },
   "keywords": [
