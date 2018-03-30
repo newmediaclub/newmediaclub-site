@@ -4,6 +4,8 @@ import SubscribeFrom from "react-mailchimp-subscribe";
 // import Adam_head from '../../assets/Adam_head.png';
 import NMC_logo from '../../assets/NMC_logo.svg';
 
+let adamImageURL = './assets/Adam_head.png';
+
 class Email extends React.Component {
   render() {
     return (<div className="email-container flex flex-justify-center flex-align-items-center" id="mc_embed_signup">  
@@ -23,7 +25,7 @@ class Email extends React.Component {
             <input type="text" name="b_8ed84f128f439d4ab46e02db7_e367bf5ac6" tabIndex="-1" value=""></input>
           </div>
           <div className="email-button-container clear">
-          <img className="email-adam" src={NMC_logo} alt="Adam's head"></img>        
+          <img className="email-adam" src={__PATH_PREFIX__ + adamImageURL} alt="Adam's head"></img>        
             <input type="submit" value="Let's do this" name="subscribe" id="mc-embedded-subscribe" className="button email-button position-relative"></input>
           </div>
         </div>
