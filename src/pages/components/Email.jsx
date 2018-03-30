@@ -1,7 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import SubscribeFrom from "react-mailchimp-subscribe";
-import Adam_head from '../../assets/Adam_head.png';
+// import Adam_head from '../../assets/Adam_head.png';
+import NMC_logo from '../../assets/NMC_logo.svg';
 
 class Email extends React.Component {
   render() {
@@ -22,7 +23,7 @@ class Email extends React.Component {
             <input type="text" name="b_8ed84f128f439d4ab46e02db7_e367bf5ac6" tabIndex="-1" value=""></input>
           </div>
           <div className="email-button-container clear">
-          <img className="email-adam" src={Adam_head} alt="Adam's head"></img>        
+          <img className="email-adam" src={NMC_logo} alt="Adam's head"></img>        
             <input type="submit" value="Let's do this" name="subscribe" id="mc-embedded-subscribe" className="button email-button position-relative"></input>
           </div>
         </div>
