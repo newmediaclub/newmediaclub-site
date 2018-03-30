@@ -2,13 +2,13 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import Eboard from './components/Eboard'
-import Mailchimp from './components/Mailchimp'
+import Email from './components/Email'
 import About from './components/About'
 
 const IndexPage = ({data}) => (
   <div>
     <About/>
-    <Mailchimp/>
+    <Email/>
     <Eboard/>
   </div>
 )
