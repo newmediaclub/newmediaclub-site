@@ -1,39 +1,39 @@
 {
   "people": [{
-      "image": "ethel.png",
-      "name": "Ethelia Lung",
-      "title": "head potato",
-      "bio": "Ethelia has an affinity for naps and tuna wraps. Crafting delightful experiences is her main hustle. Her weakness is that she's deathly afraid of Asian F’s - you didn't hear it from me."
-    },
-    {
       "image": "adi.png",
       "name": "Aditi Khazanchi",
-      "title": "usurper",
+      "title": "President",
       "bio": "Aditi has got the travel bug! She wishes to see every place on earth. When she’s not planning her next trip, she can be found glued to the monitor in the lab working and drinking way too much coffee."
     },
     {
-      "image": "abba.png",
-      "name": "Abbey Lee",
-      "title": "the money bags",
-      "bio": "Abbey is part pixel pusher, part mountain goat. When she’s not in front of a screen cultivating her vastly growing collections of GIFS, she’s off deep in the wilderness fulfilling her dreams of finding and promptly high fiving her hero: Big Foot. "
+      "image": "liam.png",
+      "name": "Liam Madigan",
+      "title": "Vice President",
+      "bio": "Walking by the Lab Lab? Peer in and observe Liam, feasting on cheez-its and Vanilla coke and blasting Sean Paul. Don’t knock on the glass though, you might scare him."
     },
     {
-      "image": "chrif.png",
-      "name": "Chris Locke",
-      "title": "social butterfly",
-      "bio": "Chris has never met a poutine he doesn’t like. Raised in Rochester, NY, Chris is obsessed with food, design, comic books, and Pusheen."
+      "image": "gabe.png",
+      "name": "Gabe Cagara",
+      "title": "Vice President",
+      "bio": "Gabe is a talkative and high key thrill seeker, and makes it a goal to do something crazy every summer (ask him and he’ll tell you :D ). Although Gabe has lived in three continents, he still has no clue how to hold chopsticks or how to play baseball. Pretty tragic. "
     },
     {
-      "image": "jake.png",
-      "name": "Jacob Frank",
-      "title": "H4X0R",
-      "bio": "The young lad who makes the webs and crawls the walls. Late one night, when Jacob was asked the question  \"What's your favorite food?\" he answered with a muddled response of \"pizza, pizza, and pizza.\""
+      "image": "emily.png",
+      "name": "Emily Frebowitz",
+      "title": "Treasurer",
+      "bio": "Emily never ate a vegetable until the age of 20 and she has twice the amount of taste buds as the average person (really). Her best friend is a ladybug named Kevin and if you can’t find her she’s probably thrifting or crying. ¯\\_(ツ)_/¯"
     },
     {
-      "image": "maddy.png",
-      "name": "Maddy Baker",
-      "title": "plans them events",
-      "bio": "If prompted, Maddy can talk in depth about her crystal collection, her favorite hiking trails, or the half-finished digital paintings on her hard drive. But whatever you do, don’t mention her pet Axolotl. You’ll never hear the end."
+      "image": "andrew.png",
+      "name": "Andrew Hurley",
+      "title": "Webmaster",
+      "bio": "Andrew has an affinity for wood, more specifically mahogany and those who know him best will understand how important lemons are to him. But don’t let that fool you he also knows his way around a few bits and bytes as well."
+    },
+    {
+      "image": "caleb.png",
+      "name": "Caleb Ng",
+      "title": "Content Creator",
+      "bio": "Caleb is a male human being of 19 years of age. Like most adolescent boys, he enjoys a various number of physical activities such as wrestling, biking, and skating. Caleb also partakes in a unique sport involving many others chasing a rotating flying disc around a field while chanting “go RIT spudheds!”"
 
     }
   ]
