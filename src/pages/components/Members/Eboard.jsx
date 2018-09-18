@@ -1,6 +1,6 @@
 import React from 'react';
-import Person from './Members/Person.jsx';
-import data from '../../assets/data.json';
+import Person from './Person.jsx';
+import data from '../../../assets/data.json';
 
 class Eboard extends React.Component {
 

@@ -1,12 +1,12 @@
 import React from 'react'
 
 let Person = function statelessFunctionComponentClass(props) {
-  let imageURL = './assets/' + props.imageURL
+  let imageURL = './assets/eboard/' + props.imageURL
 
   return (<div className="eboard-person grid grid__col grid__col--3-of-6 ">
 
     <div className="eboard-image grid__col grid__col--m-6-of-6">
-      <img src={__PATH_PREFIX__ + '/eboard/' + imageURL}/>
+      <img src={__PATH_PREFIX__ + imageURL} />
     </div>
 
     <div className="eboard-content grid__col grid__col--m-6-of-6">
