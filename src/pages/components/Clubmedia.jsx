@@ -20,7 +20,7 @@ let Clubmedia = function statelessFunctionComponentClass() {
       </div>
       <div className="flex flex-justify-around flex-row about-media-links-sites">
         <h3 className="about-media-links-sites-space">
-          <a href="https://cias.rit.edu/">cias</a>
+          <a href="https://cias.rit.edu/">CAD</a>
         </h3>
         <h3>
           <a href="http://creativity.cias.rit.edu/index.php?major=NMDE-BFA">creativity</a>

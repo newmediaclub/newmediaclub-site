@@ -1,7 +1,7 @@
 .eboard {
 	background-color: #F2F2F2;
 	margin: 80px 0 0 0;
-  padding-left: 6%;
+	padding-left: 6%;
 	padding-left: 10vw;
 	width: 90vw;
 	@include media ('>lg') {
@@ -15,16 +15,16 @@
 		max-width: 259px;
 		@include media ('<md') {
 			min-width: 70%;
-    }
+		}
 	}
-  &-person {
-    margin-bottom: 10vw;
-    margin-left: 0;
-    @include media ('>md') {
+	&-person {
+		margin-bottom: 10vw;
+		margin-left: 0;
+		@include media ('>md') {
 			margin-bottom: 70px;
 
-    }
-  }
+		}
+	}
 	&-name {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 1.25rem;
@@ -40,10 +40,33 @@
 		& img {
 			width: 100px;
 		}
-    margin-right: 16px;
+		margin-right: 16px;
 		padding-bottom: 8px;
 	}
 	&-bio {
 		line-height: 1.25rem;
 	}
+}
+.buttonContainer{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #41384B;
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin-top: 50px;
+	text-align: center;
+	line-height: 40px;
+}
+.buttonPeople{
+	width: 125px;
+	height: 40px;
+
+	&-active{
+		background-color:#E1E7E3;
+	}
+}
+.buttonPeople:hover{
+	background-color:#E1E7E3;
 }

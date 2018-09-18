@@ -15,6 +15,14 @@ class Eboard extends React.Component {
   render() {
     return (
       <div className="container">
+		  <div className="buttonContainer">
+			  <div className="buttonPeople">
+				  Eboard
+			  </div>
+			  <div className="buttonPeople buttonPeople-active" >
+				  Mentors
+			  </div>
+		  </div>
         <div className="eboard">
           <h1 className="eboard-header">Brought to you by</h1>
           <div className="eboard-people">{this.createPeople(data.people)}</div>
