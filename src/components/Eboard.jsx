@@ -50,7 +50,7 @@ class Eboard extends React.Component {
 					</button>
 				</div>
 				<div className="eboard">
-					<h1 className="eboard-header">Brought to you by</h1>
+					{/*<h1 className="eboard-header">Brought to you by</h1>*/}
 					<div className="eboard-people">{this.createPeople(currentData.people)}</div>
 				</div>
 			</div>
