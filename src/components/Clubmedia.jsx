@@ -1,8 +1,8 @@
 import React from 'react'
 
-import NMC_logo from '../../assets/NMC_logo.svg';
-import instagram from '../../assets/instagram.svg';
-import facebook from '../../assets/facebook.svg';
+import NMC_logo from '../assets/NMC_logo.svg';
+import instagram from '../assets/instagram.svg';
+import facebook from '../assets/facebook.svg';
 
 let Clubmedia = function statelessFunctionComponentClass() {
 

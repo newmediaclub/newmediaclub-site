@@ -1,7 +1,7 @@
 import React from 'react';
 import Person from './Members/Person.jsx';
-import data from '../../assets/data.json';
-import mentor from '../../assets/mentorData.json';
+import data from '../assets/data.json';
+import mentor from '../assets/mentorData.json';
 var jsonFile = mentor;
 class Eboard extends React.Component {
 	constructor(props){

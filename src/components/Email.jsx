@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import SubscribeFrom from "react-mailchimp-subscribe";
-import NMC_logo from '../../assets/NMC_logo.svg';
+import NMC_logo from '../assets/NMC_logo.svg';
 
 let adamImageURL = './assets/Adam_head.png';
 
