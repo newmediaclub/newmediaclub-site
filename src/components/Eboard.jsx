@@ -42,12 +42,12 @@ class Eboard extends React.Component {
 		return (
 			<div className="container">
 				<div className="buttonContainer">
-					<button onClick={this.setData} className="buttonPeople">
+					<div onClick={this.setData} className="buttonPeople">
 						Eboard
-					</button>
-					<button onClick={this.setMentor} className="buttonPeople buttonPeople-active" >
+					</div>
+					<div onClick={this.setMentor} className="buttonPeople" >
 						Mentors
-					</button>
+					</div>
 				</div>
 				<div className="eboard">
 					{/*<h1 className="eboard-header">Brought to you by</h1>*/}

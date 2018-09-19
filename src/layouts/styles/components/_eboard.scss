@@ -62,11 +62,15 @@
 .buttonPeople{
 	width: 125px;
 	height: 40px;
-
+	border: 1px solid black;
+	margin-left: 10px;
 	&-active{
 		background-color:#E1E7E3;
 	}
 }
 .buttonPeople:hover{
 	background-color:#E1E7E3;
+}
+.buttonPeople:hover{
+	cursor: pointer;
 }
