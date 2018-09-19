@@ -21,33 +21,20 @@ class Eboard extends React.Component {
 		return people.map(this.createPerson);
 	};
 
-	setData(){
+	setData = () => {
 
 		this.setState({
 			selected : "data"
 		});
 
 	};
-	setMentor(){
+	setMentor = () => {
 
 		this.setState({
 			selected : "mentor"
 		});
 
 	};
-	// handleClick(){
-	//
-	// 	if (this.state.selected == "data") {
-	// 		this.setState({
-	// 			selected : "mentor"
-	// 		});
-	// 	}else if (this.state.selected == "mentor"){
-	// 		this.setState({
-	// 			selected : "data"
-	// 		});
-	// 	}
-	//
-	// };
 	render() {
 
 	 const currentData = this.state.selected === "mentor" ? mentor : data;

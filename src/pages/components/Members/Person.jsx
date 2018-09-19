@@ -1,7 +1,7 @@
 import React from 'react'
 
 let Person = function statelessFunctionComponentClass(props) {
-  let imageURL = './assets/eboard/' + props.imageURL
+  let imageURL = './assets/' + props.imageURL
 
   return (<div className="eboard-person grid grid__col grid__col--3-of-6 ">
 
