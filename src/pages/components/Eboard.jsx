@@ -46,10 +46,10 @@ class Eboard extends React.Component {
 		return (
 			<div className="container">
 				<div className="buttonContainer">
-					<button onClick={this.setData} className="buttonPeople">
+					<button onClick={this.setData} type = "button" className="buttonPeople">
 						Eboard
 					</button>
-					<button onClick={this.setMentor} className="buttonPeople" >
+					<button onClick={this.setMentor} type = "button" className="buttonPeople" >
 						Mentors
 					</button>
 				</div>
