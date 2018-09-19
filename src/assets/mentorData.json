@@ -212,9 +212,15 @@
 		},
 		{
 			"name": "Hasque May",
-			"bio": "Started from the bottom” ~Drake",
+			"bio": "\"Started from the bottom” ~Drake",
 			"title": "UI/UX, Visual design, Coding ",
 			"image": "hasquemay.png"
+		},
+		{
+			"name": "Madison Yocum",
+			"bio": "Hi 👋 I like traveling, design, and startups. Always down to help, answer any questions and learn more!",
+			"title": "UI/UX, Visual design",
+			"image": "madisonyocum.png"
 		}
 	]
 }
