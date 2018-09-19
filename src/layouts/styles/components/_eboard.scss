@@ -63,10 +63,17 @@
 	width: 125px;
 	height: 40px;
 
-	&-active{
-		background-color:#E1E7E3;
-	}
+	// &-active{
+	// 	background-color:#E1E7E3;
+	// }
 }
 .buttonPeople:hover{
 	background-color:#E1E7E3;
+}
+button{
+	// border: none;
+	background-color: #F2F2F2;
+}
+button:active{
+	background-color: red;
 }

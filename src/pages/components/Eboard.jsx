@@ -21,20 +21,24 @@ class Eboard extends React.Component {
 		return people.map(this.createPerson);
 	};
 
-	setData = () => {
+	setData(){
 
 		this.setState({
 			selected : "data"
 		});
 
 	};
-	setMentor = () => {
+	setMentor(){
 
 		this.setState({
 			selected : "mentor"
 		});
 
+
+
+
 	};
+
 	render() {
 
 	 const currentData = this.state.selected === "mentor" ? mentor : data;
@@ -45,12 +49,12 @@ class Eboard extends React.Component {
 					<button onClick={this.setData} className="buttonPeople">
 						Eboard
 					</button>
-					<button onClick={this.setMentor} className="buttonPeople buttonPeople-active" >
+					<button onClick={this.setMentor} className="buttonPeople" >
 						Mentors
 					</button>
 				</div>
 				<div className="eboard">
-					<h1 className="eboard-header">Brought to you by</h1>
+					{ /*<h1 className="eboard-header">Brought to you by</h1>*/ }
 					<div className="eboard-people">{this.createPeople(currentData.people)}</div>
 				</div>
 			</div>
