@@ -203,6 +203,18 @@
 			"bio": "Outgoing, down to earth kinda person",
 			"title": "UI/UX, Visual design",
 			"image": "WystanWang.png"
+		},
+		{
+			"name": "Aahel Lyer",
+			"bio": "Trying to be a thoughtful designer who also makes perfectly folded Pinterest worthy omelettes.",
+			"title": "UI/UX, Motion Design, 3D design, Visual design",
+			"image": "AahelLyer.png"
+		},
+		{
+			"name": "Hasque May",
+			"bio": "Started from the bottom” ~Drake",
+			"title": "UI/UX, Visual design, Coding ",
+			"image": "hasquemay.png"
 		}
 	]
 }
