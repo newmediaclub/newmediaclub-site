@@ -1,5 +1,5 @@
 import React from 'react';
-import Person from './Person.jsx';
+import Person from './Members/Person.jsx';
 import data from '../../assets/data.json';
 import mentor from '../../assets/mentorData.json';
 var jsonFile = mentor;

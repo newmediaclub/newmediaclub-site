@@ -5,6 +5,7 @@ let Person = function statelessFunctionComponentClass(props) {
 
 	return (<div className="eboard-person grid grid__col grid__col--3-of-6 ">
 
+
 	<div className="eboard-image grid__col grid__col--m-6-of-6">
 		<img src={__PATH_PREFIX__ + imageURL}/>
 	</div>
