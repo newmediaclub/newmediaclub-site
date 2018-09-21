@@ -62,15 +62,17 @@
 .buttonPeople{
 	width: 125px;
 	height: 40px;
-	border: 1px solid black;
-	margin-left: 10px;
-	&-active{
-		background-color:#E1E7E3;
-	}
+	margin-left: 16px;
 }
 .buttonPeople:hover{
-	background-color:#E1E7E3;
+  background-color:#E1E7E3;
+  cursor: pointer;
 }
-.buttonPeople:hover{
-	cursor: pointer;
+.button_active__eboard {
+  background-color:#E1E7E3;
+  border: 0px solid black;
+}
+.button_active__mentor {
+  background-color:#E1E7E3;
+  border: 0px solid black;
 }
