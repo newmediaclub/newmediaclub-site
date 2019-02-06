@@ -1,15 +1,24 @@
 .eboard {
 	background-color: #F2F2F2;
 	margin: 80px 0 0 0;
-	padding-left: 6%;
-	padding-left: 10vw;
-	width: 90vw;
-	@include media ('>lg') {
-		padding-left: 102px;
-		width: 922px;
-	}
+	width: 1300px;
+	display: flex;
+	align-items: center;
+	// padding-left: 6%;
+	// padding-left: 10vw;
+	// width: 90vw;
+	// @include media ('>lg') {
+	// 	padding-left: 102px;
+	// 	width: 922px;
+	// }
 	&-people {
 		margin-top: 40px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		// align-items: flex-start;
+		width: auto;
 	}
 	&-content {
 		max-width: 259px;
@@ -65,14 +74,77 @@
 	margin-left: 16px;
 }
 .buttonPeople:hover{
-  background-color:#E1E7E3;
-  cursor: pointer;
+	background-color:#E1E7E3;
+	cursor: pointer;
 }
 .button_active__eboard {
-  background-color:#E1E7E3;
-  border: 0px solid black;
+	background-color:#E1E7E3;
+	border: 0px solid black;
 }
 .button_active__mentor {
-  background-color:#E1E7E3;
-  border: 0px solid black;
+	background-color:#E1E7E3;
+	border: 0px solid black;
+}
+.personInfo{
+	position: relative;
+	top: -64px;
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.name{
+	font-weight:bold;
+	font-size:26px;
+	margin-bottom: 6px;
+}
+.title{
+	font-weight:bold;
+	font-size:14px;
+	margin-bottom: 6px;
+	width: 300px;
+}
+.description{
+	font-weight:normal;
+	font-size:16px;
+	line-height:24px;
+	text-align:left;
+	width:308px;
+	// padding-bottom: 15px;
+}
+.colorSwatch{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position:relative;
+	top:0;
+
+	background-color:lightpink;
+	height:152px;
+	width:346px;
+}
+.personCard{
+	font-family: opensans;
+	border-radius:10px;
+	background-color:white;
+	// height:auto;
+	max-height: 650px;
+	min-height: 485px;
+	width:346px;
+	color: #333333;
+	margin-left:23px;
+	margin-right:23px;
+	// margin-right:46px;
+	margin-bottom:64px;
+}
+.photo{
+	z-index:100;
+	border-radius:100%;
+	// background-color:black;
+	left: 97px;
+	position:relative;
+	top:-74px;
+	width:152px;
+	height:152px;
+	margin:0 auto;
+
 }
