@@ -1,0 +1,38 @@
+.emailName{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 21px;
+	font-size: 14px;
+	background-color: #ffffff;
+	color: #BDBDBD;
+	box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.25);
+	border:none;
+	background-image:none;
+	width: 462px;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	height: 40px;
+}
+
+.emailMessage{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 21px;
+	font-size: 14px;
+	box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.25);
+	border:none;
+	background-image:none;
+	background-color: #ffffff;
+	color: #BDBDBD;
+	max-width: 442px;
+	min-width: 442px;
+	border-radius: 5px;
+	min-height: 170px;
+	max-height: 170px;
+	padding: 10px;
+}
+.emailMessage:focus{
+	color: #333333;
+}
