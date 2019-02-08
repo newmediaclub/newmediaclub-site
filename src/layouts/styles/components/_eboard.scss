@@ -138,12 +138,10 @@
 .button_active__eboard {
 	background-color:#333333;
 	color: #ffffff;
-	border: 0px solid black;
 }
 .button_active__mentor {
 	background-color:#333333;
 	color: #ffffff;
-	border: 0px solid black;
 }
 
 .personInfo{
@@ -197,6 +195,11 @@
 	// margin-right:46px;
 	margin-bottom:64px;
 }
+@media only screen and (max-width: 1130px) {
+  .personCard {
+    transform: scale(.90);
+  }
+}
 .photo{
 	z-index:100;
 	border-radius:100%;
@@ -208,4 +211,31 @@
 	height:152px;
 	margin:0 auto;
 
+}
+
+.mentorTag{
+	background-color: #ffffff;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+	padding:4px 11px;
+	border-radius: 20px;
+	font-weight: bold;
+	height: 20px;
+	color: #333333;
+	border:#333333 1px solid;
+	margin-right: 16px;
+	margin-bottom: 10px;
+}
+
+.tagContainer{
+
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 80%;
+	height: auto;
+	// justify-content: center;
+	align-self: center;
 }

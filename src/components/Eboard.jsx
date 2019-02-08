@@ -1,5 +1,6 @@
 import React from 'react';
-import Person from './Members/Person.jsx';
+import EboardPerson from './Members/EboardPerson.jsx';
+
 import data from '../assets/data.json';
 import mentor from '../assets/mentorData.json';
 import classnames from 'classnames';
@@ -18,7 +19,7 @@ class Eboard extends React.Component {
 		this.setMentor = this.setMentor.bind(this);
 	}
 	createPerson = (person) => {
-		return <Person imageURL={person.image} key={person.name} name={person.name} title={person.title} bio={person.bio} color={person.color}/>;
+		return <EboardPerson imageURL={person.image} key={person.name} name={person.name} title={person.title} bio={person.bio} color={person.color}/>;
 	};
 
 	createPeople = (people) => {

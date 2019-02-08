@@ -1,5 +1,10 @@
+.contactContainer{
+	display: flex;
+	flex-direction: column;
+}
+
 .emailName{
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	line-height: 21px;
@@ -14,7 +19,11 @@
 	margin-bottom: 25px;
 	height: 40px;
 }
-
+.emailForm{
+	display: flex;
+	flex-direction: column;
+	margin-top: 42px;
+}
 .emailMessage{
 	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
@@ -35,4 +44,20 @@
 }
 .emailMessage:focus{
 	color: #333333;
+}
+
+.contactButton{
+	width: 152px;
+	height: 44px;
+	background: #BB6BD9;
+	box-shadow: 0px 5px 21px rgba(222, 129, 255, 0.72);
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 24px;
+	font-size: 14px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 38px;
 }

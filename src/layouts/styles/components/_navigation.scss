@@ -1,0 +1,15 @@
+.navContainer {
+	width: 100vw;
+	background-color: #ffffff;
+	height: 50px;
+	// position: sticky;
+	top: 0;
+	display: flex;
+	flex-direction: row;
+}
+.navLink{
+	width: 20px;
+	color: black;
+	font-size: 16px;
+	margin: 10px 60px;
+}

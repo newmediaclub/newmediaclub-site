@@ -10,13 +10,22 @@ export default class ContactPage extends Component {
 
 		return (
 			<div>
-				<About />
-				<Email />
+				<Link to ='/' >Index</Link>
+				<div className="container">
+					<div className="contactContainer">
+						<div className="headingContainer">
+							<div className="pageHeading">Like Snail Mail Only Faster!</div>
+							<div className="pageDescription">Question, comment or concern? Let us know! We would love to help you out anyway we can.</div>
+						</div>
+						<div className="emailForm">
+							<input placeholder="Full Name" type="text" name="NAME" id="mce-EMAIL" required="" className="emailName"></input>
+							<input placeholder="E-mail" type="email" name="EMAIL" id="mce-EMAIL" required="" className="emailName"></input>
+							<textarea placeholder="Message" className="emailMessage" ></textarea>
 
-
-				<Link to ='/index.html' >Helloooooo</Link>
-
-
+							<input type="submit" value="Send Away" name="subscribe" id="mc-embedded-subscribe" className="contactButton"></input>
+						</div>
+					</div>
+				</div>
 			</div>
 		)
 	}
