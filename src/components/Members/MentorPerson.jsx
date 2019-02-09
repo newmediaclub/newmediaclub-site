@@ -1,7 +1,9 @@
 import React from 'react'
 
 let EboardPerson = function statelessFunctionComponentClass(props) {
-	let imageURL = '../assets/' + props.imageURL
+	let imageURL = '/assets/' + props.person.image;
+
+	console.log(imageURL);
 	let myColor = props.color ;
 
 	let cardColor = function(myColor) {
@@ -13,7 +15,7 @@ let EboardPerson = function statelessFunctionComponentClass(props) {
 	function createTable() {
 		let tagsArr = []
 
-		let tags = props.title.split(" ");;
+		let tags = props.person.title.split(" ");;
 
 		for (let j = 0; j < tags.length; j++) {
 			tagsArr.push(<p className="mentorTag">{tags[j]}</p>)
@@ -21,13 +23,15 @@ let EboardPerson = function statelessFunctionComponentClass(props) {
 		return tagsArr
 	}
 
+	const {person} = props;
+
 	return (
 		//if prop title contains "motion design" then display block else none
 		<div className="personCard">
 			<div className="colorSwatch" style={cardColor(myColor)}></div>
 			<img className="photo" src={__PATH_PREFIX__ + imageURL} />
 			<div className="personInfo">
-				<div className="name">{props.name}</div>
+				<div className="name">{person.name}</div>
 				{/* <div className="mentorTag">{props.title}</div>  */}
 				<div className="tagContainer">
 					{
@@ -35,7 +39,7 @@ let EboardPerson = function statelessFunctionComponentClass(props) {
 					}
 				</div>
 
-				<div className="description">{props.bio}</div>
+				<div className="description">{person.bio}</div>
 			</div>
 		</div>
 

@@ -7,66 +7,68 @@ import classnames from 'classnames';
 
 var jsonFile = mentor;
 class Mentors extends React.Component {
-	constructor(props){
+	constructor(props) {
 		super(props);
 		this.state = {
-			selected : "alumni",
+			selected: "alumni",
+			selectedFilter: "All",
 			button_active__eboard: "button_active__eboard",
 			button_active__mentor: "",
 		}
-		// this.handleClick = this.handleClick.bind(this);
-		this.setData = this.setData.bind(this);
-		this.setMentor = this.setMentor.bind(this);
 	}
-	createPerson = (person) => {
-		return <MentorPerson imageURL={person.image} key={person.name} name={person.name} title={person.title} bio={person.bio} color={person.color}/>;
-	};
-	createAlumni = (person) => {
-		return <AlumniPerson imageURL={person.image} key={person.name} name={person.name} title={person.title} bio={person.bio} color={person.color} email={person.email} website={person.website}/>;
-	};
-	createPeople = (people) => {
 
-		const filtered = people.filter(person => person.title.toLowerCase().indexOf(this.state.selected) > -1)
+	createPerson = (person) => {
+		return <MentorPerson person={person} />;
+	};
+
+	createAlumni = (person) => {
+		return <MentorPerson person={person} />;
+	};
+
+	createPeople = (people) => {
+		const needle = this.state.selectedFilter.toLowerCase();
+
+		const filtered = people.filter(person => {
+			const haystack = person.title.toLowerCase();
+
+			return needle === 'all' || haystack.indexOf(needle) > - 1;
+		});
 
 		if (this.state.selected == "alumni") {
-			console.log("alumni");
 			return filtered.map(this.createAlumni);
 		}
-		if (this.state.selected == "mentor") {
-			console.log("mentor");
 
+		if (this.state.selected == "mentor") {
 			return filtered.map(this.createPerson);
 		}
-
 	};
 
-
 	setData = () => {
-
 		this.setState({
-			selected : "alumni",
+			selected: "alumni",
 			button_active__eboard: "button_active__eboard",
 			button_active__mentor: ""
 		});
-
 	};
-	setMentor = () => {
 
+	setMentor = () => {
 		this.setState({
-			selected : "mentor",
+			selected: "mentor",
 			button_active__mentor: "button_active__mentor",
 			button_active__eboard: ""
 		});
-
 	};
+
+	updateSelectedFilter = (option) => {
+		this.setState({
+			selectedFilter: option,
+		})
+	};
+
 	render() {
-		const options = ['UI', 'UX'];
-		
+		const filterOptions = ['All', 'UI', 'UX', 'Motion', 'Visual', 'Illustration', 'Prototyping', '3D'];
 
 		const currentData = this.state.selected === "mentor" ? mentor : alumni;
-		if (this.state.selected == alumni) {
-
-		}
 
 		return (
 			<div className="container">
@@ -88,30 +90,21 @@ class Mentors extends React.Component {
 					<div className="sortingContainer">
 						<p className="peopleHeading">Sorting</p>
 						<div className="sortingButtonsContainer">
-							<p className="sortingContainer-button sortingContainer-button-active">
-								All
-							</p>
-							<p className="sortingContainer-button">
-								UI
-							</p>
-							<p className="sortingContainer-button">
-								UX
-							</p>
-							<p className="sortingContainer-button">
-								Motion
-							</p>
-							<p className="sortingContainer-button">
-								Visual
-							</p>
-							<p className="sortingContainer-button">
-								Illustration
-							</p>
-							<p className="sortingContainer-button">
-								Prototyping
-							</p>
-							<p className="sortingContainer-button">
-								3D
-							</p>
+							{
+								filterOptions.map(option => {
+									const { selectedFilter } = this.state;
+									const activeClassName = 'sortingContainer-button-active';
+
+									return (
+										<p
+											key={option}
+											onClick={() => this.updateSelectedFilter(option)}
+											className={`sortingContainer-button ${selectedFilter === option ? activeClassName : ''}`}>
+											{option}
+										</p>
+									)
+								})
+							}
 						</div>
 					</div>
 				</div>
