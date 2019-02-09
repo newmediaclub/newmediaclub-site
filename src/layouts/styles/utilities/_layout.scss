@@ -34,24 +34,36 @@ input {
 }
 
 .container {
-	max-width: 1300px;
-	margin: 0px 155px;
+	max-width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	align-content: center;
 }
+.wrapContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 155px;
+}
+@media only screen and (min-width: 1370px) {
+  .wrapContainer {
+    margin: 0px 155px;
+  }
+}
+
 @media only screen and (max-width: 1370px) {
-  .container {
+  .wrapContainer {
     margin: 0px 75px;
   }
 }
 
 @media only screen and (max-width: 1205px) {
-  .container {
+  .wrapContainer {
     margin: 0px 35px;
   }
 }
+
 .containerCenter{
 	justify-content: center;
 }
@@ -258,6 +270,7 @@ input {
 
 // Page and Section headings and descriptions
 .headingContainer{
+	margin-top:42px;
 	width: 100%;
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;

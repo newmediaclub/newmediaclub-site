@@ -1,0 +1,53 @@
+{
+	"people": [
+		{
+			"name": "Cathryne Szczepanik",
+			"bio": "A senior with two co-ops under her belt, Cathryne is a massive nerd and here to help.",
+			"title": "UI UX Motion Visual Illustration Visual",
+			"image": "CathryneSzczepanik.png",
+			"color": "#BB6BD9"
+		},
+		{
+			"name": "Cat caterson",
+			"bio": "A senior with two co-ops under her belt, Cathryne is a massive nerd and here to help.",
+			"title": "UI UX Motion Visual Illustration Visual",
+			"image": "CathryneSzczepanik.png",
+			"color": "#BB6BD9"
+		},
+		{
+			"name": "Bob Van",
+			"bio": "I like noodles and making sure my Instagram is \"on point.\" Sarcastic 86% of the time. Blunt but I mean well. Don't take anything too seriously. Help me build an electric bike? ",
+			"title": "Illustration UX 3D",
+			"image": "ChristineVan.png",
+			"color": "#2D9CDB"
+		},
+		{
+			"name": "Aditi Khazanchi",
+			"bio": "A perfectionist, pro-planner and inclusive design advocate. Hit me up if you have questions, need critique or help managing your time. Always happy to help. \n",
+			"title": "UI UX Motion Visual",
+			"image": "AditiKhazanchi.png",
+			"color": "#F2994A"
+		},
+		{
+			"name": "Rachael Van",
+			"bio": "I like noodles and making sure my Instagram is \"on point.\" Sarcastic 86% of the time. Blunt but I mean well. Don't take anything too seriously. Help me build an electric bike? ",
+			"title": "Illustration UX 3D",
+			"image": "ChristineVan.png",
+			"color": "#F2994A"
+		},
+		{
+			"name": "John Khazanchi",
+			"bio": "A perfectionist, pro-planner and inclusive design advocate. Hit me up if you have questions, need critique or help managing your time. Always happy to help. \n",
+			"title": "UI UX Motion Visual",
+			"image": "AditiKhazanchi.png",
+			"color": "#2D9CDB"
+		},
+		{
+			"name": "John Blanch",
+			"bio": "A perfectionist, pro-planner and inclusive design advocate. Hit me up if you have questions, need critique or help managing your time. Always happy to help. \n",
+			"title": "UI UX Motion Visual",
+			"image": "AditiKhazanchi.png",
+			"color": "#BB6BD9"
+		}
+	]
+}

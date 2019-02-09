@@ -10,7 +10,16 @@ let EboardPerson = function statelessFunctionComponentClass(props) {
 		}
 	}
 
+	function createTable() {
+		let tagsArr = []
 
+		let tags = props.title.split(" ");;
+
+		for (let j = 0; j < tags.length; j++) {
+			tagsArr.push(<p className="mentorTag">{tags[j]}</p>)
+		}
+		return tagsArr
+	}
 
 	return (
 		//if prop title contains "motion design" then display block else none
@@ -20,8 +29,10 @@ let EboardPerson = function statelessFunctionComponentClass(props) {
 			<div className="personInfo">
 				<div className="name">{props.name}</div>
 				{/* <div className="mentorTag">{props.title}</div>  */}
-				<div className="title">
-				{props.title}
+				<div className="tagContainer">
+					{
+						createTable()
+					}
 				</div>
 
 				<div className="description">{props.bio}</div>

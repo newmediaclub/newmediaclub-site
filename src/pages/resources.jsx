@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
-import Mentors from '../components/Mentors'
+import Eboard from '../components/Eboard'
 import Email from '../components/Email'
 import About from '../components/About'
 import Navigation from '../components/Navigation'
@@ -14,7 +14,7 @@ export default class MentorshipPage extends Component {
 		return (
 			<div>
 				<MetaTags>
-					<title>Mentorship</title>
+					<title>Resources</title>
 				</MetaTags>
 				<Navigation />
 				<div className="wrapContainer">
@@ -24,7 +24,10 @@ export default class MentorshipPage extends Component {
 						<div className="pageDescription">See who our fabulous mentors are as well as learn about our extensive alumni network.</div>
 					</div>
 				</div>
-				<Mentors />
+				<Eboard />
+				<Link to ='/index/' >Index</Link>
+
+
 			</div>
 		</div>
 		)

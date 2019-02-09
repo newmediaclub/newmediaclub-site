@@ -53,50 +53,6 @@ class Eboard extends React.Component {
 
 		return (
 			<div className="container">
-				<div className="peoplesortingContainer">
-
-					<div className="buttonContainer">
-						<p className="peopleHeading">Groups</p>
-						<div onClick={this.setData} className={classnames('buttonPeople', this.state.button_active__eboard)}>
-							Eboard
-						</div>
-						<div onClick={this.setMentor} className={classnames('buttonPeople', this.state.button_active__mentor)}>
-							Mentors
-						</div>
-					</div>
-
-					<div className="sortingLine"></div>
-
-					<div className="sortingContainer">
-						<p className="peopleHeading">Sorting</p>
-						<div className="sortingButtonsContainer">
-							<p className="sortingContainer-button sortingContainer-button-active">
-								All
-							</p>
-							<p className="sortingContainer-button">
-								UI
-							</p>
-							<p className="sortingContainer-button">
-								UX
-							</p>
-							<p className="sortingContainer-button">
-								Motion
-							</p>
-							<p className="sortingContainer-button">
-								Visual
-							</p>
-							<p className="sortingContainer-button">
-								Illustration
-							</p>
-							<p className="sortingContainer-button">
-								Prototyping
-							</p>
-							<p className="sortingContainer-button">
-								3D
-							</p>
-						</div>
-					</div>
-				</div>
 				<div className="eboard">
 					<div className="eboard-people">{this.createPeople(currentData.people)}</div>
 				</div>

@@ -1,15 +1,71 @@
 .navContainer {
-	width: 100vw;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
 	background-color: #ffffff;
-	height: 50px;
+	height: 42px;
 	// position: sticky;
 	top: 0;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 30px;
+
+
 }
+
+.navBackground{
+	width: 100%;
+	background-color: #ffffff;
+}
+
 .navLink{
-	width: 20px;
 	color: black;
+	font-weight: 600;
 	font-size: 16px;
-	margin: 10px 60px;
+	margin: 0px 40px;
+	top: -5px;
+	position: relative;
+}
+
+@media only screen and (max-width: 1370px) {
+  .navLink {
+    margin: 13px 30px;
+  }
+}
+
+@media only screen and (max-width: 1205px) {
+  .navLink {
+    margin: 13px 20px;
+  }
+}
+
+.navLink:last-child{
+	margin-right: 0;
+}
+.navLink:hover::after{
+	display: block;
+	content: '';
+	width: 70%;
+	height: 3px;
+	background: black;
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	border-radius: 3px;
+}
+
+.navLinkSelected--active::after{
+	display: block;
+	content: '';
+	width: 70%;
+	height: 3px;
+	background: black;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-radius: 3px;
+}
+.navIcon{
+	width:48px;
+	height: 16px;
 }

@@ -1,7 +1,7 @@
 .eboard {
 	background-color: #F2F2F2;
 	margin-top: 40px;
-	max-width: 1300px;
+	// max-width: 1300px;
 	display: flex;
 	align-items: center;
 	// padding-left: 6%;
@@ -57,7 +57,8 @@
 	}
 }
 .peoplesortingContainer{
-	max-width: 1130px;
+	// max-width: 1130px;
+	width: 100%;
 	// height: 160px;
 	border-radius: 10px;
 	margin-top: 50px;
@@ -197,7 +198,15 @@
 }
 @media only screen and (max-width: 1130px) {
   .personCard {
-    transform: scale(.90);
+    width: 332px;
+	max-height: 558px;
+	min-height: 332px;
+  }
+  .colorSwatch{
+	  width: 332px;
+  }
+  .description{
+	  width: 278px;
   }
 }
 .photo{
@@ -236,6 +245,6 @@
 	flex-wrap: wrap;
 	width: 80%;
 	height: auto;
-	// justify-content: center;
+	justify-content: center;
 	align-self: center;
 }
