@@ -61,9 +61,24 @@
 	height: 3px;
 	background: black;
 	position: absolute;
-	bottom: 0;
+	bottom: -3px;
 	left: 0;
 	border-radius: 3px;
+}
+.navUnderline{
+	width: 70%;
+	height: 3px;
+	background: black;
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	border-radius: 3px;
+}
+.displayShow{
+	display: inline-block;
+}
+.displayHidden{
+	display: none;
 }
 .navIcon{
 	width:48px;

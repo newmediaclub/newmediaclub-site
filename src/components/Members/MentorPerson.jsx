@@ -13,9 +13,9 @@ let EboardPerson = function statelessFunctionComponentClass(props) {
 	}
 
 	function createTable() {
-		let tagsArr = []
+		let tagsArr = [];
 
-		let tags = props.person.title.split(" ");;
+		let tags = props.person.title.split(" ");
 
 		for (let j = 0; j < tags.length; j++) {
 			tagsArr.push(<p className="mentorTag">{tags[j]}</p>)

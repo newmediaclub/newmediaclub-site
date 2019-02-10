@@ -16,7 +16,7 @@ export default class MentorshipPage extends Component {
 				<MetaTags>
 					<title>Mentorship</title>
 				</MetaTags>
-				<Navigation />
+				<Navigation page={'mentorship'} />
 				<div className="wrapContainer">
 				<div className="container">
 					<div className="headingContainer">

@@ -16,7 +16,7 @@ export default class ContactPage extends Component {
 				<MetaTags>
 					<title>Contact</title>
 				</MetaTags>
-				<Navigation />
+				<Navigation page={'contact'} />
 				<div className="wrapContainer">
 					<div className="container">
 						<div className="contactContainer">

@@ -39,7 +39,7 @@ const TemplateWrapper = ({children}) => (<div>
     <link rel="icon" href={NMC_favicon} type="image/x-icon"/>
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700|Source+Sans+Pro:300,300i,400,600,700" rel="stylesheet"/>
   </Helmet>
-  <div>
+  <div className="scrollBarFix">
     {children()}
   </div>
 </div>)

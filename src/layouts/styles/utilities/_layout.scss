@@ -5,19 +5,71 @@
 body {
 	background-color: $color-background;
 }
+.scrollBarFix{
+	min-height: 101vh;
+}
+::-webkit-scrollbar {
+	// display: none;
+	background-color: black;
+	width: 10px;
 
+}
+::-webkit-scrollbar-track {
+	// display: none;
+	background-color: white;
+
+}
+::-webkit-scrollbar-thumb {
+	// display: none;
+	background-color: #333333;
+
+}
+textarea::-webkit-input-placeholder{
+	font-size: .75rem;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 14px;
+	padding: 5px 0 0 10px;
+	color: #BDBDBD;
+}
 input {
+
 	&::-webkit-input-placeholder {
 		font-size: .75rem;
+		font-style: normal;
+		font-weight: normal;
+		line-height: normal;
+		font-size: 14px;
+
+		color: #BDBDBD;
 	}
 	&:-moz-placeholder {
 		font-size: .75rem;
+		font-style: normal;
+		font-weight: normal;
+		line-height: normal;
+		font-size: 14px;
+
+		color: #BDBDBD;
 	} /* Firefox 18- */
 	&::-moz-placeholder {
 		font-size: .75rem;
+		font-style: normal;
+		font-weight: normal;
+		line-height: normal;
+		font-size: 14px;
+
+		color: #BDBDBD;
 	} /* Firefox 19+ */
 	&:-ms-input-placeholder {
 		font-size: .75rem;
+		font-style: normal;
+		font-weight: normal;
+		line-height: normal;
+		font-size: 14px;
+
+		color: #BDBDBD;
 	}
 	&:focus::-webkit-input-placeholder {
 		color: transparent;
@@ -47,21 +99,21 @@ input {
 	margin: 0px 155px;
 }
 @media only screen and (min-width: 1370px) {
-  .wrapContainer {
-    margin: 0px 155px;
-  }
+	.wrapContainer {
+		margin: 0px 155px;
+	}
 }
 
 @media only screen and (max-width: 1370px) {
-  .wrapContainer {
-    margin: 0px 75px;
-  }
+	.wrapContainer {
+		margin: 0px 75px;
+	}
 }
 
 @media only screen and (max-width: 1205px) {
-  .wrapContainer {
-    margin: 0px 35px;
-  }
+	.wrapContainer {
+		margin: 0px 35px;
+	}
 }
 
 .containerCenter{
@@ -274,6 +326,11 @@ input {
 	width: 100%;
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 24px;
+	font-size: 14px;
+
 }
 .pageHeading{
 	font-size:28px;
@@ -286,4 +343,17 @@ input {
 	font-size:18px;
 	font-weight: 400;
 	line-height: 24px;
+}
+
+// Scroll Bar Effects
+.scrollbarContainer{
+	// background-color: black;
+	width: auto;
+	height: auto;
+
+
+}
+#scrollStyle::-webkit-scrollbar {
+	width: 6px;
+	background-color: #F5F5F5;
 }

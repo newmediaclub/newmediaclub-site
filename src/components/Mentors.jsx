@@ -88,7 +88,7 @@ class Mentors extends React.Component {
 					<div className="sortingLine"></div>
 
 					<div className="sortingContainer">
-						<p className="peopleHeading">Sorting</p>
+						<p className="peopleHeading">Filtering</p>
 						<div className="sortingButtonsContainer">
 							{
 								filterOptions.map(option => {

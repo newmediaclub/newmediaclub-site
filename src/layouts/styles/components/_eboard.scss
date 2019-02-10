@@ -4,6 +4,7 @@
 	// max-width: 1300px;
 	display: flex;
 	align-items: center;
+	width: 100%;
 	// padding-left: 6%;
 	// padding-left: 10vw;
 	// width: 90vw;
@@ -13,12 +14,20 @@
 	// }
 	&-people {
 		// margin-left: -23px;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
+		// display: flex;
+		// flex-direction: row;
+		// flex-wrap: wrap;
+		// justify-content: space-between;
+		display: grid;
+		grid-template-columns: auto auto auto auto ;
+		justify-items: center;
 		justify-content: space-between;
+		width: 100%;
 		// align-items: flex-start;
 		// width: auto;
+		@media screen and (max-width: 1760px) {
+			grid-template-columns: auto auto auto  ;
+		}
 	}
 	&-content {
 		max-width: 259px;
@@ -100,6 +109,9 @@
 	border:#333333 1px solid;
 	margin-right: 20px;
 	margin-bottom: 14px;
+}
+.sortingContainer-button:hover{
+	cursor: pointer;
 }
 .sortingContainer-button:last-child{
 	margin-right: 0px;
@@ -191,23 +203,24 @@
 	min-height: 485px;
 	width:346px;
 	color: #333333;
+
 	// margin-left:23px;
 	// margin-right:23px;
 	// margin-right:46px;
 	margin-bottom:64px;
 }
 @media only screen and (max-width: 1130px) {
-  .personCard {
-    width: 332px;
-	max-height: 558px;
-	min-height: 332px;
-  }
-  .colorSwatch{
-	  width: 332px;
-  }
-  .description{
-	  width: 278px;
-  }
+	.personCard {
+		width: 332px;
+		max-height: 558px;
+		min-height: 332px;
+	}
+	.colorSwatch{
+		width: 332px;
+	}
+	.description{
+		width: 278px;
+	}
 }
 .photo{
 	z-index:100;

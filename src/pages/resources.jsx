@@ -16,17 +16,16 @@ export default class MentorshipPage extends Component {
 				<MetaTags>
 					<title>Resources</title>
 				</MetaTags>
-				<Navigation />
+				<Navigation page={'resources'} />
 				<div className="wrapContainer">
 				<div className="container">
 					<div className="headingContainer">
-						<div className="pageHeading">Make Some Friends!</div>
-						<div className="pageDescription">See who our fabulous mentors are as well as learn about our extensive alumni network.</div>
+						<div className="pageHeading">Learn something new!</div>
+						<div className="pageDescription">We have compiled links to various resources to aid your design journey.</div>
 					</div>
 				</div>
 				<Eboard />
-				<Link to ='/index/' >Index</Link>
-
+			
 
 			</div>
 		</div>
