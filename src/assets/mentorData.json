@@ -3,44 +3,261 @@
 		{
 			"name": "Cathryne Szczepanik",
 			"bio": "A senior with two co-ops under her belt, Cathryne is a massive nerd and here to help.",
-			"title": "UI UX Motion Visual Illustration Visual",
+			"title": "UI UX Motion Visual",
 			"image": "CathryneSzczepanik.png",
 			"color": "#BB6BD9"
 		},
 		{
-			"name": "Bob Van",
+			"name": "Christine Van",
 			"bio": "I like noodles and making sure my Instagram is \"on point.\" Sarcastic 86% of the time. Blunt but I mean well. Don't take anything too seriously. Help me build an electric bike? ",
-			"title": "Illustration UX 3D",
+			"title": "UI UX Illustration Visual Internships",
 			"image": "ChristineVan.png",
 			"color": "#2D9CDB"
 		},
 		{
 			"name": "Aditi Khazanchi",
 			"bio": "A perfectionist, pro-planner and inclusive design advocate. Hit me up if you have questions, need critique or help managing your time. Always happy to help. \n",
-			"title": "UI UX Motion Visual",
+			"title": "VR Prototyping User Research Usability Testing",
 			"image": "AditiKhazanchi.png",
+			"color": "#F2C94C"
+		},
+		{
+			"name": "Gan Lin",
+			"bio": "The stranger at NMD who rarely talks, but would always be wearing a hat. Stay away from him, he’ll bite. 🐯\n[Just kidding]\nAhem, I am a jack-of-all-trades  ̶m̶a̶s̶t̶e̶r̶ ̶o̶f̶ ̶n̶o̶n̶e̶  designer who’s still trying to figure his path out of the frozen brickland. I can drop cool tips about mobile photography. You can definitely spot me with a hat on. 🤠\n",
+			"title": "UI UX Visual",
+			"image": "GanLin.png",
+			"color": "#EB5757"
+		},
+		{
+			"name": "Elena Berg",
+			"bio": "Quirky girl who loves to learn new things",
+			"title": "UI UX Illustration Motion 3D Visual Coding",
+			"image": "ElenaBerg.png",
 			"color": "#F2994A"
 		},
 		{
-			"name": "Rachael Van",
-			"bio": "I like noodles and making sure my Instagram is \"on point.\" Sarcastic 86% of the time. Blunt but I mean well. Don't take anything too seriously. Help me build an electric bike? ",
-			"title": "Illustration UX 3D",
-			"image": "ChristineVan.png",
+			"name": "Gracie Canfield",
+			"bio": "I have always loved art (and cats) and spend my time doing work, playing video games, or getting sucked into the void that is Pintrest. I'm always down for chilling and food :D.",
+			"title": "UI UX Illustration Motion 3D Visual",
+			"image": "GracieCanfield.png",
+			"color": "#6FCF97"
+		},
+		{
+			"name": "Jaymart Yabo",
+			"bio": "Hi I’m Jaymart! It’s like Kmart but with a J. 😊",
+			"title": "Illustration Motion 3D Coding Drawing Painting",
+			"image": "JaymartYabo.png",
+			"color": "#6FCF97"
+		},
+		{
+			"name": "Alexa Forberg",
+			"bio": "My name may be Alexa but I won't answer all your commands. I'm a designer from Long Island NY. I love UX/UI visual, graphic, motion Design and people passionate about their craft. Photography is pretty cool too. I trick myself into believing my life isn't on fire by plannering (a word??) and making endless to-do lists",
+			"title": "UI UX Illustration Motion Visual Photography",
+			"image": "AlexaForberg.png",
 			"color": "#F2994A"
 		},
 		{
-			"name": "John Khazanchi",
-			"bio": "A perfectionist, pro-planner and inclusive design advocate. Hit me up if you have questions, need critique or help managing your time. Always happy to help. \n",
-			"title": "UI UX Motion Visual",
-			"image": "AditiKhazanchi.png",
+			"name": "Rachel Manhardt",
+			"bio": "Yellow is my aesthetic.",
+			"title": "UI UX Illustration Motion Visual",
+			"image": "RachelManhardt.png",
+			"color": "#6FCF97"
+		},
+		{
+			"name": "John Keefe",
+			"bio": "Devout Pastafarian. The Room by Tommy Wiseau is my holy book. I play in Cinema 4D and After Effects in class instead of paying attention to my professors.",
+			"title": "UI UX Motion 3D",
+			"image": "JohnKeefe.png",
+			"color": "#F2C94C"
+		},
+		{
+			"name": "Harshad Golwalkar",
+			"bio": "I'm an engineer turned into a designer. Working for a year at an engineering-first company; I can share tips and tricks on presentation. I can help with design process, interviews, networking and ux portfolio review.",
+			"title": "UI UX Coding",
+			"image": "HarshadGolwalkar.png",
+			"color": "#EB5757"
+		},
+		{
+			"name": "Zainab Hasan",
+			"bio": "50% design 30% liquid 20% books 10% other stuff. ",
+			"title": "UI UX Illustration Visual",
+			"image": "ZainabHasan.png",
 			"color": "#2D9CDB"
 		},
 		{
-			"name": "John Blanch",
-			"bio": "A perfectionist, pro-planner and inclusive design advocate. Hit me up if you have questions, need critique or help managing your time. Always happy to help. \n",
-			"title": "UI UX Motion Visual",
-			"image": "AditiKhazanchi.png",
+			"name": "Dhensel Dorji ",
+			"bio": "Hello I'm Dhensel (like Denzel Washington but with a \"s\" sound instead of \"z\"). I'm known for owning obnoxiously large, animal-shaped phone cases. I live on spicy food and could probably beat any spicy food challenge. ",
+			"title": "UI UX Illustration Visual",
+			"image": "DhenselDorji.png",
 			"color": "#BB6BD9"
+		},
+		{
+			"name": "Zach Burdett",
+			"bio": "The user is my hero <3",
+			"title": "UI UX Motion Visual Coding",
+			"image": "ZachBurdett.png",
+			"color": "#BB6BD9"
+		},
+		{
+			"name": "John Pascarella",
+			"bio": "I'm that floral print guy who drinks too much espresso. I WILL talk to you about food and maybe cook some for you. ",
+			"title": "UI UX Motion Visual",
+			"image": "JohnPascarella.png",
+			"color": "#6FCF97"
+		},
+		{
+			"name": "Vanasa Liu",
+			"bio": "Resting sad face",
+			"title": "UI UX Illustration Motion Visual Coding",
+			"image": "VanasaLiu.png",
+			"color": "#F2C94C"
+		},
+		{
+			"name": "Amanda Ho",
+			"bio": "amanda has a strong love for milk and anything cute. catch me in the lab stressing about things 2 months in advance. (^:",
+			"title": "UI UX Illustration Motion Visual",
+			"image": "AmandaHo.png",
+			"color": "#F2994A"
+		},
+		{
+			"name": "Nicole Simone",
+			"bio": "Im an energetic, passionate designer who's always eating and/or always hungry. You can find me in the lab or catch me via snapchat or facebook at any time! ",
+			"title": "UI UX Illustration Motion 3D Visual",
+			"image": "NicoleSimone.png",
+			"color": "#F2C94C"
+		},
+		{
+			"name": "EMiLy FrEBoWitZ",
+			"bio": "i like dead flowers and equality and i have a sick bagel bite scar u can ask me about i'd love to show u haha yeet",
+			"title": "UI UX Motion Visual",
+			"image": "EMiLyFrEBoWitZ.png",
+			"color": "#BB6BD9"
+		},
+		{
+			"name": "Liam Madigan",
+			"bio": "I was put on this planet to do one thing and one thing only: eat buffalo chicken dip.",
+			"title": "UI UX Illustration Visual",
+			"image": "LiamMadigan.png",
+			"color": "#F2C94C"
+		},
+		{
+			"name": "Gabe Cagara",
+			"bio": "I am a traveling bug, who loves to restaurant hop and to make people laugh everyday. I also make it a goal to do something INSANE every summer ~ ask me and I'll tell you :3",
+			"title": "UI UX Illustration Motion Visual",
+			"image": "GabeCagara.png",
+			"color": "#EB5757"
+		},
+		{
+			"name": "Jenna Yun",
+			"bio": "lazy dog lover ʕ•ᴥ•ʔ",
+			"title": "UI UX Visual Coding",
+			"image": "JennaYun.png",
+			"color": "#F2C94C"
+		},
+		{
+			"name": "Andrew Hurley",
+			"bio": "I can do a back flip. But don’t ask me about it I’m sensitive. ",
+			"title": "UI UX Motion 3D Visual Coding",
+			"image": "AndrewHurley.png",
+			"color": "#6FCF97"
+		},
+		{
+			"name": "Sarah Danseglio",
+			"bio": "ask me about long island bagels",
+			"title": "UI UX Illustration Motion 3D Visual",
+			"image": "SarahDanseglio.png",
+			"color": "#BB6BD9"
+		},
+		{
+			"name": "Alex Kim",
+			"bio": "A potato with a surprising amount of insights.",
+			"title": "UI UX Illustration Coding",
+			"image": "AlexKim.png",
+			"color": "#2D9CDB"
+		},
+		{
+			"name": "Jacob D Frank",
+			"bio": "Luka is mean",
+			"title": "UI UX Coding",
+			"image": "JacobFrank.png",
+			"color": "#EB5757"
+		},
+		{
+			"name": "Haley King",
+			"bio": "The coolest cat you ever done seen 😎✨ I love making cute things that move and whirl and wOW (based on that good good user research of course). If you want to dye your hair a crazy color, learn how to swim, or cry over code together, let's chat!",
+			"title": "UI UX Illustration Motion Visual",
+			"image": "HaleyKing.png",
+			"color": "#6FCF97"
+		},
+		{
+			"name": "Nancy Perez ",
+			"bio": "I love to travel around, and watch movies/tv shows all day long. ",
+			"title": "Illustration Graphic 3D Printing",
+			"image": "NancyPerez.png",
+			"color": "#EB5757"
+		},
+		{
+			"name": "Dylan Davis",
+			"bio": "a pretty rad guy.",
+			"title": "UI UX Motion 3D Visual",
+			"image": "DylanDavis.png",
+			"color": "#F2994A"
+		},
+		{
+			"name": "Rohan Pawar",
+			"bio": "who?",
+			"title": "Motion 3D Visual",
+			"image": "RohanPawar.png",
+			"color": "#F2994A"
+		},
+		{
+			"name": "Luka Schulz",
+			"bio": "#BringBackAdam2k18",
+			"title": "UI UX 3D Visual",
+			"image": "LukaSchulz.png",
+			"color": "#BB6BD9"
+		},
+		{
+			"name": "Lauren Schneider",
+			"bio": "[adi please harass me to write a real one plx]",
+			"title": "UI UX Illustration Visual",
+			"image": "LaurenSchneider.png",
+			"color": "#F2C94C"
+		},
+		{
+			"name": "Parker Miltsch",
+			"bio": "I like making things in 3D and my dog bailey ",
+			"title": "Motion 3D Visual",
+			"image": "ParkerMiltsch.png",
+			"color": "#F2994A"
+		},
+		{
+			"name": "Wystan Wang",
+			"bio": "Outgoing, down to earth kinda person",
+			"title": "UI UX Visual",
+			"image": "WystanWang.png",
+			"color": "#EB5757"
+		},
+		{
+			"name": "Aahel Iyer",
+			"bio": "Trying to be a thoughtful designer who also makes perfectly folded Pinterest worthy omelettes.",
+			"title": "UI UX Motion 3D Visual",
+			"image": "AahelLyer.png",
+			"color": "#BB6BD9"
+		},
+		{
+			"name": "Hasque May",
+			"bio": "\"Started from the bottom” ~Drake",
+			"title": "UI UX Visual Coding",
+			"image": "hasquemay.png",
+			"color": "#F2994A"
+		},
+		{
+			"name": "Madison Yocum",
+			"bio": "Hi 👋 I like traveling, Design and startups. Always down to help, answer any questions and learn more!",
+			"title": "UI UX Visual",
+			"image": "madisonyocum.png",
+			"color": "#EB5757"
 		}
 	]
 }

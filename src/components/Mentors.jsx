@@ -66,7 +66,7 @@ class Mentors extends React.Component {
 	};
 
 	render() {
-		const filterOptions = ['All', 'UI', 'UX', 'Motion', 'Visual', 'Illustration', 'Prototyping', '3D'];
+		const filterOptions = ['All', 'UI', 'UX', 'Motion', 'Visual', 'Illustration', 'Prototyping', '3D', 'Drawing', 'Coding', 'Photography', 'Printing'];
 
 		const currentData = this.state.selected === "mentor" ? mentor : alumni;
 

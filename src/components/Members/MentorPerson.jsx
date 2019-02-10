@@ -1,11 +1,11 @@
 import React from 'react'
 
-let EboardPerson = function statelessFunctionComponentClass(props) {
+let MentorPerson = function statelessFunctionComponentClass(props) {
 	let imageURL = '/assets/' + props.person.image;
 
 	console.log(imageURL);
-	let myColor = props.color ;
-
+	let myColor = props.person.color;
+console.log(myColor);
 	let cardColor = function(myColor) {
 		return {
 			background: myColor,
@@ -46,4 +46,4 @@ let EboardPerson = function statelessFunctionComponentClass(props) {
 	)
 }
 
-export default EboardPerson
+export default MentorPerson
