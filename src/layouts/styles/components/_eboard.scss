@@ -25,8 +25,16 @@
 		width: 100%;
 		// align-items: flex-start;
 		// width: auto;
-		@media screen and (max-width: 1760px) {
-			grid-template-columns: auto auto auto  ;
+
+		@media screen and (min-width: 1140px) {
+			grid-template-columns: auto auto auto auto;
+		}
+
+		@media screen and (max-width: 1750px) {
+			grid-template-columns: auto auto auto;
+			@media screen and (max-width: 1080px) {
+				grid-template-columns: auto auto;
+			}
 		}
 	}
 	&-content {
@@ -93,6 +101,12 @@
 	width: 1px;
 	background-color: #333333;
 	height: 113px;
+
+	@media only screen and (max-width: 1000px) {
+		width: 2px;
+		height: 152px;
+	}
+
 }
 .sortingContainer{
 	display: flex;
@@ -104,11 +118,18 @@
 	padding:6px 20px;
 	border-radius: 20px;
 	font-weight: bold;
+	line-height: 18px;
 	height: 20px;
+	font-size: 14px;
 	color: #333333;
 	border:#333333 1px solid;
 	margin-right: 20px;
 	margin-bottom: 14px;
+	@media only screen and (max-width: 768px) {
+		font-size: 12px;
+		height: 15px;
+		line-height: 14px;
+	}
 }
 .sortingContainer-button:hover{
 	cursor: pointer;
@@ -136,12 +157,15 @@
 	flex-direction: column;
 }
 .buttonPeople{
-	width: 160px;
-	height: 46px;
+	width: 152px;
+	height: 44px;
 	border:#333333 1px solid;
 	border-radius: 5px;
 	margin-bottom:20px;
 	line-height: 44px;
+	@media only screen and (max-width: 768px) {
+		font-size: 14px;
+	}
 }
 .buttonPeople:hover{
 	background-color:#333333;
@@ -189,7 +213,6 @@
 	border-top-right-radius: 10px;
 	position:relative;
 	top:0;
-
 	background-color:lightpink;
 	height:152px;
 	width:346px;

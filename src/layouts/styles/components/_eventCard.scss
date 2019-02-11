@@ -7,7 +7,34 @@
 	flex-direction: column;
 	color: #333333;
 }
+@media only screen and (max-width: 770px) {
+	.eventCardContainer {
+		width: 327px;
+	}
+	.eventImage {
+		width: 327px;
+	}
 
+	.eventinfoArea{
+		margin-top: 20px;
+		width: 285px;
+		margin-left: 20px;
+	}
+	.eventDate{
+		line-height: 18px;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	.eventTitle{
+		line-height: 32px;
+		font-size: 24px;
+
+	}
+	.eventDescription{
+		line-height: 24px;
+		font-size: 14px;
+	}
+}
 .eventImage{
 	width: 346px;
 	height: 208px;

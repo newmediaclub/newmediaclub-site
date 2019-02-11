@@ -25,18 +25,43 @@
 	margin: 0px 40px;
 	top: -5px;
 	position: relative;
-}
 
+	@media only screen and (max-width: 900px) {
+		margin-top:45px;
+		margin: 0px 20px;
+		font-size: 14px;
+	}
+	@media only screen and (max-width: 700px) {
+		display: none;
+	}
+
+}
+.desktopNav{
+	display: block;
+	@media only screen and (max-width: 700px) {
+		display: none;
+	}
+}
+.mobileNavContainer{
+	display: none;
+	z-index: 9999;
+	@media only screen and (max-width: 700px) {
+		display: block;
+		height: 15px;
+
+	}
+}
 @media only screen and (max-width: 1370px) {
-  .navLink {
-    margin: 13px 30px;
-  }
+	.navLink {
+		margin: 13px 30px;
+	}
+
 }
 
 @media only screen and (max-width: 1205px) {
-  .navLink {
-    margin: 13px 20px;
-  }
+	.navLink {
+		margin: 13px 20px;
+	}
 }
 
 .navLink:last-child{
@@ -83,4 +108,64 @@
 .navIcon{
 	width:48px;
 	height: 16px;
+}
+
+.navLine{
+	width: 24px;
+	height: 3px;
+	background-color: black;
+	border-radius: 5px;
+	margin-bottom: 3px;
+}
+.navLine:last-child{
+	width: 21px;
+}
+.navLine:nth-child(2){
+	width: 15px;
+}
+
+.mobileNav{
+	z-index: 9999;
+	height: 310px;
+	width: 163px;
+	position: absolute;
+	top: 75px;
+	right: 20px;
+	background-color: white;
+	border-radius: 5px;
+	border:black solid 2px;
+	display: none;
+	flex-direction: column;
+}
+.mobileLink{
+	text-align: center;
+	height: 50px;
+	border-bottom: black solid 2px;
+	width: 100%;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 50px;
+	font-size: 18px;
+}
+.mobileLink:last-child{
+	border-bottom: black solid 0px;
+}
+.mobileLink:hover{
+	background-color: black;
+	color: white;
+}
+.mobilepageHeader{
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	@media only screen and (min-width: 700px) {
+		display: none;
+	}
+}
+.displayFlex{
+	display: flex;
+}
+.displayHide{
+	display: none;
 }

@@ -29,6 +29,9 @@
 			@include media('<md') {
 				width: inherit;
 			}
+			@media only screen and (max-width: 1000px) {
+				font-size: 1.25rem;
+			}
 			&-underline {
 				text-decoration: underline;
 				text-decoration-color: $teal;
@@ -38,6 +41,9 @@
 			font-size: 1rem;
 			line-height: 1.30rem;
 			font-family: 'Source Sans Pro', sans-serif;
+			@media only screen and (max-width: 1000px) {
+				font-size: .9rem;
+			}
 		}
 		&-reference {
 			font-size: .75rem;
@@ -45,6 +51,7 @@
 			font-style: italic;
 			color: #7D7D7D;
 			font-weight: 200;
+
 		}
 	}
 	&-media {
@@ -60,6 +67,9 @@
 		&-NMC_logo {
 			width: 267.887px;
 			margin-bottom: 19px;
+			@media only screen and (max-width: 1000px) {
+				width: 220px;
+			}
 		}
 		&-links {
 			width: 30%;
@@ -85,4 +95,7 @@
 			}
 		}
 	}
+}
+.flex-direction-row{
+	flex-direction: row !important;
 }

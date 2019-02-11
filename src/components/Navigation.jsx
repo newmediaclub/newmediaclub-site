@@ -6,8 +6,17 @@ import NMC_logo from '../assets/imagenavicon.png';
 class Navigation extends React.Component {
 	constructor(props){
 		super();
-		console.log(props.page);
-	}
+		this.state = {
+		   showMenu: false
+	   }
+
+	   this.showMobileNav = this.showMobileNav.bind(this);
+   }
+
+   showMobileNav = () => {
+	   this.setState({showMenu: !this.state.showMenu})
+   }
+
 	render() {
 
 
@@ -18,7 +27,7 @@ class Navigation extends React.Component {
 					<div className="navContainer ">
 						<img src={__PATH_PREFIX__ + NMC_logo} className="navIcon"/>
 
-						<div>
+						<div className="desktopNav">
 							<Link className="navLink " to ='/' >Home
 								<div
 									className={"navUnderline " + (this.props.page==='home' ? 'displayShow' : 'displayHidden')}
@@ -57,6 +66,51 @@ class Navigation extends React.Component {
 								</div>
 							</Link>
 						</div>
+						<div className={"mobilepageHeader " + (this.props.page==='home' ? 'displayShow' : 'displayHidden')} >
+							Home
+						</div>
+						<div className={"mobilepageHeader " + (this.props.page==='mentorship' ? 'displayShow' : 'displayHidden')} >
+							Mentorship
+						</div>
+						<div className={"mobilepageHeader " + (this.props.page==='events' ? 'displayShow' : 'displayHidden')} >
+							Events
+						</div>
+						<div className={"mobilepageHeader " + (this.props.page==='spotlight' ? 'displayShow' : 'displayHidden')} >
+							Spotlight
+						</div>
+						<div className={"mobilepageHeader " + (this.props.page==='resources' ? 'displayShow' : 'displayHidden')} >
+							Resources
+						</div>
+						<div className={"mobilepageHeader " + (this.props.page==='contact' ? 'displayShow' : 'displayHidden')} >
+							Contact
+						</div>
+						<div className="mobileNavContainer" onClick={this.showMobileNav}>
+							<div className="navLine"></div>
+							<div className="navLine"></div>
+							<div className="navLine"></div>
+						</div>
+
+					</div>
+					<div className={'mobileNav '+(this.state.showMenu ? 'displayFlex': 'displayHide')}>
+						<Link className="mobileLink " to ='/' >Home
+
+						</Link>
+
+						<Link className = "mobileLink" to ='/mentorship/'>Mentorship
+
+						</Link>
+						<Link className = "mobileLink" to ='/events/'>Events
+
+						</Link>
+						<Link className = "mobileLink" to ='/spotlight/'>Spotlight
+
+						</Link>
+						<Link className = "mobileLink" to ='/resources/'>Resources
+
+						</Link>
+						<Link className = "mobileLink" to ='/contact/'>Contact
+
+						</Link>
 					</div>
 				</div>
 			</div>
