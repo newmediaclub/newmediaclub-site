@@ -1,53 +1,200 @@
-{
-	"people": [
-		{
-			"name": "Cathryne Szczepanik",
-			"bio": "A senior with two co-ops under her belt, Cathryne is a massive nerd and here to help.",
-			"title": "UI UX Motion Visual Illustration Visual",
-			"image": "CathryneSzczepanik.png",
-			"color": "#BB6BD9"
-		},
-		{
-			"name": "Cat caterson",
-			"bio": "A senior with two co-ops under her belt, Cathryne is a massive nerd and here to help.",
-			"title": "UI UX Motion Visual Illustration Visual",
-			"image": "CathryneSzczepanik.png",
-			"color": "#BB6BD9"
-		},
-		{
-			"name": "Bob Van",
-			"bio": "I like noodles and making sure my Instagram is \"on point.\" Sarcastic 86% of the time. Blunt but I mean well. Don't take anything too seriously. Help me build an electric bike? ",
-			"title": "Illustration UX 3D",
-			"image": "ChristineVan.png",
-			"color": "#2D9CDB"
-		},
-		{
-			"name": "Aditi Khazanchi",
-			"bio": "A perfectionist, pro-planner and inclusive design advocate. Hit me up if you have questions, need critique or help managing your time. Always happy to help. \n",
-			"title": "UI UX Motion Visual",
-			"image": "AditiKhazanchi.png",
-			"color": "#F2994A"
-		},
-		{
-			"name": "Rachael Van",
-			"bio": "I like noodles and making sure my Instagram is \"on point.\" Sarcastic 86% of the time. Blunt but I mean well. Don't take anything too seriously. Help me build an electric bike? ",
-			"title": "Illustration UX 3D",
-			"image": "ChristineVan.png",
-			"color": "#F2994A"
-		},
-		{
-			"name": "John Khazanchi",
-			"bio": "A perfectionist, pro-planner and inclusive design advocate. Hit me up if you have questions, need critique or help managing your time. Always happy to help. \n",
-			"title": "UI UX Motion Visual",
-			"image": "AditiKhazanchi.png",
-			"color": "#2D9CDB"
-		},
-		{
-			"name": "John Blanch",
-			"bio": "A perfectionist, pro-planner and inclusive design advocate. Hit me up if you have questions, need critique or help managing your time. Always happy to help. \n",
-			"title": "UI UX Motion Visual",
-			"image": "AditiKhazanchi.png",
-			"color": "#BB6BD9"
-		}
-	]
-}
+[
+ {
+   "email": "chrislocke4@gmail.com",
+   "name": "Chris Locke",
+   "title": "Interaction Designer",
+   "company": "Punchcut"
+ },
+ {
+   "email": "sarahbethfederman@gmail.com",
+   "name": "Sarah Federman",
+   "title": "Experience Designer / Developer",
+   "company": "Adobe"
+ },
+ {
+   "email": "kah3770@rit.edu",
+   "name": "Kelly Hurlburt",
+   "title": "Experience Designer",
+   "company": "Adobe"
+ },
+ {
+   "email": "jess.wiltey@gmail.com",
+   "name": "Jess Wiltey",
+   "title": "Associate UX/UI Designer (also Hypemaster 3000, its true, check our slack.)",
+   "company": "Mission Data"
+ },
+ {
+   "email": "vickie.angie@odopod.com",
+   "name": "Vickie Angie",
+   "title": "Senior Designer",
+   "company": "Odopod"
+ },
+ {
+   "email": "oliviagrace1421@gmail.com",
+   "name": "Olivia Grace",
+   "title": "Interaction Designer",
+   "company": "Google"
+ },
+ {
+   "email": "lcb931023@gmail.com",
+   "name": "Changbai Li",
+   "title": "Software Engineer",
+   "company": "Helios Interactive Technologies"
+ },
+ {
+   "email": "tchau1908@gmail.com",
+   "name": "Timmy Chau",
+   "title": "Experience Design Lead",
+   "company": "New Deal Design"
+ },
+ {
+   "email": "awcrandall21@gmail.com",
+   "name": "Alex Crandall",
+   "title": "Interactive Designer",
+   "company": "Two Bulls"
+ },
+ {
+   "email": "tylercsomers@gmail.com",
+   "name": "Tyler Somers",
+   "title": "Art Director (UI/UX)",
+   "company": "TuneIn"
+ },
+ {
+   "email": "andrea.montealegre@capitalone.com",
+   "name": "Andrea Montealegre",
+   "title": "UX Designer",
+   "company": "Capital One"
+ },
+ {
+   "email": "abigail.lynn.designs@gmail.com",
+   "name": "Abbey Smith",
+   "title": "UX Designer",
+   "company": "Freelance"
+ },
+ {
+   "email": "",
+   "name": "",
+   "title": "",
+   "company": ""
+ },
+ {
+   "email": "",
+   "name": "",
+   "title": "",
+   "company": ""
+ },
+ {
+   "email": "alee011@me.com",
+   "name": "Abbey Lee",
+   "title": "UX Designer I",
+   "company": "Amazon"
+ },
+ {
+   "email": "tiff.tsoi@gmail.com",
+   "name": "Tiffany Tsoi",
+   "title": "Senior Experience Design",
+   "company": " R/GA"
+ },
+ {
+   "email": "juliannelburke@gmail.com",
+   "name": "Julianne Burke",
+   "title": "Interactive Designer",
+   "company": "Helios Interactive"
+ },
+ {
+   "email": "",
+   "name": "",
+   "title": "",
+   "company": ""
+ },
+ {
+   "email": "Camrobinsondesign@gmail.com",
+   "name": "Cameron Robinson",
+   "title": "Product Designer",
+   "company": "Purple, Rock, Scissors (https://purplerockscissors.com/)"
+ },
+ {
+   "email": "hello.morganreed@gmail.com",
+   "name": "Morgan Reed",
+   "title": "Product Designer / UIUX Designer",
+   "company": "iHeartRadio"
+ },
+ {
+   "email": "rosina.rdzv@gmail.com",
+   "name": "Rosina Rodriguez",
+   "title": "Interaction designer ",
+   "company": "Google "
+ },
+ {
+   "email": "ethelia.lung@gmail.com",
+   "name": "Ethelia Lung",
+   "title": "Interaction Designer",
+   "company": "Google"
+ },
+ {
+   "email": "kyle.beikirch@gmail.com",
+   "name": "Kyle Beikirch",
+   "title": "Principal Creative Developer",
+   "company": "AKQA SF"
+ },
+ {
+   "email": "karalaurel73@gmail.com",
+   "name": "Kara bo Bara (Williams)",
+   "title": "Visual Designer ",
+   "company": "Punchcut"
+ },
+ {
+   "email": "kad7873@rit.edu",
+   "name": "Kat de la Fuente",
+   "title": "User Experience Designer (Product Designer)",
+   "company": "Paychex"
+ },
+ {
+   "email": "davidutt36@gmail.com",
+   "name": "David Utt",
+   "title": "User Interface/Interaction Designer",
+   "company": "GE Healthcare"
+ },
+ {
+   "email": "sbaird@itx.com",
+   "name": "Shannon Baird",
+   "title": "Interaction Designer ",
+   "company": "Itx"
+ },
+ {
+   "email": "johndasta13@gmail.com",
+   "name": "John Dasta",
+   "title": "Product Designer",
+   "company": "Under Armour"
+ },
+ {
+   "email": "meshachjgalley@live.com",
+   "name": "Meshach Galley",
+   "title": "Motion Graphics Designer",
+   "company": "Celtra"
+ },
+ {
+   "email": "calebbrianpayne@gmail.com",
+   "name": "Caleb Payne",
+   "title": "✨ Motion Designer ✨",
+   "company": "Freelance (but I work at ABC News right now)"
+ },
+ {
+   "email": "jsalavarrieta@gmail.com",
+   "name": "Jae Salavarrieta",
+   "title": "UI/UX Designer  (ar/vr)",
+   "company": "SVRF"
+ },
+ {
+   "email": "pnltnyc@gmail.com",
+   "name": "Phil Leith-Tetrault",
+   "title": "freelance digital designer",
+   "company": "-"
+ },
+ {
+   "email": "stephaniekotula@gmail.com ",
+   "name": "Stephanie Kotula",
+   "title": "Jr Designer",
+   "company": "Instrument"
+ }
+]
