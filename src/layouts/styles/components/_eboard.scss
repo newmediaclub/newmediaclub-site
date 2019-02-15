@@ -12,6 +12,9 @@
 	// 	padding-left: 102px;
 	// 	width: 922px;
 	// }
+	@media screen and (max-width: 730px) {
+		width: auto;
+	}
 	&-people {
 		// margin-left: -23px;
 		// display: flex;
@@ -35,6 +38,9 @@
 			@media screen and (max-width: 1080px) {
 				grid-template-columns: auto auto;
 			}
+		}
+		@media screen and (max-width: 730px) {
+			grid-template-columns: auto;
 		}
 	}
 	&-content {
@@ -86,6 +92,9 @@
 	color: #41384B;
 	font-size: 14px;
 	text-align: center;
+	@media only screen and (max-width: 580px) {
+		flex-direction: column;
+	}
 }
 .peopleHeading{
 	color:#333333;
@@ -105,6 +114,17 @@
 	@media only screen and (max-width: 1000px) {
 		width: 2px;
 		height: 152px;
+	}
+	@media only screen and (max-width: 660px) {
+		width: 3px;
+		height: 200px;
+	}
+	@media only screen and (max-width: 641px) {
+		width: 3px;
+		height: 200px;
+	}
+	@media only screen and (max-width: 580px) {
+		display: none;
 	}
 
 }
@@ -130,6 +150,7 @@
 		height: 15px;
 		line-height: 14px;
 	}
+
 }
 .sortingContainer-button:hover{
 	cursor: pointer;
@@ -223,7 +244,7 @@
 	background-color:white;
 	// height:auto;
 	max-height: 650px;
-	min-height: 485px;
+	// min-height: 485px;
 	width:346px;
 	color: #333333;
 
@@ -283,4 +304,59 @@
 	height: auto;
 	justify-content: center;
 	align-self: center;
+}
+
+@media only screen and (max-width: 770px) {
+	.personCard {
+		width: 327px;
+		// max-height: 558px;
+		// min-height: 332px;
+		height: auto;
+	}
+	.colorSwatch{
+		width: 327px;
+	}
+	.description{
+		width: 278px;
+	}
+}
+@media only screen and (max-width: 730px) {
+	.personCard {
+		width: 346px;
+		// max-height: 558px;
+		// min-height: 332px;
+		height: auto;
+	}
+	.colorSwatch{
+		width: 346px;
+	}
+	.description{
+		width: 278px;
+	}
+}
+.deactivateButtons{
+	background-color: #C4C4C4;
+	color: #ffffff;
+	pointer-events: none;
+	border: #c4c4c4 solid 1px;
+}
+.deactivateButtons:hover{
+	background-color: #C4C4C4;
+	color: #ffffff;
+	pointer-events: none;
+	border: #C4C4C4 solid 1px;
+}
+.deactivateHeader{
+	color: #C4C4C4;
+}
+.alumniLinkContainer{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.alumniLink{
+	width: inherit;
+	text-align: center;
+	color: #333333;
+	line-height: 30px;
 }

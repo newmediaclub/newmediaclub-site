@@ -13,7 +13,7 @@ class Spotlights extends React.Component {
 	}
 
 	createEvent = (spotlight) => {
-		return <EventCard date={spotlight.date} title={spotlight.title} description={spotlight.description} link={spotlight.link} image={spotlight.image} buttonText={spotlight.buttonText} />;
+		return <EventCard date={spotlight.date} title={spotlight.title} description={spotlight.description} link={spotlight.link} image={spotlight.image} buttonText={spotlight.buttonText} account={spotlight.account}/>;
 	};
 
 

@@ -10,11 +10,12 @@ console.log(imageURL);
 			<img src={imageURL} className="eventImage"></img>
 			<div className="eventinfoArea">
 				<div className="eventInfo">
-					<div className="eventDate">{props.date}</div>
+					<p className="eventDate">{props.date}</p>
+					<p className="eventDate">{props.account}</p>
 					<div className="eventTitle">{props.title}</div>
 					<div className="eventDescription">{props.description} </div>
 				</div>
-				<div className="eventButton">{props.buttonText}</div>
+				<a href={props.link} target="_blank"><div className="eventButton">{props.buttonText}</div></a>
 			</div>
 		</div>
 	)

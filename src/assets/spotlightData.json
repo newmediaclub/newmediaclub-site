@@ -1,19 +1,59 @@
 {
 	"spotlight": [
 		{
-			"date": "Wednesday Oct 24",
-			"title": "UX Industry Talk Series",
-			"description": "We are gonna have a very special guest calling in! Hwanghah Jeong is a senior at the Savannah College of Art and Design. Previously she interned at Microsoft, KPCB and Airbnb! ",
-			"image": "pastEvent.png",
-			"link": "https://github.com/newmediaclub/newmediaclub-site/tree/master/src",
+			"account": "@morgan.merrick.5",
+			"title": "Morgan Merrick",
+			"description": " \"This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick ",
+			"image": "morganmerrickInsta.png",
+			"link": "https://www.instagram.com/p/BrLy_-LA5CK/",
 			"buttonText":"View"
 		},
 		{
-			"date": "Wednesday Oct 24",
-			"title": "UX Industry Talk Series",
-			"description": "We are gonna have a very special guest calling in! Hwanghah Jeong is a senior at the Savannah College of Art and Design. Previously she interned at Microsoft, KPCB and Airbnb! ",
-			"image": "pastEvent.png",
-			"link": "https://github.com/newmediaclub/newmediaclub-site/tree/master/src",
+			"account": "@morgan.merrick.5",
+			"title": "Morgan Merrick",
+			"description": " \"This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick ",
+			"image": "morganmerrickInsta.png",
+			"link": "https://www.instagram.com/p/BrLy_-LA5CK/",
+			"buttonText":"View"
+		},
+		{
+			"account": "@morgan.merrick.5",
+			"title": "Morgan Merrick",
+			"description": " \"This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick ",
+			"image": "morganmerrickInsta.png",
+			"link": "https://www.instagram.com/p/BrLy_-LA5CK/",
+			"buttonText":"View"
+		},
+		{
+			"account": "@morgan.merrick.5",
+			"title": "Morgan Merrick",
+			"description": " \"This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick ",
+			"image": "morganmerrickInsta.png",
+			"link": "https://www.instagram.com/p/BrLy_-LA5CK/",
+			"buttonText":"View"
+		},
+		{
+			"account": "@morgan.merrick.5",
+			"title": "Morgan Merrick",
+			"description": " \"This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick ",
+			"image": "morganmerrickInsta.png",
+			"link": "https://www.instagram.com/p/BrLy_-LA5CK/",
+			"buttonText":"View"
+		},
+		{
+			"account": "@morgan.merrick.5",
+			"title": "Morgan Merrick",
+			"description": " \"This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick ",
+			"image": "morganmerrickInsta.png",
+			"link": "https://www.instagram.com/p/BrLy_-LA5CK/",
+			"buttonText":"View"
+		},
+		{
+			"account": "@morgan.merrick.5",
+			"title": "Morgan Merrick",
+			"description": " \"This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick ",
+			"image": "morganmerrickInsta.png",
+			"link": "https://www.instagram.com/p/BrLy_-LA5CK/",
 			"buttonText":"View"
 		}
 	]

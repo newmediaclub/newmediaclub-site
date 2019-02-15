@@ -1,5 +1,6 @@
 import React from 'react';
 import MentorPerson from './Members/MentorPerson.jsx';
+import AlumniPerson from './Members/AlumniPerson.jsx';
 
 import alumni from '../assets/alumniData.json';
 import mentor from '../assets/mentorData.json';
@@ -22,10 +23,13 @@ class Mentors extends React.Component {
 	};
 
 	createAlumni = (person) => {
-		return <MentorPerson person={person} />;
+		return <AlumniPerson person={person} />;
 	};
 
 	createPeople = (people) => {
+		if (this.state.selected === "alumni") {
+			console.log("alumnifunction");
+		}
 		const needle = this.state.selectedFilter.toLowerCase();
 
 		const filtered = people.filter(person => {
@@ -88,7 +92,7 @@ class Mentors extends React.Component {
 					<div className="sortingLine"></div>
 
 					<div className="sortingContainer">
-						<p className="peopleHeading">Filtering</p>
+						<p className={`peopleHeading ${this.state.selected === "alumni" ? "deactivateHeader" : ''}`}>Filtering</p>
 						<div className="sortingButtonsContainer">
 							{
 								filterOptions.map(option => {
@@ -99,7 +103,9 @@ class Mentors extends React.Component {
 										<p
 											key={option}
 											onClick={() => this.updateSelectedFilter(option)}
-											className={`sortingContainer-button ${selectedFilter === option ? activeClassName : ''}`}>
+											className={`sortingContainer-button ${selectedFilter === option ? activeClassName : ''}
+											${this.state.selected === "alumni" ? " deactivateButtons" : ''}
+											`}>
 											{option}
 										</p>
 									)

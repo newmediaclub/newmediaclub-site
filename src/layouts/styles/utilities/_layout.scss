@@ -98,6 +98,7 @@ input {
 	flex-direction: column;
 	justify-content: center;
 	margin: 0px 155px;
+	max-width: 1600px;
 }
 @media only screen and (min-width: 1370px) {
 	.wrapContainer {
@@ -116,9 +117,9 @@ input {
 		margin: 0px 35px;
 	}
 }
-@media only screen and (max-width: 1960px) {
+@media only screen and (min-width: 1960px) {
 	.wrapContainer {
-		margin: 0px 10%;
+		margin: 0 auto;
 	}
 }
 @media only screen and (max-width: 1080px) {
@@ -133,6 +134,16 @@ input {
 	@media only screen and (max-width: 834px) {
 		.wrapContainer {
 			margin: 0px 30px;
+		}
+	}
+	@media only screen and (max-width: 730px) {
+		.wrapContainer {
+			margin: 0px 15px;
+		}
+	}
+	@media only screen and (max-width: 580px) {
+		.wrapContainer {
+			margin: 0px 15px;
 		}
 	}
 }
