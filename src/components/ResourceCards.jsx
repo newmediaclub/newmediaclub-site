@@ -1,6 +1,6 @@
 import React from 'react';
 
-import EventCard from './Members/EventCard.jsx';
+import ResourceCard from './Members/ResourceCard.jsx';
 import eventData from '../assets/currenteventDataTest.json';
 
 import classnames from 'classnames';
@@ -13,27 +13,48 @@ class ResourceCards extends React.Component {
 	}
 
 	createEvent = (currEvents) => {
-		return <EventCard date={currEvents.date} title={currEvents.title} description={currEvents.description} link={currEvents.link} image={currEvents.image} buttonText={currEvents.buttonText}  />;
+		return <ResourceCard key={currEvents.title} date={currEvents.date} title={currEvents.title} description={currEvents.description} link={currEvents.link} image={currEvents.image} buttonText={currEvents.buttonText}  />;
 	};
 
 
 	createEvents = (events) => {
-		const grouped = events.reduce((toxic, event) => {
-			const list = toxic[event.category];
+		const grouped = {};
 
-			toxic[event.category] = list ? [...list, event] : [event];
+		for (const event of events) {
+			const categoryEvents = grouped[event.category];
 
-			return toxic;
-		}, {});
-		console.log(grouped);
-		return events.map(this.createEvent);
+			let newList;
+			if(categoryEvents) {
+				newList = categoryEvents.concat([event]);
+			} else {
+				newList = [event];
+			}
+
+			grouped[event.category] = newList;
+		}
+
+		return Object.keys(grouped).map((category) => {
+			return this.createCategory(category, grouped[category])
+		});
 	};
 
-	render() {
-
+	createCategory = (categoryName, events) => {
 		return (
-			<div className="eventsContainer">
-				<div className="currentEventsHome">{this.createEvents(eventData.currEvents)}</div>
+			<div className="resourceTitleRow">
+				<p className="pageHeading">{categoryName}</p>
+				<div className="resourceRow">
+				{
+					events.map(this.createEvent)
+				}
+				</div>
+			</div>
+		)
+	}
+
+	render() {
+		return (
+			<div className="resourcesWholeContainer">
+				<div className="resourceContainer">{this.createEvents(eventData.currEvents)}</div>
 			</div>
 		);
 	}

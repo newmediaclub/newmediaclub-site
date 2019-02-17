@@ -27,9 +27,6 @@ export default class ResourcesPage extends Component {
 					</div>
 				</div>
 				<ResourceCards />
-				<Eboard />
-
-
 			</div>
 		</div>
 		)

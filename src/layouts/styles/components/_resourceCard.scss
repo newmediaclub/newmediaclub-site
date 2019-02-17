@@ -1,0 +1,51 @@
+.resourceCardContainer{
+	width: 155px;
+	height: 155px;
+	border-radius:10px;
+	color: #333333;
+	margin-bottom: 40px;
+	margin-right: 40px;
+}
+.resourceContainer{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.resourceImage{
+	width: 155px;
+	height:155px;
+	border-radius:10px;
+	background-size: cover;
+	transition: .2s;
+	
+}
+.resourceImage:hover{
+	transform:translateY(-5px);
+	cursor: pointer;
+	box-shadow: 0px 5px 21px rgba(222, 129, 255, 0.72);
+}
+	
+	
+.resourceTitle{
+	font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+line-height: 24px;
+font-size: 16px;
+text-align: center;
+
+color: #333333;
+text-align: center;
+}
+.resourcesWholeContainer{
+
+}
+.resourceRow{
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+}
+.resourceTitleRow{
+	margin-top: 60px;
+}
