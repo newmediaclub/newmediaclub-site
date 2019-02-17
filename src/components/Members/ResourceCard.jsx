@@ -2,7 +2,7 @@ import React from 'react'
 
 let ResourceCard = function statelessFunctionComponentClass(props) {
 
-	let imageURL = '../eventAssets/' + props.image;
+	let imageURL = '../resourceAssets/' + props.image;
 console.log(imageURL);
 	return (
 

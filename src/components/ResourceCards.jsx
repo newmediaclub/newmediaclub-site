@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ResourceCard from './Members/ResourceCard.jsx';
-import eventData from '../assets/currenteventDataTest.json';
+import resourceData from '../assets/resourceData.json';
 
 import classnames from 'classnames';
 
@@ -12,25 +12,25 @@ class ResourceCards extends React.Component {
 
 	}
 
-	createEvent = (currEvents) => {
-		return <ResourceCard key={currEvents.title} date={currEvents.date} title={currEvents.title} description={currEvents.description} link={currEvents.link} image={currEvents.image} buttonText={currEvents.buttonText}  />;
+	createResource = (Resources) => {
+		return <ResourceCard key={Resources.title} date={Resources.date} title={Resources.title} link={Resources.link} image={Resources.image} />;
 	};
 
 
-	createEvents = (events) => {
+	createResources = (resources) => {
 		const grouped = {};
 
-		for (const event of events) {
-			const categoryEvents = grouped[event.category];
+		for (const resource of resources) {
+			const categoryResource = grouped[resource.category];
 
 			let newList;
-			if(categoryEvents) {
-				newList = categoryEvents.concat([event]);
+			if(categoryResource) {
+				newList = categoryResource.concat([resource]);
 			} else {
-				newList = [event];
+				newList = [resource];
 			}
 
-			grouped[event.category] = newList;
+			grouped[resource.category] = newList;
 		}
 
 		return Object.keys(grouped).map((category) => {
@@ -38,13 +38,13 @@ class ResourceCards extends React.Component {
 		});
 	};
 
-	createCategory = (categoryName, events) => {
+	createCategory = (categoryName, resources) => {
 		return (
 			<div className="resourceTitleRow">
 				<p className="pageHeading">{categoryName}</p>
 				<div className="resourceRow">
 				{
-					events.map(this.createEvent)
+					resources.map(this.createResource)
 				}
 				</div>
 			</div>
@@ -54,7 +54,7 @@ class ResourceCards extends React.Component {
 	render() {
 		return (
 			<div className="resourcesWholeContainer">
-				<div className="resourceContainer">{this.createEvents(eventData.currEvents)}</div>
+				<div className="resourceContainer">{this.createResources(resourceData.Resources)}</div>
 			</div>
 		);
 	}

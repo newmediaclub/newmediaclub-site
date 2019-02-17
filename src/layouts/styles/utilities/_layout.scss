@@ -1,11 +1,12 @@
 //
 // Floats
 //
-
+html{
+	scroll-behavior: smooth;
+}
 body {
 	background-color: $color-background;
-	scroll-behavior: smooth;
- 	text-rendering: optimizeLegibility;;
+	text-rendering: optimizeLegibility;;
 }
 .scrollBarFix{
 	min-height: 101vh;
