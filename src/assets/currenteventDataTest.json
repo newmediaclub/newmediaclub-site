@@ -1,0 +1,22 @@
+{
+	"currEvents": [
+		{
+			"date": "Wednesday Oct 24",
+			"title": "UX Industry Talk Series",
+			"description": "We are gonna have a very special guest calling in! Hwanghah Jeong is a senior at the Savannah College of Art and Design. Previously she interned at Microsoft, KPCB and Airbnb! ",
+			"image": "event1.png",
+			"link": "https://github.com/newmediaclub/newmediaclub-site/tree/master/src",
+			"buttonText":"Join Us!",
+			"category":"templates"
+		},
+		{
+			"date": "Wednesday Oct 24",
+			"title": "UX Industry Talk Series",
+			"description": "We are gonna have a very special guest calling in! Hwanghah Jeong is a senior at the Savannah College of Art and Design. Previously she interned at Microsoft, KPCB and Airbnb! ",
+			"image": "event1.png",
+			"link": "https://github.com/newmediaclub/newmediaclub-site/tree/master/src",
+			"buttonText":"Join Us!",
+			"category":"other"
+		}
+	]
+}

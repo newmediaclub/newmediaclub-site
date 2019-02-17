@@ -6,6 +6,9 @@
 	display: flex;
 	flex-direction: column;
 	color: #333333;
+	@media screen and (max-width: 1132px) {
+		width: 332px;
+	}
 
 }
 .eventImage{
@@ -13,7 +16,9 @@
 	height: 208px;
 	border-radius:10px 10px 0 0;
 	background-size: cover;
-
+	@media screen and (max-width: 1132px) {
+		width: 332px;
+	}
 }
 
 
@@ -97,15 +102,24 @@
 	margin-top: 45px;
 	margin-bottom: 30px;
 	grid-row-gap:64px;
-
 	@media screen and (max-width: 1200px) {
 		grid-template-columns: auto auto auto  ;
 	}
-
-	@media screen and (max-width: 1000px) {
+	@media screen and (min-width: 1200px) {
+		grid-template-columns: auto auto auto  ;
+	}
+	@media screen and (min-width: 1751px) {
+		grid-template-columns: auto auto auto auto ;
+	}
+	// @media screen and (max-width: 1000px) {
+	// 	grid-template-columns: auto auto  ;
+	// }
+	// @media screen and (max-width: 1130px) {
+	// 	grid-template-columns: auto auto  ;
+	// }
+	@media screen and (max-width: 1080px) {
 		grid-template-columns: auto auto  ;
 	}
-
 	@media screen and (max-width: 769px) {
 		margin-top: 10px;
 	}

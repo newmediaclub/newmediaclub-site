@@ -6,9 +6,11 @@ import Email from '../components/Email'
 import About from '../components/About'
 import Navigation from '../components/Navigation'
 
+import ResourceCards from '../components/ResourceCards'
+
 import MetaTags from 'react-meta-tags'
 
-export default class MentorshipPage extends Component {
+export default class ResourcesPage extends Component {
 	render() {
 
 		return (
@@ -24,8 +26,9 @@ export default class MentorshipPage extends Component {
 						<div className="pageDescription">We have compiled links to various resources to aid your design journey.</div>
 					</div>
 				</div>
+				<ResourceCards />
 				<Eboard />
-			
+
 
 			</div>
 		</div>

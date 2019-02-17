@@ -5,6 +5,7 @@ import Eboard from '../components/Eboard'
 import Email from '../components/Email'
 import About from '../components/About'
 import Navigation from '../components/Navigation'
+import Footer from '../components/Footer'
 
 import eventData from '../assets/mentorData.json';
 import CurrentEventCards from '../components/CurrentEventCards'
@@ -45,9 +46,11 @@ export default class IndexPage extends Component {
 						</div>
 					</div>
 					<Eboard />
+
 				</div>
+				<Footer />
 			</div>
-			
+
 		)
 	}
 }

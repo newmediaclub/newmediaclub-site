@@ -27,7 +27,7 @@ let AlumniPerson = function statelessFunctionComponentClass(props) {
 
 	return (
 		//if prop title contains "motion design" then display block else none
-		<div className="personCard">
+		<div className="personCard alumniCardHeight">
 			<div className="colorSwatch" style={cardColor(myColor)}></div>
 			<img className="photo" src={__PATH_PREFIX__ + imageURL} />
 			<div className="personInfo">
