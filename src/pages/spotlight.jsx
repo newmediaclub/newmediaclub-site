@@ -5,7 +5,7 @@ import Eboard from '../components/Eboard'
 import Email from '../components/Email'
 import About from '../components/About'
 import Navigation from '../components/Navigation'
-
+import Footer from '../components/Footer'
 import Spotlights from '../components/Spotlights'
 
 import MetaTags from 'react-meta-tags'
@@ -30,6 +30,7 @@ export default class Spotlight extends Component {
 					<Spotlights />
 
 				</div>
+				<Footer />
 			</div>
 		)
 	}

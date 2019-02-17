@@ -5,7 +5,7 @@ import Eboard from '../components/Eboard'
 import Email from '../components/Email'
 import About from '../components/About'
 import Navigation from '../components/Navigation'
-
+import Footer from '../components/Footer'
 import ResourceCards from '../components/ResourceCards'
 
 import MetaTags from 'react-meta-tags'
@@ -28,6 +28,7 @@ export default class ResourcesPage extends Component {
 				</div>
 				<ResourceCards />
 			</div>
+			<Footer />
 		</div>
 		)
 	}

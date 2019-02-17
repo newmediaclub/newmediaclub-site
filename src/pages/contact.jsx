@@ -5,7 +5,7 @@ import Eboard from '../components/Eboard'
 import Email from '../components/Email'
 import About from '../components/About'
 import Navigation from '../components/Navigation'
-
+import Footer from '../components/Footer'
 import MetaTags from 'react-meta-tags'
 
 export default class ContactPage extends Component {
@@ -34,6 +34,7 @@ export default class ContactPage extends Component {
 						</div>
 					</div>
 				</div>
+				<Footer />
 			</div>
 		)
 	}

@@ -7,9 +7,9 @@ console.log(imageURL);
 	return (
 
 		<div className="resourceCardContainer">
-				
-				<img src={imageURL} className="resourceImage"></img>
-				
+
+				<a href={props.link} target="_blank"><img src={imageURL} className="resourceImage"></img></a>
+
 				<div className="resourceTitle">{props.title}</div>
 		</div>
 	)

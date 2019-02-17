@@ -5,7 +5,7 @@ import Eboard from '../components/Eboard'
 import Email from '../components/Email'
 import About from '../components/About'
 import Navigation from '../components/Navigation'
-
+import Footer from '../components/Footer'
 import CurrentEvents from '../components/CurrentEvents'
 import PastEvents from '../components/PastEvents'
 
@@ -43,6 +43,7 @@ export default class MentorshipPage extends Component {
 					<PastEvents />
 
 				</div>
+				<Footer />
 			</div>
 		)
 	}
