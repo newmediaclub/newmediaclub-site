@@ -3,7 +3,7 @@ import React from 'react'
 let EventCard = function statelessFunctionComponentClass(props) {
 
 	let imageURL = '../eventAssets/' + props.image;
-console.log(imageURL);
+
 	return (
 
 		<div className="eventCardContainer">
