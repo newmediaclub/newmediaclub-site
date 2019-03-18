@@ -13,7 +13,7 @@ class CurrentEventCards extends React.Component {
 	}
 
 	createEvent = (currEvents) => {
-		return <EventCard date={currEvents.date} title={currEvents.title} description={currEvents.description} link={currEvents.link} image={currEvents.image} buttonText={currEvents.buttonText}  />;
+		return <EventCard date={currEvents.date} title={currEvents.title} description={currEvents.description} link={currEvents.link} image={currEvents.image} buttonText={currEvents.buttonText} key={currEvents.title} />;
 	};
 
 
