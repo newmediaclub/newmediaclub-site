@@ -1,60 +1,44 @@
 {
 	"spotlight": [
 		{
-			"account": "@morgan.merrick.5",
-			"title": "Morgan Merrick",
-			"description": " \"This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick ",
-			"image": "morganmerrickInsta.png",
-			"link": "https://www.instagram.com/p/BrLy_-LA5CK/",
-			"buttonText":"View"
+			"account": "",
+			"title": "Nicole Lopez",
+			"description": "For the Mandala project in Jason’s NMD Animation class, I wanted to emit a simple, calm feeling through use of elementary circles, rounded forms, and whitespace that help describe who I am- relatively laid-back, organized, and (hopefully) unintimidating to name a few.",
+			"image": "nicoleLopezSpotlight.jpg",
+			"link": "https://www.instagram.com/p/BuWWIxygeQg/",
+			"buttonText": "View"
 		},
 		{
 			"account": "@morgan.merrick.5",
 			"title": "Morgan Merrick",
-			"description": " \"This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick ",
-			"image": "morganmerrickInsta.png",
+			"description": "This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick",
+			"image": "morganMerrickSpotlight.jpg",
 			"link": "https://www.instagram.com/p/BrLy_-LA5CK/",
-			"buttonText":"View"
+			"buttonText": "View"
 		},
 		{
-			"account": "@morgan.merrick.5",
-			"title": "Morgan Merrick",
-			"description": " \"This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick ",
-			"image": "morganmerrickInsta.png",
-			"link": "https://www.instagram.com/p/BrLy_-LA5CK/",
-			"buttonText":"View"
+			"account": "@rohan.power",
+			"title": "Rohan Pawar",
+			"description": "I wanted to capture the mood of Swiss Army Man with fun illustrations and subtle humor. It was fun to trying to breathe life into a flat illustrative style.",
+			"image": "rohanPawarSpotlight.jpg",
+			"link": "https://www.instagram.com/p/Bt_-57CgENO/",
+			"buttonText": "View"
 		},
 		{
-			"account": "@morgan.merrick.5",
-			"title": "Morgan Merrick",
-			"description": " \"This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick ",
-			"image": "morganmerrickInsta.png",
-			"link": "https://www.instagram.com/p/BrLy_-LA5CK/",
-			"buttonText":"View"
+			"account": "@jaymartyabo",
+			"title": "Jaymart Yabo",
+			"description": "My goal for this project was to create a fun, colorful bumper to invite the community to a day of innovation and creativity",
+			"image": "jaymartYaboSpotlight.jpg",
+			"link": "https://www.instagram.com/p/Bo149ndgb4f/",
+			"buttonText": "View"
 		},
 		{
-			"account": "@morgan.merrick.5",
-			"title": "Morgan Merrick",
-			"description": " \"This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick ",
-			"image": "morganmerrickInsta.png",
-			"link": "https://www.instagram.com/p/BrLy_-LA5CK/",
-			"buttonText":"View"
-		},
-		{
-			"account": "@morgan.merrick.5",
-			"title": "Morgan Merrick",
-			"description": " \"This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick ",
-			"image": "morganmerrickInsta.png",
-			"link": "https://www.instagram.com/p/BrLy_-LA5CK/",
-			"buttonText":"View"
-		},
-		{
-			"account": "@morgan.merrick.5",
-			"title": "Morgan Merrick",
-			"description": " \"This redesign was intended to streamline the process of exploring new and unfamiliar travel destinations while improving the overarching visual style.\" - Morgan Merrick ",
-			"image": "morganmerrickInsta.png",
-			"link": "https://www.instagram.com/p/BrLy_-LA5CK/",
-			"buttonText":"View"
+			"account": "@ak_design_2018",
+			"title": "Alex Kauffman",
+			"description": "Our first project for NMDE 3D was to create an object of our choice. I chose something that is complicated to help really learn Cinema 4D software to give myself a head start.",
+			"image": "alexKauffmanSpotlight.jpg",
+			"link": "https://www.instagram.com/p/Bq5GKV0gZfG/",
+			"buttonText": "View"
 		}
 	]
 }

@@ -1,10 +1,124 @@
 {
 	"Resources": [
 		{
-			"title": "PhotoMockup",
-			"image": "event1.png",
-			"link": "https://github.com/newmediaclub/newmediaclub-site/tree/master/src",
-			"category":"Templates"
+			"title": "Google Drive",
+			"image": "GoogleDrive.jpg",
+			"link": "https://fonts.google.com/",
+			"category": "NMC"
+		},
+		{
+			"title": "Pinterest",
+			"image": "Pinterest.jpg",
+			"link": "https://www.pinterest.com/",
+			"category": "Inspiration"
+		},
+		{
+			"title": "Google Fonts",
+			"image": "GoogleFonts.jpg",
+			"link": "https://fonts.google.com/",
+			"category": "Typography"
+		},
+		{
+			"title": "Figma",
+			"image": "Figma.jpg",
+			"link": "https://www.figma.com/login",
+			"category": "Prototyping"
+		},
+		{
+			"title": "Framer",
+			"image": "Framer.jpg",
+			"link": "https://www.framer.com/",
+			"category": "Prototyping"
+		},
+		{
+			"title": "InVision",
+			"image": "InVision.jpg",
+			"link": "https://www.invisionapp.com/",
+			"category": "Prototyping"
+		},
+		{
+			"title": "iTerm2",
+			"image": "iTerm2.jpg",
+			"link": "https://www.iterm2.com/",
+			"category": "Web Development"
+		},
+		{
+			"title": "Github",
+			"image": "Github.jpg",
+			"link": "https://github.com/",
+			"category": "Web Development"
+		},
+		{
+			"title": "FileZilla 2",
+			"image": "FileZilla2.jpg",
+			"link": "https://filezilla-project.org/",
+			"category": "Web Development"
+		},
+		{
+			"title": "Atom",
+			"image": "Atom.jpg",
+			"link": "https://ide.atom.io/",
+			"category": "Web Development"
+		},
+		{
+			"title": "Brackets",
+			"image": "Brackets.jpg",
+			"link": "http://brackets.io/",
+			"category": "Web Development"
+		},
+		{
+			"title": "Sublime",
+			"image": "Sublime.jpg",
+			"link": "https://www.sublimetext.com/",
+			"category": "Web Development"
+		},
+		{
+			"title": "Laws of UX",
+			"image": "LawsofUX.jpg",
+			"link": "https://lawsofux.com/",
+			"category": "User Experience"
+		},
+		{
+			"title": "Nielson Norman",
+			"image": "NielsonNorman.jpg",
+			"link": "https://www.nngroup.com/",
+			"category": "User Experience"
+		},
+		{
+			"title": "UI Patterns",
+			"image": "UIPatterns.jpg",
+			"link": "http://ui-patterns.com/",
+			"category": "User Experience"
+		},
+		{
+			"title": "Smashing Magazine",
+			"image": "SmashingMagazine.jpg",
+			"link": "https://www.smashingmagazine.com/",
+			"category": "User Experience"
+		},
+		{
+			"title": "Ads of the World",
+			"image": "AdsoftheWorld.jpg",
+			"link": "https://www.adsoftheworld.com/",
+			"category": "Inspiration"
+		},
+		{
+			"title": "Dribbble",
+			"image": "Dribbble.jpg",
+			"link": "https://dribbble.com/",
+			"category": "Inspiration"
+		},
+		{
+			"title": "Behance",
+			"image": "Behance.jpg",
+			"link": "https://www.behance.net/",
+			"category": "Inspiration"
+		},
+		{
+			"title": "Can I Use",
+			"image": "CanIUse.jpg",
+			"link": "https://caniuse.com/",
+			"category": "Web Development"
 		}
 	]
 }

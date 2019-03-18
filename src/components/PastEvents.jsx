@@ -13,7 +13,7 @@ class PastEvents extends React.Component {
 	}
 
 	createEvent = (pastEvents) => {
-		return <EventCard date={pastEvents.date} title={pastEvents.title} description={pastEvents.description} link={pastEvents.link} image={pastEvents.image} buttonText={pastEvents.buttonText} />;
+		return <EventCard key={pastEvents.title} date={pastEvents.date} title={pastEvents.title} description={pastEvents.description} link={pastEvents.link} image={pastEvents.image} buttonText={pastEvents.buttonText} />;
 	};
 
 

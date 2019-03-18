@@ -27,9 +27,9 @@ class Mentors extends React.Component {
 	};
 
 	createPeople = (people) => {
-		if (this.state.selected === "alumni") {
-			console.log("alumnifunction");
-		}
+		// if (this.state.selected === "alumni") {
+		// 	console.log("alumnifunction");
+		// }
 		const needle = this.state.selectedFilter.toLowerCase();
 
 		const filtered = people.filter(person => {
@@ -39,7 +39,7 @@ class Mentors extends React.Component {
 		});
 
 		if (this.state.selected == "alumni") {
-			return filtered.map(this.createAlumni);
+			return people.map(this.createAlumni);
 		}
 
 		if (this.state.selected == "mentor") {
