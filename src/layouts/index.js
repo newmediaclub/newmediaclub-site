@@ -43,7 +43,7 @@ const TemplateWrapper = ({children}) => (<div>
     {children()}
   </div>
 </div>)
-console.log('%c 2019 Design and Code by Andrew Hurley, @andrew._.hurley, RIT New Media Design 20, Webmaster 2018-Now ', 'background: #77A1D3; background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); border: 1px solid #3E0E02; color: white; display: block; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 3px 5px 3px -5px rgba(0, 0, 0, 0.5), 0 -13px 5px -10px rgba(255, 255, 255, 0.4) inset; line-height: 40px; text-align: center; font-weight: bold;');
+console.log('%c New 2019 Design and Code by Andrew Hurley, @andrew._.hurley, RIT New Media Design 20, Webmaster 2018-Now ', 'background: #77A1D3; background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); border: 1px solid #3E0E02; color: white; display: block; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 3px 5px 3px -5px rgba(0, 0, 0, 0.5), 0 -13px 5px -10px rgba(255, 255, 255, 0.4) inset; line-height: 40px; text-align: center; font-weight: bold;');
 
 console.log('%c Created by Jacob Frank, @jacobdfrank, RIT SOIS 19, Webmaster from 2016-18 ', 'background: linear-gradient(#e66465, #9198e5); border: 1px solid #3E0E02; color: white; display: block; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 3px 5px 3px -5px rgba(0, 0, 0, 0.5), 0 -13px 5px -10px rgba(255, 255, 255, 0.4) inset; line-height: 40px; text-align: center; font-weight: bold;');
 
