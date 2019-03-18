@@ -1,8 +1,11 @@
 .about {
-	margin: 105px auto 80px;
+	margin: 105px auto 0px;
 	max-width: 820px;
 	width: 82vw;
 	flex-direction: row;
+	@media only screen and (max-width: 580px) {
+		margin: 50px auto 0px;
+	}
 	@include media('<md') {
 		margin-left: auto;
 		margin-right: auto;
@@ -20,14 +23,22 @@
 		@include media('<md') {
 			margin-top: 75px;
 			margin-left: 10vw;
-    	margin-right: 10vw;
+			margin-right: 10vw;
 			max-width: 415px;
+		}
+		@media only screen and (max-width: 580px) {
+			margin-top: 40px;
+			margin-left: 0;
+			margin-right: 0;
 		}
 		&-header {
 			margin-bottom: 25px;
 			line-height: 1.65;
 			@include media('<md') {
 				width: inherit;
+			}
+			@media only screen and (max-width: 1000px) {
+				font-size: 1.25rem;
 			}
 			&-underline {
 				text-decoration: underline;
@@ -38,6 +49,9 @@
 			font-size: 1rem;
 			line-height: 1.30rem;
 			font-family: 'Source Sans Pro', sans-serif;
+			@media only screen and (max-width: 1000px) {
+				font-size: .9rem;
+			}
 		}
 		&-reference {
 			font-size: .75rem;
@@ -45,6 +59,7 @@
 			font-style: italic;
 			color: #7D7D7D;
 			font-weight: 200;
+
 		}
 	}
 	&-media {
@@ -60,6 +75,9 @@
 		&-NMC_logo {
 			width: 267.887px;
 			margin-bottom: 19px;
+			@media only screen and (max-width: 1000px) {
+				width: 220px;
+			}
 		}
 		&-links {
 			width: 30%;
@@ -85,4 +103,7 @@
 			}
 		}
 	}
+}
+.flex-direction-row{
+	flex-direction: row !important;
 }

@@ -1,0 +1,20 @@
+{
+	"currEvents": [
+		{
+			"date": "Monday Apr 29",
+			"title": "FITC Toronto 2019",
+			"description": "FITC Toronto is a globally recognized industry event showcasing the best the world has to offer in design, digital development, media and innovation in creative technologies – its three days and nights of presentations, parties, installations and performances that unite and transform the industry.",
+			"image": "fitc2019.jpg",
+			"link": "https://www.facebook.com/events/2119399701657005/",
+			"buttonText": "Join Us!"
+		},
+		{
+			"date": "Sunday Mar 17",
+			"title": "NMC: T-shirt Contest",
+			"description": "We've got another t-shirt contest! Make something cool and if it wins have it printed on t-shirts and sold! \n\nThis contest is being sponsored by Imgix and they have chosen a fun prompt for us!",
+			"image": "tshirtContest.jpg",
+			"link": "https://www.facebook.com/events/310578396473457/",
+			"buttonText": "Join Us!"
+		}
+	]
+}

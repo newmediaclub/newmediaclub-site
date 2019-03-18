@@ -1,0 +1,66 @@
+.resourceCardContainer{
+	width: 155px;
+	height: 155px;
+	border-radius:10px;
+	color: #333333;
+	margin-bottom: 75px;
+	margin-right: 40px;
+	@media only screen and (max-width: 768px) {
+		width: 100px;
+		height: 100px;
+		border-radius:5px;
+		margin-bottom: 55px;
+		margin-right: 20px;
+	}
+}
+.resourceContainer{
+	display: flex;
+	flex-direction: column;
+}
+
+.resourceImage{
+	width: 155px;
+	height:155px;
+	border-radius:10px;
+	background-size: cover;
+	transition: .2s;
+	@media only screen and (max-width: 768px) {
+		width: 100px;
+		height: 100px;
+		border-radius:5px;
+	}
+
+}
+.resourceImage:hover{
+	transform:translateY(-5px);
+	cursor: pointer;
+	box-shadow: 0px 5px 21px rgba(222, 129, 255, 0.72);
+}
+
+
+.resourceTitle{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 24px;
+	font-size: 16px;
+	text-align: center;
+	color: #333333;
+	text-align: center;
+	@media only screen and (max-width: 768px) {
+	font-size: 14px;
+	line-height: 18px;
+	}
+}
+.resourcesWholeContainer{
+
+}
+.resourceRow{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 15px;
+}
+.resourceTitleRow{
+	margin-top: 60px;
+}

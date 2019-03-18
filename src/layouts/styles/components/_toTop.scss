@@ -1,0 +1,21 @@
+.toTopContainer{
+	height: 70px;
+	width: 70px;
+	border-radius: 100%;
+	background-color: white;
+	border: #333333 2px solid;
+	position: fixed;
+	display: flex;
+	bottom: 20px;
+	right: 20px;
+	z-index: 9999;
+	@media only screen and (min-width: 730px) {
+	display: none;
+	}
+}
+.toTopIcon{
+	position: relative;
+	height: 40px;
+	top: 20px;
+	left: 14px;
+}

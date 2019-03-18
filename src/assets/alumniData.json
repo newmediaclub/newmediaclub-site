@@ -1,0 +1,274 @@
+{
+	"people":[
+		{
+			"email": "chrislocke4@gmail.com",
+			"name": "Chris Locke",
+			"title": "Interaction Designer",
+			"company": "Punchcut",
+			"color": "#2D9CDB",
+			"website": "https://chrisjlocke.com/",
+			"image": "chrislocke1.jpg"
+		},
+		{
+			"email": "sarahbethfederman@gmail.com",
+			"name": "Sarah Federman",
+			"title": "Experience Designer / Developer",
+			"company": "Adobe",
+			"color": "#6FCF97",
+			"website": "http://sarah.codes/",
+			"image": "sarahfederman.jpg"
+		},
+		{
+			"email": "kah3770@rit.edu",
+			"name": "Kelly Hurlburt",
+			"title": "Experience Designer",
+			"company": "Adobe",
+			"color": "#EB5757",
+			"website": "https://kah3770.cias.rit.edu",
+			"image": "kellyhurlburt.jpg"
+		},
+		{
+			"email": "jess.wiltey@gmail.com",
+			"name": "Jess Wiltey",
+			"title": "Associate UX/UI Designer (also Hypemaster 3000, its true, check our slack.)",
+			"company": "Mission Data",
+			"color": "#F2C94C",
+			"website": "https://www.jesswiltey.com",
+			"image": "jesswiltey.jpg"
+		},
+		{
+			"email": "vickie.angie@odopod.com",
+			"name": "Vickie Angie",
+			"title": "Senior Designer",
+			"company": "Odopod",
+			"color": "#2D9CDB",
+			"website": "https://vickieangie.com",
+			"image": "vickieangie.jpg"
+		},
+		{
+			"email": "oliviagrace1421@gmail.com",
+			"name": "Olivia Grace",
+			"title": "Interaction Designer",
+			"company": "Google",
+			"color": "#6FCF98",
+			"website": "https://oxg7534.cias.rit.edu/#/",
+			"image": "oliviagrace.jpg"
+		},
+		{
+			"email": "lcb931023@gmail.com",
+			"name": "Changbai Li",
+			"title": "Software Engineer",
+			"company": "Helios Interactive Technologies",
+			"color": "#EB5758",
+			"website": "https://2015.changbai.li",
+			"image": "changbai.jpg"
+		},
+		{
+			"email": "tchau1908@gmail.com",
+			"name": "Timmy Chau",
+			"title": "Experience Design Lead",
+			"company": "New Deal Design",
+			"color": "#F2C94C",
+			"website": "https://monkeychau.com/",
+			"image": "timmychau.jpg"
+		},
+		{
+			"email": "awcrandall21@gmail.com",
+			"name": "Alex Crandall",
+			"title": "Interactive Designer",
+			"company": "Two Bulls",
+			"color": "#2D9CDB",
+			"website": "https://awc4346.cias.rit.edu/",
+			"image": "AlexCrandall.jpg"
+		},
+		{
+			"email": "tylercsomers@gmail.com",
+			"name": "Tyler Somers",
+			"title": "Art Director (UI/UX)",
+			"company": "TuneIn",
+			"color": "#6FCF99",
+			"website": "http://tylersomers.com/",
+			"image": "TylerSomers.jpg"
+		},
+		{
+			"email": "andrea.montealegre@capitalone.com",
+			"name": "Andrea Montealegre",
+			"title": "UX Designer",
+			"company": "Capital One",
+			"color": "#EB5759",
+			"website": "https://am2901.cias.rit.edu",
+			"image": "AndreaMontealegre.jpg"
+		},
+		{
+			"email": "abigail.lynn.designs@gmail.com",
+			"name": "Abbey Smith",
+			"title": "UX Designer",
+			"company": "Freelance",
+			"color": "#F2C94C",
+			"website": "https://www.abigaillynn.xyz",
+			"image": "abbeysmith.jpg"
+		},
+		{
+			"email": "alee011@me.com",
+			"name": "Abbey Lee",
+			"title": "UX Designer I",
+			"company": "Amazon",
+			"color": "#2D9CDB",
+			"website": "https://abbeylee.design",
+			"image": "abbeylee.jpg"
+		},
+		{
+			"email": "tiff.tsoi@gmail.com",
+			"name": "Tiffany Tsoi",
+			"title": "Senior Experience Design",
+			"company": "R/GA",
+			"color": "#6FCF100",
+			"website": "https://www.behance.net/tifftsoi",
+			"image": "TiffanyTsoi.jpg"
+		},
+		{
+			"email": "juliannelburke@gmail.com",
+			"name": "Julianne Burke",
+			"title": "Interactive Designer",
+			"company": "Helios Interactive",
+			"color": "#EB5760",
+			"website": "https://juliannelburke.myportfolio.com/",
+			"image": "JulianneBurke.jpg"
+		},
+		{
+			"email": "Camrobinsondesign@gmail.com",
+			"name": "Cameron Robinson",
+			"title": "Product Designer",
+			"company": "Purple, Rock, Scissors (https://purplerockscissors.com/)",
+			"color": "#F2C94C",
+			"website": "https://www.camrobinsondesign.com/",
+			"image": "CameronRobinson.jpg"
+		},
+		{
+			"email": "hello.morganreed@gmail.com",
+			"name": "Morgan Reed",
+			"title": "Product Designer / UIUX Designer",
+			"company": "iHeartRadio",
+			"color": "#2D9CDB",
+			"website": "https://www.hellomorganreed.com/",
+			"image": "morganreed.jpg"
+		},
+		{
+			"email": "rosina.rdzv@gmail.com",
+			"name": "Rosina Rodriguez",
+			"title": "Interaction designer",
+			"company": "Google",
+			"color": "#6FCF101",
+			"website": "http://rosinardzv.com/visual.html",
+			"image": "RosinaRodriguez.jpg"
+		},
+		{
+			"email": "ethelia.lung@gmail.com",
+			"name": "Ethelia Lung",
+			"title": "Interaction Designer",
+			"company": "Google",
+			"color": "#EB5761",
+			"website": "https://ethelialung.com/",
+			"image": "ethelialung.jpg"
+		},
+		{
+			"email": "kyle.beikirch@gmail.com",
+			"name": "Kyle Beikirch",
+			"title": "Principal Creative Developer",
+			"company": "AKQA SF",
+			"color": "#F2C94C",
+			"website": "https://kylebeikirch.com",
+			"image": "KyleBeikirch.jpg"
+		},
+		{
+			"email": "karalaurel73@gmail.com",
+			"name": "Kara bo Bara (Williams)",
+			"title": "Visual Designer",
+			"company": "Punchcut",
+			"color": "#2D9CDB",
+			"website": "http://karalaurel.com",
+			"image": "karawilliams.jpg"
+		},
+		{
+			"email": "kad7873@rit.edu",
+			"name": "Kat de la Fuente",
+			"title": "User Experience Designer (Product Designer)",
+			"company": "Paychex",
+			"color": "#6FCF102",
+			"website": "https://katdlf.myportfolio.com/",
+			"image": "KatdelaFuente.jpg"
+		},
+		{
+			"email": "davidutt36@gmail.com",
+			"name": "David Utt",
+			"title": "User Interface/Interaction Designer",
+			"company": "GE Healthcare",
+			"color": "#EB5762",
+			"website": "http://www.davidmutt.com",
+			"image": "davidutt.jpg"
+		},
+		{
+			"email": "sbaird@itx.com",
+			"name": "Shannon Baird",
+			"title": "Interaction Designer",
+			"company": "Itx",
+			"color": "#F2C94C",
+			"website": "http://www.shannonbbaird.com",
+			"image": "ShannonBaird.jpg"
+		},
+		{
+			"email": "johndasta13@gmail.com",
+			"name": "John Dasta",
+			"title": "Product Designer",
+			"company": "Under Armour",
+			"color": "#2D9CDB",
+			"website": "https://www.johndasta.com/",
+			"image": "johndasta.jpg"
+		},
+		{
+			"email": "meshachjgalley@live.com",
+			"name": "Meshach Galley",
+			"title": "Motion Graphics Designer",
+			"company": "Celtra",
+			"color": "#6FCF103",
+			"website": "https://meshachgalley.myportfolio.com/",
+			"image": "MeshachGalley.jpg"
+		},
+		{
+			"email": "calebbrianpayne@gmail.com",
+			"name": "Caleb Payne",
+			"title": "✨ Motion Designer ✨",
+			"company": "Freelance (but I work at ABC News right now)",
+			"color": "#EB5763",
+			"website": "https://www.calebpayne.xyz/projects.html",
+			"image": "calebpayne.jpg"
+		},
+		{
+			"email": "jsalavarrieta@gmail.com",
+			"name": "Jae Salavarrieta",
+			"title": "UI/UX Designer  (ar/vr)",
+			"company": "SVRF",
+			"color": "#F2C94C",
+			"website": "https://suddenpanic.net/",
+			"image": "JaeSalavarrieta.jpg"
+		},
+		{
+			"email": "pnltnyc@gmail.com",
+			"name": "Phil Leith-Tetrault",
+			"title": "freelance digital designer",
+			"company": "-",
+			"color": "#2D9CDB",
+			"website": "https://www.plt-art.com/",
+			"image": "PhilLeithTetrault.jpg"
+		},
+		{
+			"email": "stephaniekotula@gmail.com",
+			"name": "Stephanie Kotula",
+			"title": "Jr Designer",
+			"company": "Instrument",
+			"color": "#6FCF104",
+			"website": "https://www.stephkotula.com/",
+			"image": "StephKotula.jpg"
+		}
+	]
+}

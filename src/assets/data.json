@@ -3,37 +3,43 @@
       "image": "adi.png",
       "name": "Aditi Khazanchi",
       "title": "President",
-      "bio": "Aditi has got the travel bug! She wishes to see every place on earth. When she’s not planning her next trip, she can be found glued to the monitor in the lab working and drinking way too much coffee."
+      "bio": "Aditi has got the travel bug! She wishes to see every place on earth. When she’s not planning her next trip, she can be found glued to the monitor in the lab working and drinking way too much coffee.",
+	  "color": "#2D9CDB"
     },
     {
       "image": "liam.png",
       "name": "Liam Madigan",
       "title": "Vice President",
-      "bio": "Walking by the Lab Lab? Peer in and observe Liam, feasting on cheez-its and Vanilla coke and blasting Sean Paul. Don’t knock on the glass though, you might scare him."
+      "bio": "Walking by the Lab Lab? Peer in and observe Liam, feasting on cheez-its and Vanilla coke and blasting Sean Paul. Don’t knock on the glass though, you might scare him.",
+	  "color": "#6FCF97"
     },
     {
       "image": "gabe.png",
       "name": "Gabe Cagara",
       "title": "Vice President",
-      "bio": "Gabe is a talkative and high key thrill seeker, and makes it a goal to do something crazy every summer (ask him and he’ll tell you :D ). Although Gabe has lived in three continents, he still has no clue how to hold chopsticks or how to play baseball. Pretty tragic. "
+      "bio": "Gabe is a talkative and high key thrill seeker, and makes it a goal to do something crazy every summer (ask him and he’ll tell you :D ). Although Gabe has lived in three continents, he still has no clue how to hold chopsticks or how to play baseball. Pretty tragic. ",
+	  "color": "#EB5757"
     },
     {
       "image": "emily.png",
       "name": "Emily Frebowitz",
       "title": "Treasurer",
-      "bio": "Emily never ate a vegetable until the age of 20 and she has twice the amount of taste buds as the average person (really). Her best friend is a ladybug named Kevin and if you can’t find her she’s probably thrifting or crying. ¯\\_(ツ)_/¯"
+      "bio": "Emily never ate a vegetable until the age of 20 and she has twice the amount of taste buds as the average person (really). Her best friend is a ladybug named Kevin and if you can’t find her she’s probably thrifting or crying. ¯\\_(ツ)_/¯",
+	  "color" : "#F2C94C"
     },
     {
       "image": "andrew.png",
       "name": "Andrew Hurley",
       "title": "Webmaster",
-      "bio": "Andrew has an affinity for wood, more specifically mahogany and those who know him best will understand how important lemons are to him. But don’t let that fool you he also knows his way around a few bits and bytes as well."
+      "bio": "Andrew has an affinity for wood, more specifically mahogany and those who know him best will understand how important lemons are to him. But don’t let that fool you he also knows his way around a few bits and bytes as well.",
+	  "color": "#BB6BD9"
     },
     {
       "image": "caleb.png",
       "name": "Caleb Ng",
       "title": "Content Creator",
-      "bio": "Caleb is a male human being of 19 years of age. Like most adolescent boys, he enjoys a various number of physical activities such as wrestling, biking, and skating. Caleb also partakes in a unique sport involving many others chasing a rotating flying disc around a field while chanting “go RIT spudheds!”"
+      "bio": "Caleb is a male human being of 19 years of age. Like most adolescent boys, he enjoys a various number of physical activities such as wrestling, biking, and skating. Caleb also partakes in a unique sport involving many others chasing a rotating flying disc around a field while chanting “go RIT spudheds!”",
+	  "color": "#F2994A"
 
     }
   ]
