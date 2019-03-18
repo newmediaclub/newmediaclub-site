@@ -3,9 +3,9 @@ import React from 'react'
 let AlumniPerson = function statelessFunctionComponentClass(props) {
 	let imageURL = '/assets/' + props.person.image;
 
-	console.log(imageURL);
+
 	let myColor = props.person.color;
-	console.log(myColor);
+
 	let cardColor = function(myColor) {
 		return {
 			background: myColor,

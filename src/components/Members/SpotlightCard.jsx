@@ -3,7 +3,7 @@ import React from 'react'
 let SpotlightCard = function statelessFunctionComponentClass(props) {
 
 	let imageURL = '../spotlightAssets/' + props.image;
-console.log(imageURL);
+
 	return (
 
 		<div className="eventCardContainer">
