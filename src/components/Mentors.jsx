@@ -19,11 +19,11 @@ class Mentors extends React.Component {
 	}
 
 	createPerson = (person) => {
-		return <MentorPerson person={person} />;
+		return <MentorPerson person={person} key={person.bio} />;
 	};
 
 	createAlumni = (person) => {
-		return <AlumniPerson person={person} />;
+		return <AlumniPerson person={person} key={person.website}/>;
 	};
 
 	createPeople = (people) => {

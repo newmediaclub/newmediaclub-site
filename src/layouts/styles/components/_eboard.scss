@@ -12,6 +12,7 @@
 	// 	padding-left: 102px;
 	// 	width: 922px;
 	// }
+
 	@media screen and (max-width: 730px) {
 		width: auto;
 	}
@@ -26,6 +27,9 @@
 		justify-items: center;
 		justify-content: space-between;
 		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+
 		// align-items: flex-start;
 		// width: auto;
 
@@ -243,7 +247,9 @@
 	border-radius:10px;
 	background-color:white;
 	// height:auto;
-	max-height: 650px;
+	// max-height: 650px;
+	height: 100%;
+	// margin-bottom: 40px;
 	// min-height: 485px;
 	width:346px;
 	color: #333333;
@@ -256,8 +262,8 @@
 @media only screen and (max-width: 1130px) {
 	.personCard {
 		width: 332px;
-		max-height: 558px;
-		min-height: 332px;
+		// max-height: 558px;
+		// min-height: 332px;
 	}
 	.colorSwatch{
 		width: 332px;
@@ -362,5 +368,5 @@
 }
 
 .alumniCardHeight{
-	    max-height: 450px;
+	max-height: 450px;
 }

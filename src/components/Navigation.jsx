@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link'
 
-import NMC_logo from '../assets/imagenavicon.png';
+import NMC_logo from '../assets/imagenavicon.svg';
 
 class Navigation extends React.Component {
 	constructor(props){
@@ -25,9 +25,9 @@ class Navigation extends React.Component {
 			<div className="navBackground">
 				<div className="wrapContainer">
 					<div className="navContainer ">
-						
+
 						<Link to ='/' >
-							<img src={__PATH_PREFIX__ + NMC_logo} className="navIcon"/>
+							<img src={NMC_logo} className="navIcon"/>
 						</Link>
 
 						<div className="desktopNav">
