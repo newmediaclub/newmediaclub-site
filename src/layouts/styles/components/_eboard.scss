@@ -45,6 +45,7 @@
 		}
 		@media screen and (max-width: 730px) {
 			grid-template-columns: auto;
+			justify-content: center;
 		}
 	}
 	&-content {
