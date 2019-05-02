@@ -29,11 +29,11 @@ export default class IndexPage extends Component {
 
 					<About />
 
-					<div className="container">
+					{/*<div className="container">
 						<div className="headingContainer">
 							<div className="pageHeading">Upcoming Events</div>
 						</div>
-					</div>
+					</div>*/}
 
 					<CurrentEventCards />
 

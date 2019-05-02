@@ -26,11 +26,11 @@ export default class MentorshipPage extends Component {
 						<div className="pageDescription">Here we list any upcoming events or opportunities that the club is having. </div>
 					</div>
 
-					<div className="container">
+					{/*<div className="container">
 						<div className="headingContainer">
 							<div className="pageHeading">Upcoming Events</div>
 						</div>
-					</div>
+					</div>*/}
 
 					<CurrentEvents />
 
