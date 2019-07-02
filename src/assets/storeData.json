@@ -1,0 +1,34 @@
+{
+	"Resources": [
+		{
+			"title": "Screen Junkies",
+			"image": "ScreenJunkies.png",
+			"link": "https://campusgroups.rit.edu//store?store_id=338",
+			"category": "Shirts"
+		},
+		{
+			"title": "Occult",
+			"image": "Occult.png",
+			"link": "https://campusgroups.rit.edu//store?store_id=338",
+			"category": "Shirts"
+		},
+		{
+			"title": "Octopus",
+			"image": "Octopus.png",
+			"link": "https://campusgroups.rit.edu//store?store_id=338",
+			"category": "Shirts"
+		},
+		{
+			"title": "NMD Mug and Spoon",
+			"image": "MugandSpoon.png",
+			"link": "https://campusgroups.rit.edu//store?store_id=338",
+			"category": "Accessories"
+		},
+		{
+			"title": "Assorted Stickers",
+			"image": "AssortedStickers.png",
+			"link": "https://campusgroups.rit.edu//store?store_id=338",
+			"category": "Accessories"
+		}
+	]
+}
