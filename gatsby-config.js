@@ -14,13 +14,14 @@ module.exports = {
 				name: 'pages',
 			}
 		},
-		'gatsby-transformer-remark',
-		{
-			resolve: `gatsby-plugin-google-analytics`,
-			options: {
-				// replace "UA-XXXXXXXXX-X" with your own Tracking ID
-				trackingId: "UA-90541343-4",
-			},
-		},
+			 'gatsby-transformer-remark'
+		//,
+		// {
+		// 	resolve: `gatsby-plugin-google-analytics`,
+		// 	options: {
+		// 		// replace "UA-XXXXXXXXX-X" with your own Tracking ID
+		// 		trackingId: "UA-90541343-4",
+		// 	},
+		// },
 	],
 }

@@ -62,6 +62,12 @@ class Navigation extends React.Component {
 									>
 								</div>
 							</Link>
+							<Link className = "navLink" to ='/store/'>Store
+								<div
+									className={"navUnderline " + (this.props.page==='store' ? 'displayShow' : 'displayHidden')}
+									>
+								</div>
+							</Link>
 							{/*<Link className = "navLink" to ='/contact/'>Contact
 								<div
 								className={"navUnderline " + (this.props.page==='contact' ? 'displayShow' : 'displayHidden')}
@@ -83,6 +89,9 @@ class Navigation extends React.Component {
 							</div>
 							<div className={"mobilepageHeader " + (this.props.page==='resources' ? 'displayShow' : 'displayHidden')} >
 								Resources
+							</div>
+							<div className={"mobilepageHeader " + (this.props.page==='store' ? 'displayShow' : 'displayHidden')} >
+								Store
 							</div>
 							{/*<div className={"mobilepageHeader " + (this.props.page==='contact' ? 'displayShow' : 'displayHidden')} >
 							Contact
@@ -109,6 +118,9 @@ class Navigation extends React.Component {
 
 							</Link>
 							<Link className = "mobileLink" to ='/resources/'>Resources
+
+							</Link>
+							<Link className = "mobileLink" to ='/store/'>Store
 
 							</Link>
 							{/*<Link className = "mobileLink" to ='/contact/'>Contact
