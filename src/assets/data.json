@@ -3,14 +3,14 @@
 		{
 			"image": "liam.png",
 			"name": "Liam Madigan",
-			"title": "President",
+			"title": "Co-President",
 			"bio": "Walking by the Lab Lab? Peer in and observe Liam, feasting on cheez-its and Vanilla coke and blasting Sean Paul. Don’t knock on the glass though, you might scare him.",
 			"color": "#6FCF97"
 		},
 		{
 			"image": "gabe.png",
 			"name": "Gabe Cagara",
-			"title": "President",
+			"title": "Co-President",
 			"bio": "Gabe is a talkative and high key thrill seeker, and makes it a goal to do something crazy every summer (ask him and he’ll tell you :D ). Although Gabe has lived in three continents, he still has no clue how to hold chopsticks or how to play baseball. Pretty tragic. ",
 			"color": "#2D9CDB"
 		},
@@ -40,7 +40,7 @@
 			"image": "jane.jpg",
 			"name": "Jane Brennan",
 			"title": "Content Creator",
-			"bio": "",
+			"bio": "Jane sticks to the 3 main food groups: pickles, Sourpatch Kids, and bananas. She’s addicted to learning musical instruments and will most likely own a dachshund one day. Jane loves being outside and will definitely challenge you to a game of Bananagrams. Split.",
 			"color": "#BB6BD9"
 
 		}
