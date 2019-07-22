@@ -1,7 +1,7 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import SubscribeFrom from "react-mailchimp-subscribe";
-import NMC_logo from '../assets/NMC_logo.svg';
+// import { Link } from "gatsby"
+// import SubscribeFrom from "react-mailchimp-subscribe";
+// import NMC_logo from '../assets/NMC_logo.svg';
 
 let adamImageURL = './assets/Adam_head.png';
 
@@ -21,7 +21,7 @@ class Email extends React.Component {
 								position: 'absolute',
 								left: '-5000px'
 							}} aria-hidden="true">
-							<input type="text" name="b_8ed84f128f439d4ab46e02db7_e367bf5ac6" tabIndex="-1" value=""></input>
+						{/*}	<input type="text" name="b_8ed84f128f439d4ab46e02db7_e367bf5ac6" tabIndex="-1" value="defaultValue"></input> */}
 						</div>
 						<div className="email-button-container clear">
 							<img className="email-adam" src={__PATH_PREFIX__ + adamImageURL} alt="Adam's head"></img>

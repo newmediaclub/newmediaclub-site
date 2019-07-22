@@ -7,15 +7,15 @@ import facebook from '../assets/facebook.svg';
 let Clubmedia = function statelessFunctionComponentClass() {
 
   return (<div className="about-media flex flex-column flex-align-items-center">
-    <img src={NMC_logo} className="about-media-NMC_logo"></img>
+    <img src={NMC_logo} className="about-media-NMC_logo" alt="New Media Club Logo"></img>
     <h1>New Media Club</h1>
     <div className="about-media-links">
       <div className="flex flex-align-center flex-row about-media-links-logos">
         <a href="https://www.facebook.com/groups/ritnewmediaclub/">
-          <img src={facebook} className="about-media-links-logo"></img>
+          <img src={facebook} className="about-media-links-logo" alt="Facebook Icon"></img>
         </a>
         <a href="https://www.instagram.com/ritnewmediaclub/">
-          <img src={instagram} className="about-media-links-logo"></img>
+          <img src={instagram} className="about-media-links-logo" alt="Instagram Icon"></img>
         </a>
       </div>
       <div className="flex flex-justify-around flex-row about-media-links-sites">

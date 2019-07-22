@@ -6,6 +6,8 @@ let MentorPerson = function statelessFunctionComponentClass(props) {
 
 	let myColor = props.person.color;
 
+	let altText=props.person.name;
+
 	let cardColor = function(myColor) {
 		return {
 			background: myColor,
@@ -29,7 +31,7 @@ let MentorPerson = function statelessFunctionComponentClass(props) {
 		//if prop title contains "motion design" then display block else none
 		<div className="personCard">
 			<div className="colorSwatch" style={cardColor(myColor)}></div>
-			<img className="photo" src={__PATH_PREFIX__ + imageURL} />
+			<img className="photo" src={__PATH_PREFIX__ + imageURL} alt={altText}/>
 			<div className="personInfo">
 				<div className="name">{person.name}</div>
 				{/* <div className="mentorTag">{props.title}</div>  */}

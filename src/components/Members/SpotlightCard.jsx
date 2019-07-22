@@ -7,7 +7,7 @@ let SpotlightCard = function statelessFunctionComponentClass(props) {
 	return (
 
 		<div className="eventCardContainer">
-			<img src={imageURL} className="eventImage"></img>
+			<img src={imageURL} className="eventImage" alt={props.title}></img>
 			<div className="eventinfoArea">
 				<div className="eventInfo">
 					<p className="eventDate">{props.date}</p>
