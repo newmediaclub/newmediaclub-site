@@ -15,7 +15,7 @@ let SpotlightCard = function statelessFunctionComponentClass(props) {
 					<div className="eventTitle">{props.title}</div>
 					<div className="eventDescription">{props.description} </div>
 				</div>
-				<a href={props.link} target="_blank"><div className="eventButton">{props.buttonText}</div></a>
+				<a href={props.link} target="_blank" rel="noopener noreferrer"><div className="eventButton">{props.buttonText}</div></a>
 			</div>
 		</div>
 	)

@@ -313,22 +313,22 @@ input {
 .display {
 	&-none {
 		display: none;
-		speak: none;
+		// speak: none;
 	}
 
 	&-block {
 		display: block;
-		speak: normal;
+		// speak: normal;
 	}
 
 	&-inline {
 		display: inline;
-		speak: normal;
+		// speak: normal;
 	}
 
 	&-inline-block {
 		display: inline-block;
-		speak: normal;
+		// speak: normal;
 	}
 }
 

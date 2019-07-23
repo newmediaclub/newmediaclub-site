@@ -38,7 +38,7 @@ let AlumniPerson = function statelessFunctionComponentClass(props) {
 					{person.title} at {person.company}
 				</div>
 				<div className="alumniLinkContainer">
-					<a href={person.website} target="_blank"><p className="alumniLink">{person.website}</p></a>
+					<a href={person.website} target="_blank" rel="noopener noreferrer"><p className="alumniLink">{person.website}</p></a>
 					<p className="alumniLink">{person.email}</p>
 				</div>
 			</div>

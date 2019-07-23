@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
-import { Link } from "gatsby"
 
 import Mentors from '../components/Mentors'
-import Email from '../components/Email'
-import About from '../components/About'
+
 import Navigation from '../components/Navigation'
 import ToTop from '../components/ToTop'
 import Footer from '../components/Footer'

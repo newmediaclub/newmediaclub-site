@@ -3,7 +3,7 @@ import React from 'react';
 import EventCard from './Members/SpotlightCard.jsx';
 import eventData from '../assets/spotlightData.json';
 
-import classnames from 'classnames';
+
 
 
 class Spotlights extends React.Component {

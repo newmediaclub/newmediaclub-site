@@ -3,7 +3,7 @@ import EboardPerson from './Members/EboardPerson.jsx';
 
 import data from '../assets/data.json';
 import mentor from '../assets/mentorData.json';
-import classnames from 'classnames';
+
 
 var jsonFile = mentor;
 class Eboard extends React.Component {
