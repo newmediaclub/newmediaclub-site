@@ -6,8 +6,8 @@ import Email from '../components/Email'
 import About from '../components/About'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
-
-import eventData from '../assets/mentorData.json';
+import '../layouts/index.js'
+import eventData from '../assets/mentorData.json'
 import CurrentEventCards from '../components/CurrentEventCards'
 import MetaTags from 'react-meta-tags'
 

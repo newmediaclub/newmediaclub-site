@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from "gatsby"
+import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import NMC_favicon from '../assets/NMC_favicon.png';
@@ -40,7 +40,7 @@ const TemplateWrapper = ({children}) => (<div>
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700|Source+Sans+Pro:300,300i,400,600,700" rel="stylesheet"/>
   </Helmet>
   <div className="scrollBarFix">
-    {children}
+    {children()}
   </div>
 </div>)
 console.log('%c New 2019 Design and Code by Andrew Hurley, @andrew._.hurley, RIT New Media Design 20, Webmaster 2018-2020 ', 'background: #77A1D3; background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); border: 1px solid #3E0E02; color: white; display: block; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 3px 5px 3px -5px rgba(0, 0, 0, 0.5), 0 -13px 5px -10px rgba(255, 255, 255, 0.4) inset; line-height: 40px; text-align: center; font-weight: bold;');
