@@ -1,5 +1,5 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# RIT New Media Club
+The site for all things New Media Club.
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
