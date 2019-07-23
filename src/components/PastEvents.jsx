@@ -3,7 +3,7 @@ import React from 'react';
 import EventCard from './Members/EventCard.jsx';
 import eventData from '../assets/pasteventData.json';
 
-import classnames from 'classnames';
+
 
 
 class PastEvents extends React.Component {

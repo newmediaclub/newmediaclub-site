@@ -3,6 +3,7 @@ import React from 'react'
 let AlumniPerson = function statelessFunctionComponentClass(props) {
 	let imageURL = '/assets/' + props.person.image;
 
+	let altText = props.person.name;
 
 	let myColor = props.person.color;
 
@@ -29,7 +30,7 @@ let AlumniPerson = function statelessFunctionComponentClass(props) {
 		//if prop title contains "motion design" then display block else none
 		<div className="personCard alumniCardHeight">
 			<div className="colorSwatch" style={cardColor(myColor)}></div>
-			<img className="photo" src={__PATH_PREFIX__ + imageURL} />
+			<img className="photo" src={__PATH_PREFIX__ + imageURL} alt={altText}/>
 			<div className="personInfo">
 				<div className="name">{person.name}</div>
 				{/* <div className="mentorTag">{props.title}</div>  */}
@@ -37,7 +38,7 @@ let AlumniPerson = function statelessFunctionComponentClass(props) {
 					{person.title} at {person.company}
 				</div>
 				<div className="alumniLinkContainer">
-					<a href={person.website} target="_blank"><p className="alumniLink">{person.website}</p></a>
+					<a href={person.website} target="_blank" rel="noopener noreferrer"><p className="alumniLink">{person.website}</p></a>
 					<p className="alumniLink">{person.email}</p>
 				</div>
 			</div>

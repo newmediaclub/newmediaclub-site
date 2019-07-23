@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 import Link from 'gatsby-link'
 
-import NMC_logo from '../assets/imagenavicon.svg';
+import NMC_logo from '../assets/imagenavicon.svg'
 
 class Navigation extends React.Component {
 	constructor(props){
@@ -26,49 +26,49 @@ class Navigation extends React.Component {
 				<div className="wrapContainer">
 					<div className="navContainer ">
 
-						<Link to ='/' >
-							<img src={NMC_logo} className="navIcon"/>
+						<Link to ={'/'} >
+							<img src={NMC_logo} className="navIcon" alt="New Media Club Logo"/>
 						</Link>
 
 						<div className="desktopNav">
-							<Link className="navLink " to ='/' >Home
+							<Link className="navLink " to ={'/'} >Home
 								<div
 									className={"navUnderline " + (this.props.page==='home' ? 'displayShow' : 'displayHidden')}
 									>
 								</div>
 							</Link>
 
-							<Link className = "navLink" to ='/mentorship/'>Mentorship
+							<Link className = "navLink" to ={'/mentorship/'}>Mentorship
 								<div
 									className={"navUnderline " + (this.props.page==='mentorship' ? 'displayShow' : 'displayHidden')}
 									>
 								</div>
 							</Link>
-							<Link className = "navLink" to ='/events/'>Events
+							<Link className = "navLink" to ={'/events/'}>Events
 								<div
 									className={"navUnderline " + (this.props.page==='events' ? 'displayShow' : 'displayHidden')}
 									>
 								</div>
 							</Link>
-							<Link className = "navLink" to ='/spotlight/'>Spotlight
+							<Link className = "navLink" to ={'/spotlight/'}>Spotlight
 								<div
 									className={"navUnderline " + (this.props.page==='spotlight' ? 'displayShow' : 'displayHidden')}
 									>
 								</div>
 							</Link>
-							<Link className = "navLink" to ='/resources/'>Resources
+							<Link className = "navLink" to ={'/resources/'}>Resources
 								<div
 									className={"navUnderline " + (this.props.page==='resources' ? 'displayShow' : 'displayHidden')}
 									>
 								</div>
 							</Link>
-							<Link className = "navLink" to ='/store/'>Store
+							<Link className = "navLink" to ={'/store/'}>Store
 								<div
 									className={"navUnderline " + (this.props.page==='store' ? 'displayShow' : 'displayHidden')}
 									>
 								</div>
 							</Link>
-							{/*<Link className = "navLink" to ='/contact/'>Contact
+							{/*<Link className = "navLink" to ={'/contact/'}>Contact
 								<div
 								className={"navUnderline " + (this.props.page==='contact' ? 'displayShow' : 'displayHidden')}
 								>
@@ -104,26 +104,26 @@ class Navigation extends React.Component {
 
 						</div>
 						<div className={'mobileNav '+(this.state.showMenu ? 'displayFlex': 'displayHide')}>
-							<Link className="mobileLink " to ='/' >Home
+							<Link className="mobileLink " to ={'/'} >Home
 
 							</Link>
 
-							<Link className = "mobileLink" to ='/mentorship/'>Mentorship
+							<Link className = "mobileLink" to ={'/mentorship/'}>Mentorship
 
 							</Link>
-							<Link className = "mobileLink" to ='/events/'>Events
+							<Link className = "mobileLink" to ={'/events/'}>Events
 
 							</Link>
-							<Link className = "mobileLink" to ='/spotlight/'>Spotlight
+							<Link className = "mobileLink" to ={'/spotlight/'}>Spotlight
 
 							</Link>
-							<Link className = "mobileLink" to ='/resources/'>Resources
+							<Link className = "mobileLink" to ={'/resources/'}>Resources
 
 							</Link>
-							<Link className = "mobileLink" to ='/store/'>Store
+							<Link className = "mobileLink" to ={'/store/'}>Store
 
 							</Link>
-							{/*<Link className = "mobileLink" to ='/contact/'>Contact
+							{/*<Link className = "mobileLink" to ={'/contact/'}>Contact
 
 							</Link>*/}
 						</div>

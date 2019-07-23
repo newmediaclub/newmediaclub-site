@@ -11,7 +11,7 @@ let Footer = function statelessFunctionComponentClass(props) {
 			<div className="wrapContainer">
 				<div className="footerContainer ">
 					<div className="footerLogo">
-						<img src={NMC_logo} className="about-media-NMC_logo"></img>
+						<img src={NMC_logo} className="about-media-NMC_logo" alt="New Media Club Logo"></img>
 						<div className="footerHeader">New Media Club</div>
 					</div>
 					<div className="footerTextContainer">
@@ -19,10 +19,10 @@ let Footer = function statelessFunctionComponentClass(props) {
 							<div className="footerHeader">Social Media</div>
 							<div>
 								<a href="https://www.facebook.com/groups/ritnewmediaclub/">
-									<img src={facebook} className="about-media-links-logo"></img>
+									<img src={facebook} className="about-media-links-logo" alt="facebook icon"></img>
 								</a>
 								<a href="https://www.instagram.com/ritnewmediaclub/">
-									<img src={instagram} className="about-media-links-logo"></img>
+									<img src={instagram} className="about-media-links-logo" alt="instagram icon"></img>
 								</a>
 							</div>
 							<div>

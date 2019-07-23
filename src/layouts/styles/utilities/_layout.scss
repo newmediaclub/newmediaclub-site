@@ -313,22 +313,22 @@ input {
 .display {
 	&-none {
 		display: none;
-		speak: none;
+		// speak: none;
 	}
 
 	&-block {
 		display: block;
-		speak: normal;
+		// speak: normal;
 	}
 
 	&-inline {
 		display: inline;
-		speak: normal;
+		// speak: normal;
 	}
 
 	&-inline-block {
 		display: inline-block;
-		speak: normal;
+		// speak: normal;
 	}
 }
 
@@ -370,7 +370,7 @@ input {
 .pageHeading{
 	font-size:28px;
 	font-weight: bold;
-	margin-bottom: 8px;
+	margin-bottom: 10px;
 	@media only screen and (max-width: 768px) {
 		font-size: 16px;
 	}
@@ -378,7 +378,7 @@ input {
 
 .pageDescription{
 	max-width: 438px;
-	font-size:18px;
+	font-size:16px;
 	font-weight: 400;
 	line-height: 24px;
 	@media only screen and (max-width: 768px) {

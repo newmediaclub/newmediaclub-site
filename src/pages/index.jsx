@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
-import Link from 'gatsby-link'
+import { Link } from "gatsby"
 
 import Eboard from '../components/Eboard'
 import Email from '../components/Email'
 import About from '../components/About'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
+import '../layouts/index.js'
 
-import eventData from '../assets/mentorData.json';
 import CurrentEventCards from '../components/CurrentEventCards'
 import MetaTags from 'react-meta-tags'
-
+import '../layouts/metaData.js'
 export default class IndexPage extends Component {
 	render() {
 
@@ -21,6 +21,7 @@ export default class IndexPage extends Component {
 			<div>
 				<MetaTags>
 					<title>Home</title>
+					<meta name="google" content="notranslate"/>
 				</MetaTags>
 
 				<Navigation page={'home'} />

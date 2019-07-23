@@ -6,7 +6,7 @@ import alumni from '../assets/alumniData.json';
 import mentor from '../assets/mentorData.json';
 import classnames from 'classnames';
 
-var jsonFile = mentor;
+
 class Mentors extends React.Component {
 	constructor(props) {
 		super(props);

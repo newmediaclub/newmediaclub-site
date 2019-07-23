@@ -3,7 +3,7 @@ import React from 'react';
 import StoreItem from './Members/StoreItem.jsx';
 import storeData from '../assets/storeData.json';
 
-import classnames from 'classnames';
+
 
 
 class StoreItems extends React.Component {

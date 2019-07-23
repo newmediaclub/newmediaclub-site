@@ -9,7 +9,7 @@ let Person = function statelessFunctionComponentClass(props) {
 
 
 			<div className="eboard-image grid__col grid__col--m-6-of-6">
-				<img src={__PATH_PREFIX__ + imageURL}/>
+				<img src={__PATH_PREFIX__ + imageURL} alt={props.name}/>
 			</div>
 
 			<div className="eboard-content grid__col grid__col--m-6-of-6">
