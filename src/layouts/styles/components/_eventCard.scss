@@ -1,6 +1,6 @@
 .eventCardContainer{
 	width: 346px;
-	height: 100%;
+	height: max-content;
 	background-color: #ffffff;
 	border-radius:10px;
 	display: flex;
@@ -97,11 +97,12 @@
 
 .currentEventsHome{
 	display: grid;
-	display: flex;
+	// display: flex;
 	flex-wrap: wrap;
-	grid-template-columns: auto auto auto auto ;
-	justify-items: center;
-	justify-content: space-between;
+	// grid-template-columns: auto auto auto auto ;
+	// justify-items: center;
+	// justify-content: space-between;
+	grid-template-columns: repeat(auto-fit, minmax(346px, 1fr));
 	width: 100%;
 	margin-top: 45px;
 	margin-bottom: 30px;

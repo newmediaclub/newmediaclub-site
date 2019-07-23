@@ -20,9 +20,9 @@ let MentorPerson = function statelessFunctionComponentClass(props) {
 		let tags = props.person.title.split(" ");
 
 		for (let j = 0; j < tags.length; j++) {
-			tagsArr.push(<p className="mentorTag">{tags[j]}</p>)
+			tagsArr.push(<p className="mentorTag">{tags[j]}</p>);
 		}
-		return tagsArr
+		return tagsArr;
 	}
 
 	const {person} = props;

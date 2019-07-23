@@ -2,7 +2,7 @@
 	background-color: #F2F2F2;
 	margin-top: 40px;
 	// max-width: 1300px;
-	display: flex;
+	// display: flex;
 	align-items: center;
 	width: 100%;
 	// padding-left: 6%;
@@ -23,29 +23,32 @@
 		// flex-wrap: wrap;
 		// justify-content: space-between;
 		display: grid;
-		grid-template-columns: auto auto auto auto ;
-		justify-items: center;
-		justify-content: space-between;
-		width: 100%;
-		display: flex;
-		flex-wrap: wrap;
+		// grid-gap: 15px;
+		grid-template-columns: repeat(auto-fit, minmax(346px, 1fr));
+		// grid-template-columns: auto auto auto auto ; 
+		// justify-items: center;
+		// justify-content: space-between;
+		// width: 100%;
+		// display: flex;
+		// flex-wrap: wrap;
 
 		// align-items: flex-start;
 		// width: auto;
 
 		@media screen and (min-width: 1140px) {
-			grid-template-columns: auto auto auto auto;
+			// grid-template-columns: auto auto auto auto;
 		}
 
 		@media screen and (max-width: 1750px) {
-			grid-template-columns: auto auto auto;
+			// grid-template-columns: auto auto auto;
 			@media screen and (max-width: 1080px) {
-				grid-template-columns: auto auto;
+				// grid-template-columns: auto auto;
 			}
 		}
-		@media screen and (max-width: 730px) {
-			grid-template-columns: auto;
+		@media screen and (max-width: 746px) {
+			// grid-template-columns: auto;
 			justify-content: center;
+			justify-items: center;
 		}
 	}
 	&-content {
@@ -249,16 +252,16 @@
 	background-color:white;
 	// height:auto;
 	// max-height: 650px;
-	height: 100%;
+	// height: 100%;
 	// margin-bottom: 40px;
 	// min-height: 485px;
 	width:346px;
 	color: #333333;
-
+	height: max-content;
 	// margin-left:23px;
 	// margin-right:23px;
 	// margin-right:46px;
-	margin-bottom:64px;
+	margin-bottom:32px;
 }
 @media only screen and (max-width: 1130px) {
 	.personCard {
@@ -297,7 +300,7 @@
 	height: 20px;
 	color: #333333;
 	border:#333333 1px solid;
-	margin-right: 16px;
+	margin-right: 8px;
 	margin-bottom: 10px;
 }
 
@@ -307,7 +310,7 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 80%;
+	width: 90%;
 	height: auto;
 	justify-content: center;
 	align-self: center;
