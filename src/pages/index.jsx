@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { Link } from "gatsby"
+// import { Link } from 'gatsby'
 
 import Eboard from '../components/Eboard'
-import Email from '../components/Email'
+// import Email from '../components/Email'
 import About from '../components/About'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
@@ -12,46 +12,42 @@ import CurrentEventCards from '../components/CurrentEventCards'
 import MetaTags from 'react-meta-tags'
 import '../layouts/metaData.js'
 export default class IndexPage extends Component {
-	render() {
+  render() {
+    return (
+      <div>
+        <MetaTags>
+          <title>Home</title>
+          <meta name="google" content="notranslate" />
+        </MetaTags>
 
-		return (
+        <Navigation page={'home'} />
 
+        <div className="wrapContainer">
+          <About />
 
-
-			<div>
-				<MetaTags>
-					<title>Home</title>
-					<meta name="google" content="notranslate"/>
-				</MetaTags>
-
-				<Navigation page={'home'} />
-
-				<div className="wrapContainer">
-
-					<About />
-
-					{/*<div className="container">
+          {/*<div className="container">
 						<div className="headingContainer">
 							<div className="pageHeading">Upcoming Events</div>
 						</div>
 					</div>*/}
 
-					<CurrentEventCards />
+          <CurrentEventCards />
 
-					<Email />
+          {/* <Email /> */}
 
-					<div className="container">
-						<div className="headingContainer">
-							<div className="pageHeading">Meet Our Eboard!</div>
-							<div className="pageDescription">They are responsible for planning and executing all the clubs events. </div>
-						</div>
-					</div>
-					<Eboard />
-
-				</div>
-				<Footer />
-			</div>
-
-		)
-	}
+          <div className="container">
+            <div className="headingContainer">
+              <div className="pageHeading">Meet Our Eboard!</div>
+              <div className="pageDescription">
+                They are responsible for planning and executing all the clubs
+                events.{' '}
+              </div>
+            </div>
+          </div>
+          <Eboard />
+        </div>
+        <Footer />
+      </div>
+    )
+  }
 }

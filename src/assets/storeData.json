@@ -1,12 +1,5 @@
 {
-	"Resources": [
-		{
-			"title": "Screen Junkies",
-			"image": "ScreenJunkies.png",
-			"link": "https://campusgroups.rit.edu//store?store_id=338",
-			"category": "Shirts"
-		},
-		{
+	"Resources": [{
 			"title": "Occult",
 			"image": "Occult.png",
 			"link": "https://campusgroups.rit.edu//store?store_id=338",
