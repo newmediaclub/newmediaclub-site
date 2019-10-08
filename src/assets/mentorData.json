@@ -1,263 +1,315 @@
 {
-	"people": [
-		{
-			"name": "Cathryne Szczepanik",
-			"bio": "A senior with two co-ops under her belt, Cathryne is a massive nerd and here to help.",
-			"title": "UI UX Motion Visual",
-			"image": "CathryneSzczepanik.png",
-			"color": "#BB6BD9"
-		},
-		{
-			"name": "Christine Van",
-			"bio": "I like noodles and making sure my Instagram is \"on point.\" Sarcastic 86% of the time. Blunt but I mean well. Don't take anything too seriously. Help me build an electric bike? ",
-			"title": "UI UX Illustration Visual Internships",
-			"image": "ChristineVan.png",
-			"color": "#2D9CDB"
-		},
-		{
-			"name": "Aditi Khazanchi",
-			"bio": "A perfectionist, pro-planner and inclusive design advocate. Hit me up if you have questions, need critique or help managing your time. Always happy to help. \n",
-			"title": "VR Prototyping User Research Usability Testing",
-			"image": "AditiKhazanchi.png",
-			"color": "#F2C94C"
-		},
-		{
+	"people": [{
 			"name": "Gan Lin",
-			"bio": "The stranger at NMD who rarely talks, but would always be wearing a hat. Stay away from him, he’ll bite. 🐯\n[Just kidding]\nAhem, I am a jack-of-all-trades  ̶m̶a̶s̶t̶e̶r̶ ̶o̶f̶ ̶n̶o̶n̶e̶  designer who’s still trying to figure his path out of the frozen brickland. I can drop cool tips about mobile photography. You can definitely spot me with a hat on. 🤠\n",
-			"title": "UI UX Visual",
+			"title": "3D Motion UI",
+			"bio": "",
 			"image": "GanLin.png",
-			"color": "#EB5757"
+			"color": "#F2C94C",
+			"Year": "Fourth"
 		},
 		{
-			"name": "Elena Berg",
-			"bio": "Quirky girl who loves to learn new things",
-			"title": "UI UX Illustration Motion 3D Visual Coding",
-			"image": "ElenaBerg.png",
-			"color": "#F2994A"
+			"name": "Jane Brennan",
+			"title": "3D Illustration UI",
+			"bio": "",
+			"image": "JaneBrennan.png",
+			"color": "#BB6BD9",
+			"Year": "Third"
 		},
 		{
-			"name": "Gracie Canfield",
-			"bio": "I have always loved art (and cats) and spend my time doing work, playing video games, or getting sucked into the void that is Pintrest. I'm always down for chilling and food :D.",
-			"title": "UI UX Illustration Motion 3D Visual",
-			"image": "GracieCanfield.png",
-			"color": "#6FCF97"
+			"name": "Nick Gundel",
+			"title": "UI Interactions UI",
+			"bio": "I like coffee, music, and skateboarding. Go Bills",
+			"image": "NickGundel.png",
+			"color": "#2D9CDB",
+			"Year": "Third"
 		},
 		{
-			"name": "Jaymart Yabo",
-			"bio": "Hi I’m Jaymart! It’s like Kmart but with a J. 😊",
-			"title": "Illustration Motion 3D Coding Drawing Painting",
-			"image": "JaymartYabo.png",
-			"color": "#6FCF97"
+			"name": "Alex Kauffman",
+			"title": "UI Interactions 3D Animation Motion UI Harmony Javascript",
+			"bio": "Fun loving creature that love to help anyone in the design problems. I am  bilingual English and ASL. _Ù_Ù",
+			"image": "AlexKauffman.png",
+			"color": "#56CCF2",
+			"Year": "Third"
 		},
 		{
-			"name": "Alexa Forberg",
-			"bio": "My name may be Alexa but I won't answer all your commands. I'm a designer from Long Island NY. I love UX/UI visual, graphic, motion Design and people passionate about their craft. Photography is pretty cool too. I trick myself into believing my life isn't on fire by plannering (a word??) and making endless to-do lists",
-			"title": "UI UX Illustration Motion Visual Photography",
-			"image": "AlexaForberg.png",
-			"color": "#F2994A"
+			"name": "Dan Hunt",
+			"title": "Animation Illustration UI Javascript",
+			"bio": "Quirky and relatable",
+			"image": "DanHunt.png",
+			"color": "#9B51E0",
+			"Year": "Third"
 		},
 		{
-			"name": "Rachel Manhardt",
-			"bio": "Yellow is my aesthetic.",
-			"title": "UI UX Illustration Motion Visual",
-			"image": "RachelManhardt.png",
-			"color": "#6FCF97"
+			"name": "Sara Banach",
+			"title": "UX Illustration UI Javascript",
+			"bio": "Rainbow enthusiast, craft mom, Nintendo fangirl and giant theme park nerd _ÙÎö_ÙÕ¥ Making things that are cute and round is my specialty! If you‰Ûªre down for bubble tea runs, spontaneous dinner parties and sharing an obnoxious amount of memes, I‰Ûªm your girl! _Ù_ä",
+			"image": "SaraBanach.png",
+			"color": "#BB6BD9",
+			"Year": "Third"
 		},
 		{
-			"name": "John Keefe",
-			"bio": "Devout Pastafarian. The Room by Tommy Wiseau is my holy book. I play in Cinema 4D and After Effects in class instead of paying attention to my professors.",
-			"title": "UI UX Motion 3D",
-			"image": "JohnKeefe.png",
-			"color": "#F2C94C"
-		},
-		{
-			"name": "Harshad Golwalkar",
-			"bio": "I'm an engineer turned into a designer. Working for a year at an engineering-first company; I can share tips and tricks on presentation. I can help with design process, interviews, networking and ux portfolio review.",
-			"title": "UI UX Coding",
-			"image": "HarshadGolwalkar.png",
-			"color": "#EB5757"
-		},
-		{
-			"name": "Zainab Hasan",
-			"bio": "50% design 30% liquid 20% books 10% other stuff. ",
-			"title": "UI UX Illustration Visual",
-			"image": "ZainabHasan.png",
-			"color": "#2D9CDB"
-		},
-		{
-			"name": "Dhensel Dorji ",
-			"bio": "Hello I'm Dhensel (like Denzel Washington but with a \"s\" sound instead of \"z\"). I'm known for owning obnoxiously large, animal-shaped phone cases. I live on spicy food and could probably beat any spicy food challenge. ",
-			"title": "UI UX Illustration Visual",
-			"image": "DhenselDorji.png",
-			"color": "#BB6BD9"
-		},
-		{
-			"name": "Zach Burdett",
-			"bio": "The user is my hero <3",
-			"title": "UI UX Motion Visual Coding",
-			"image": "ZachBurdett.png",
-			"color": "#BB6BD9"
-		},
-		{
-			"name": "John Pascarella",
-			"bio": "I'm that floral print guy who drinks too much espresso. I WILL talk to you about food and maybe cook some for you. ",
-			"title": "UI UX Motion Visual",
-			"image": "JohnPascarella.png",
-			"color": "#6FCF97"
-		},
-		{
-			"name": "Vanasa Liu",
-			"bio": "Resting sad face",
-			"title": "UI UX Illustration Motion Visual Coding",
-			"image": "VanasaLiu.png",
-			"color": "#F2C94C"
-		},
-		{
-			"name": "Amanda Ho",
-			"bio": "amanda has a strong love for milk and anything cute. catch me in the lab stressing about things 2 months in advance. (^:",
-			"title": "UI UX Illustration Motion Visual",
-			"image": "AmandaHo.png",
-			"color": "#F2994A"
-		},
-		{
-			"name": "Nicole Simone",
-			"bio": "Im an energetic, passionate designer who's always eating and/or always hungry. You can find me in the lab or catch me via snapchat or facebook at any time! ",
-			"title": "UI UX Illustration Motion 3D Visual",
-			"image": "NicoleSimone.png",
-			"color": "#F2C94C"
-		},
-		{
-			"name": "EMiLy FrEBoWitZ",
-			"bio": "i like dead flowers and equality and i have a sick bagel bite scar u can ask me about i'd love to show u haha yeet",
-			"title": "UI UX Motion Visual",
-			"image": "EMiLyFrEBoWitZ.png",
-			"color": "#BB6BD9"
-		},
-		{
-			"name": "Liam Madigan",
-			"bio": "I was put on this planet to do one thing and one thing only: eat buffalo chicken dip.",
-			"title": "UI UX Illustration Visual",
-			"image": "LiamMadigan.png",
-			"color": "#F2C94C"
-		},
-		{
-			"name": "Gabe Cagara",
-			"bio": "I am a traveling bug, who loves to restaurant hop and to make people laugh everyday. I also make it a goal to do something INSANE every summer ~ ask me and I'll tell you :3",
-			"title": "UI UX Illustration Motion Visual",
-			"image": "GabeCagara.png",
-			"color": "#EB5757"
-		},
-		{
-			"name": "Jenna Yun",
-			"bio": "lazy dog lover ʕ•ᴥ•ʔ",
-			"title": "UI UX Visual Coding",
-			"image": "JennaYun.png",
-			"color": "#F2C94C"
-		},
-		{
-			"name": "Andrew Hurley",
-			"bio": "I can do a back flip. But don’t ask me about it I’m sensitive. ",
-			"title": "UI UX Motion 3D Visual Coding",
-			"image": "AndrewHurley.png",
-			"color": "#6FCF97"
-		},
-		{
-			"name": "Sarah Danseglio",
-			"bio": "ask me about long island bagels",
-			"title": "UI UX Illustration Motion 3D Visual",
-			"image": "SarahDanseglio.png",
-			"color": "#BB6BD9"
-		},
-		{
-			"name": "Alex Kim",
-			"bio": "A potato with a surprising amount of insights.",
-			"title": "UI UX Illustration Coding",
-			"image": "AlexKim.png",
-			"color": "#2D9CDB"
-		},
-		{
-			"name": "Jacob D Frank",
-			"bio": "Luka is mean",
-			"title": "UI UX Coding",
-			"image": "JacobFrank.png",
-			"color": "#EB5757"
-		},
-		{
-			"name": "Haley King",
-			"bio": "The coolest cat you ever done seen 😎✨ I love making cute things that move and whirl and wOW (based on that good good user research of course). If you want to dye your hair a crazy color, learn how to swim, or cry over code together, let's chat!",
-			"title": "UI UX Illustration Motion Visual",
-			"image": "HaleyKing.png",
-			"color": "#6FCF97"
-		},
-		{
-			"name": "Nancy Perez ",
-			"bio": "I love to travel around, and watch movies/tv shows all day long. ",
-			"title": "Illustration Graphic 3D Printing",
-			"image": "NancyPerez.png",
-			"color": "#EB5757"
+			"name": "Sophia Zapata Signorino",
+			"title": "3D AR/VR Zbrush SubstancePainter",
+			"bio": "I do 3D, very much a generalist, but sculpting / organic modeling is where I feel most at home. Hard surface is good too though. I‰Ûªm a big fan of good topology. I love animals, especially snakes and arthropods.\n\nI don‰Ûªt like to do UI/UX, motion graphics. I don‰Ûªt like koalas, they have smooth brains and it freaks me out.",
+			"image": "SophiaZapataSignorino.png",
+			"color": "#2D9CDB",
+			"Year": "Fourth"
 		},
 		{
 			"name": "Dylan Davis",
-			"bio": "a pretty rad guy.",
-			"title": "UI UX Motion 3D Visual",
+			"title": "Interactions 3D Motion",
+			"bio": "love some tasty jams and some tasty jam yaknowhatimsayin",
 			"image": "DylanDavis.png",
-			"color": "#F2994A"
+			"color": "#56CCF2",
+			"Year": "Fourth"
+		},
+		{
+			"name": "Stephanie Liu",
+			"title": "UI UX Interactions TVPaint",
+			"bio": "My passions include music, design, oil painting, and cooking! I also love rec sports and bubble tea :)",
+			"image": "StephanieLiu.png",
+			"color": "#6FCF97",
+			"Year": "Third"
+		},
+		{
+			"name": "Carolyna McConeghy",
+			"title": "Animation Illustration UI",
+			"bio": "I am a third year New Media design student passionate about using visual design to create change in the world. I love hiking, coffee, and illustrating. I currently work as a designer and social media coordinator for University Exploration at RIT. I‰Ûªm really looking forward to being a mentor this year!",
+			"image": "CarolynaMcConeghy.png",
+			"color": "#6FCF97",
+			"Year": "Third"
+		},
+		{
+			"name": "Hannah Sarakin",
+			"title": "UI Illustration UI",
+			"bio": "I have always been involved in sports and played for the RIT volleyball team. I also LOVE movies and funny TV shows, specifically Friends, Gilmore Girls, Parks and Rec, etc. In my free time I love to do calligraphy, color, and do arts and crafts, anything that ties me back to my roots of fine, physical, tangible art. Also a crazy typography fan!",
+			"image": "HannahSarakin.png",
+			"color": "#F2994A",
+			"Year": "Third"
+		},
+		{
+			"name": "Anika Niva",
+			"title": "UI UX Interactions",
+			"bio": "",
+			"image": "AnikaNiva.png",
+			"color": "#EB5757",
+			"Year": "Fourth"
+		},
+		{
+			"name": "Ben Mendelsohn",
+			"title": "UI UX Interactions",
+			"bio": "There's a good chance that you will find me in the lab. Always happy to help. Outside of design, I like to run, capture photos, and listen to EDM.",
+			"image": "BenMendelsohn.png",
+			"color": "#EB5757",
+			"Year": "Third"
+		},
+		{
+			"name": "Elena Berg",
+			"title": "UX Interactions Animation Motion Axure Javascript",
+			"bio": "I have a Green Cheek Conure named Ollie and I speak Spanish - if you want to practice, come talk to me! I need to brush up on my skills :)",
+			"image": "ElenaBerg.png",
+			"color": "#BB6BD9",
+			"Year": "Fourth"
+		},
+		{
+			"name": "Will McCloskey",
+			"title": "UI Interactions Animation Javascript",
+			"bio": "var me = will;\nif(will){\n     let interests = [\"3D printing\", \"programming\", \"D&D\"];\n} else break;",
+			"image": "WillMcCloskey.png",
+			"color": "#27AE60",
+			"Year": "Third"
+		},
+		{
+			"name": "Rebecca Moran",
+			"title": "UI UX Interactions Javascript",
+			"bio": "I like learning to cook new foods and I own a hedgehog.",
+			"image": "RebeccaMoran.png",
+			"color": "#EB5757",
+			"Year": "Fourth"
+		},
+		{
+			"name": "Emily Frebowitz",
+			"title": "UX Interactions UI",
+			"bio": "I really like charcuterie and sushi and cheerios and ~nature~ and ~overestimating how in shape I am to go on that hike~ and cats even though I'm allergic to cats and also I have a very distinct Birkenstock tan and also if you attend a concert in upstate NY I'll probably see ya there _ÙÔÜ",
+			"image": "EmilyFrebowitz.png",
+			"color": "#F2C94C",
+			"Year": "Fourth"
+		},
+		{
+			"name": "Jenna Yun",
+			"title": "UX Interactions UI",
+			"bio": "",
+			"image": "JennaYun.png",
+			"color": "#6FCF97",
+			"Year": "Fourth"
+		},
+		{
+			"name": "Zainab Hasan",
+			"title": "UI UX Illustration",
+			"bio": "How do you like your eggs in the morning?",
+			"image": "ZainabHasan.png",
+			"color": "#EB5757",
+			"Year": "Fourth"
+		},
+		{
+			"name": "Liam Madigan",
+			"title": "UI UX Interactions",
+			"bio": "I am a human male who enjoys user experience. Other interests I enjoy are: American Horror Story, buffalo chicken dip, and pretending I'm in an 80's cleaning montage whenever I clean my room.",
+			"image": "LiamMadigan.png",
+			"color": "#56CCF2",
+			"Year": "Fourth"
+		},
+		{
+			"name": "Bailey Cunningham",
+			"title": "UI UX Interactions",
+			"bio": "A theatre kid with a passion for design and T R A V E L",
+			"image": "BaileyCunningham.png",
+			"color": "#EB5757",
+			"Year": "Third"
+		},
+		{
+			"name": "Caleb Ng",
+			"title": "UX Animation Motion",
+			"bio": "If you know me you'd know, I never tie my shoes, I keep a version history of my spotify playlists, and I like my cereal without milk.",
+			"image": "CalebNg.png",
+			"color": "#27AE60",
+			"Year": "Third"
+		},
+		{
+			"name": "Sarah Danseglio",
+			"title": "Illustration Motion UI",
+			"bio": "r/happycowgifs",
+			"image": "SarahDanseglio.png",
+			"color": "#6FCF97",
+			"Year": "Fourth"
+		},
+		{
+			"name": "Anne Elliott",
+			"title": "UI UX 3D",
+			"bio": "Hi, I'm Anne!  Aside from UI/UX design and 3D, I love music, chocolate, and doing things outside.  I am the music director of RIT's Proof of Purchase (an acapella group) and play in the RIT orchestra.",
+			"image": "AnneElliott.png",
+			"color": "#F2C94C",
+			"Year": "Third"
+		},
+		{
+			"name": "Tessa Cote",
+			"title": "UI 3D Animation",
+			"bio": "Ask me about my hedgehog",
+			"image": "TessaCote.png",
+			"color": "#F2994A",
+			"Year": "Third"
+		},
+		{
+			"name": "Nicole Simone",
+			"title": "UX Interactions AR/VR",
+			"bio": "just the right amount of awesomesauce",
+			"image": "NicoleSimone.png",
+			"color": "#9B51E0",
+			"Year": "Fourth"
+		},
+		{
+			"name": "Gabe Cagara",
+			"title": "UX Interactions Animation",
+			"bio": "I like hugs and rice. hehe",
+			"image": "GabeCagara.png",
+			"color": "#56CCF2",
+			"Year": "Fourth"
+		},
+		{
+			"name": "Jay Meadowcroft",
+			"title": "3D Animation UI Unity Javascript",
+			"bio": "VR Ping Pong, All day, Everyday",
+			"image": "JayMeadowcroft.png",
+			"color": "#27AE60",
+			"Year": "Third"
 		},
 		{
 			"name": "Rohan Pawar",
-			"bio": "who?",
-			"title": "Motion 3D Visual",
+			"title": "UX 3D Motion Unity Blender",
+			"bio": "they call me yung yucca fries. I do 3d, I do animation, I do uX. the user is my hero <3",
 			"image": "RohanPawar.png",
-			"color": "#F2994A"
+			"color": "#F2C94C",
+			"Year": "Fourth"
 		},
 		{
-			"name": "Luka Schulz",
-			"bio": "#BringBackAdam2k18",
-			"title": "UI UX 3D Visual",
-			"image": "LukaSchulz.png",
-			"color": "#BB6BD9"
+			"name": "Andrew Lefurge",
+			"title": "UI UX 3D Javascript",
+			"bio": "Proud Wii U owner",
+			"image": "AndrewLefurge.png",
+			"color": "#EB5757",
+			"Year": "Fourth"
 		},
 		{
-			"name": "Lauren Schneider",
-			"bio": "[adi please harass me to write a real one plx]",
-			"title": "UI UX Illustration Visual",
-			"image": "LaurenSchneider.png",
-			"color": "#F2C94C"
+			"name": "Alexa Forberg",
+			"title": "UX Interactions AR/VR Unity Maquette",
+			"bio": "*sighs* Yes like amazon. Designing my way through life with too many tabs open.",
+			"image": "AlexaForberg.png",
+			"color": "#27AE60",
+			"Year": "Fourth"
 		},
 		{
-			"name": "Parker Miltsch",
-			"bio": "I like making things in 3D and my dog bailey ",
-			"title": "Motion 3D Visual",
-			"image": "ParkerMiltsch.png",
-			"color": "#F2994A"
+			"name": "Ben Middleton",
+			"title": "UI Interactions UI",
+			"bio": "I like skiing and hiking and making things",
+			"image": "BenMiddleton.png",
+			"color": "#6FCF97",
+			"Year": "Third"
 		},
 		{
-			"name": "Wystan Wang",
-			"bio": "Outgoing, down to earth kinda person",
-			"title": "UI UX Visual",
-			"image": "WystanWang.png",
-			"color": "#EB5757"
+			"name": "Emily Irving",
+			"title": "3D Animation Illustration Javascript",
+			"bio": "I love making stuff. I make baller homemade mac n cheese. It gets rave reviews.",
+			"image": "EmilyIrving.png",
+			"color": "#EB5757",
+			"Year": "Third"
 		},
 		{
-			"name": "Aahel Iyer",
-			"bio": "Trying to be a thoughtful designer who also makes perfectly folded Pinterest worthy omelettes.",
-			"title": "UI UX Motion 3D Visual",
-			"image": "AahelLyer.png",
-			"color": "#BB6BD9"
+			"name": "Gracie Canfield",
+			"title": "UX Interactions Motion",
+			"bio": "Asuh",
+			"image": "GracieCanfield.png",
+			"color": "#2D9CDB",
+			"Year": "Fourth"
 		},
 		{
-			"name": "Hasque May",
-			"bio": "\"Started from the bottom” ~Drake",
-			"title": "UI UX Visual Coding",
-			"image": "hasquemay.png",
-			"color": "#F2994A"
+			"name": "Liza Comley",
+			"title": "UX 3D UI",
+			"bio": "I spend all my money on concerts and when I grow up I want to become an ikea.",
+			"image": "LizaComley.png",
+			"color": "#27AE60",
+			"Year": "Third"
 		},
 		{
-			"name": "Madison Yocum",
-			"bio": "Hi 👋 I like traveling, Design and startups. Always down to help, answer any questions and learn more!",
-			"title": "UI UX Visual",
-			"image": "madisonyocum.png",
-			"color": "#EB5757"
+			"name": "Nasha Torres",
+			"title": "UI UX Interactions Javascript",
+			"bio": "I like music and chubby plants. Bad at math.",
+			"image": "NashaTorres.png",
+			"color": "#56CCF2",
+			"Year": "Fourth"
+		},
+		{
+			"name": "Zach Brown",
+			"title": "UI UX PHP C# Java Javascript",
+			"bio": "Hi my name is Zach Brown like the band, except I‰Ûªm not as cool or popular as them. I‰Ûªm a fourth year New Media Interactive Dev Major with a Web and Mobile dev minor. I‰Ûªm passionate about web design and development and how to create and implement intriguing web interfaces. My portfolio for that stuff can be viewed here http://zabrown.com/ Some fun facts about me are that I like playing ice hockey, volleyball and rock climbing. Looking forward to meet everyone!",
+			"image": "ZachBrown.png",
+			"color": "#F2C94C",
+			"Year": "Fourth"
+		},
+		{
+			"name": "Mohak Padukone",
+			"title": "UI UX Interactions Motion UI Unity Javscript",
+			"bio": "I am a development major who couldn't change my major to design, but I still do it anyways. My previous internship as a Product Design Intern helped me learn a lot in User Research, UX, UI and Motion Design and will be happy to share what I learned. Outside of design I like to keep learning new things and am interested in Film making, Fitness, Music, Psychology, Astronomy and a lot more.",
+			"image": "MohakPadukone.png",
+			"color": "#F2994A",
+			"Year": "Fourth"
+		},
+		{
+			"name": "Nicole Lopez",
+			"title": "UI Interactions UI C#",
+			"bio": "I actually transferred into the New Media Design major last semester (so this is my second semester as a New Media Designer) from New Media Interactive Development, which I had previously switched to from Game Design & Development. So while I may have a slightly different experience from those who started in NMD, I do have some experience outside of NMD that I can share. Along with majoring in NMD, I'm also minoring in both Game Design and the Japanese Language. So basically, I'm really into video games as well as Japanese pop culture such as anime and J-Pop music, and I've even been to Japan twice. To be honest, I'm definitely on the more introverted side, but I also consider myself very friendly and open to meeting new people! When I was still part of the IGM department, I even participated on the IGM Ambassador team where I spoke about my major with new students and parents, so I think I definitely have the social and leadership skills to be a good new media mentor. Because I transferred into this major so late, I don't really know many of my current classmates. Everyone already has their current friend groups, so I'd love to have the opportunity to meet more new people in my new major! I hope it's okay that I wrote this much.",
+			"image": "NicoleLopez.png",
+			"color": "#27AE60",
+			"Year": "Third"
 		}
 	]
 }
