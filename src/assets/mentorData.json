@@ -1,5 +1,12 @@
 {
 	"people": [{
+			"name": "Dylan Davis",
+			"title": "Interactions 3D Motion",
+			"bio": "love some tasty jams and some tasty jam yaknowhatimsayin",
+			"image": "DylanDavis.png",
+			"color": "#56CCF2",
+			"Year": "Fourth"
+		}, {
 			"name": "Gan Lin",
 			"title": "3D Motion UI",
 			"bio": "",
@@ -8,16 +15,16 @@
 			"Year": "Fourth"
 		},
 		{
-			"name": "Jane Brennan",
-			"title": "3D Illustration UI",
-			"bio": "",
-			"image": "JaneBrennan.jpg",
-			"color": "#BB6BD9",
-			"Year": "Third"
+			"name": "Joel's Dog",
+			"title": "Smackos Pets Ball",
+			"bio": "bork",
+			"image": "JoelsDog.jpg",
+			"color": "#EB5757",
+			"Year": "A Dog"
 		},
 		{
 			"name": "Nick Gundel",
-			"title": "UI Interactions UI",
+			"title": "UI Interactions",
 			"bio": "I like coffee, music, and skateboarding. Go Bills",
 			"image": "NickGundel.jpg",
 			"color": "#2D9CDB",
@@ -25,8 +32,8 @@
 		},
 		{
 			"name": "Alex Kauffman",
-			"title": "UI Interactions 3D Animation Motion UI Harmony Javascript",
-			"bio": "Fun loving creature that love to help anyone in the design problems. I am  bilingual English and ASL. _Ù_Ù",
+			"title": "UI Interactions 3D Animation Motion Harmony Javascript",
+			"bio": "Fun loving creature that love to help anyone in the design problems. I am  bilingual English and ASL.",
 			"image": "AlexKauffman.jpg",
 			"color": "#56CCF2",
 			"Year": "Third"
@@ -42,27 +49,28 @@
 		{
 			"name": "Sara Banach",
 			"title": "UX Illustration UI Javascript",
-			"bio": "Rainbow enthusiast, craft mom, Nintendo fangirl and giant theme park nerd _ÙÎö_ÙÕ¥ Making things that are cute and round is my specialty! If you‰Ûªre down for bubble tea runs, spontaneous dinner parties and sharing an obnoxious amount of memes, I‰Ûªm your girl! _Ù_ä",
+			"bio": "Rainbow enthusiast, craft mom, Nintendo fangirl and giant theme park nerd. Making things that are cute and round is my specialty! If you're down for bubble tea runs, spontaneous dinner parties and sharing an obnoxious amount of memes, I'm your girl! ",
 			"image": "SaraBanach.jpg",
+			"color": "#BB6BD9",
+			"Year": "Third"
+		},
+		{
+			"name": "Jane Brennan",
+			"title": "3D Illustration UI",
+			"bio": "",
+			"image": "JaneBrennan.jpg",
 			"color": "#BB6BD9",
 			"Year": "Third"
 		},
 		{
 			"name": "Sophia Zapata Signorino",
 			"title": "3D AR/VR Zbrush SubstancePainter",
-			"bio": "I do 3D, very much a generalist, but sculpting / organic modeling is where I feel most at home. Hard surface is good too though. I‰Ûªm a big fan of good topology. I love animals, especially snakes and arthropods.\n\nI don‰Ûªt like to do UI/UX, motion graphics. I don‰Ûªt like koalas, they have smooth brains and it freaks me out.",
+			"bio": "I do 3D, very much a generalist, but sculpting / organic modeling is where I feel most at home. Hard surface is good too though. I'm a big fan of good topology. I love animals, especially snakes and arthropods.\n\nI don't like to do UI/UX, motion graphics. I don't like koalas, they have smooth brains and it freaks me out.",
 			"image": "SophiaZapataSignorino.jpg",
 			"color": "#2D9CDB",
 			"Year": "Fourth"
 		},
-		{
-			"name": "Dylan Davis",
-			"title": "Interactions 3D Motion",
-			"bio": "love some tasty jams and some tasty jam yaknowhatimsayin",
-			"image": "DylanDavis.png",
-			"color": "#56CCF2",
-			"Year": "Fourth"
-		},
+
 		{
 			"name": "Stephanie Liu",
 			"title": "UI UX Interactions TVPaint",
@@ -74,14 +82,14 @@
 		{
 			"name": "Carolyna McConeghy",
 			"title": "Animation Illustration UI",
-			"bio": "I am a third year New Media design student passionate about using visual design to create change in the world. I love hiking, coffee, and illustrating. I currently work as a designer and social media coordinator for University Exploration at RIT. I‰Ûªm really looking forward to being a mentor this year!",
+			"bio": "I am a third year New Media design student passionate about using visual design to create change in the world. I love hiking, coffee, and illustrating. I currently work as a designer and social media coordinator for University Exploration at RIT. I'm really looking forward to being a mentor this year!",
 			"image": "CarolynaMcConeghy.jpg",
 			"color": "#6FCF97",
 			"Year": "Third"
 		},
 		{
 			"name": "Hannah Sarakin",
-			"title": "UI Illustration UI",
+			"title": "UI Illustration",
 			"bio": "I have always been involved in sports and played for the RIT volleyball team. I also LOVE movies and funny TV shows, specifically Friends, Gilmore Girls, Parks and Rec, etc. In my free time I love to do calligraphy, color, and do arts and crafts, anything that ties me back to my roots of fine, physical, tangible art. Also a crazy typography fan!",
 			"image": "HannahSarakin.jpg",
 			"color": "#F2994A",
@@ -127,14 +135,7 @@
 			"color": "#EB5757",
 			"Year": "Fourth"
 		},
-		{
-			"name": "Emily Frebowitz",
-			"title": "UX Interactions UI",
-			"bio": "I really like charcuterie and sushi and cheerios and ~nature~ and ~overestimating how in shape I am to go on that hike~ and cats even though I'm allergic to cats and also I have a very distinct Birkenstock tan and also if you attend a concert in upstate NY I'll probably see ya there _ÙÔÜ",
-			"image": "EmilyFrebowitz.jpg",
-			"color": "#F2C94C",
-			"Year": "Fourth"
-		},
+
 		{
 			"name": "Jenna Yun",
 			"title": "UX Interactions UI",
@@ -154,7 +155,7 @@
 		{
 			"name": "Liam Madigan",
 			"title": "UI UX Interactions",
-			"bio": "I am a human male who enjoys user experience. Other interests I enjoy are: American Horror Story, buffalo chicken dip, and pretending I'm in an 80's cleaning montage whenever I clean my room.",
+			"bio": "I am a human male who enjoys user experience. Other interests I enjoy are: American Horror Story, buffalo chicken dip, and pretending I am in an 80's cleaning montage whenever I clean my room.",
 			"image": "LiamMadigan.jpg",
 			"color": "#56CCF2",
 			"Year": "Fourth"
@@ -184,17 +185,9 @@
 			"Year": "Fourth"
 		},
 		{
-			"name": "Joel's Dog",
-			"title": "Smackos Pets Ball",
-			"bio": "bork",
-			"image": "JoelsDog.jpg",
-			"color": "#EB5757",
-			"Year": "A Dog"
-		},
-		{
 			"name": "Anne Elliott",
 			"title": "UI UX 3D",
-			"bio": "Hi, I'm Anne!  Aside from UI/UX design and 3D, I love music, chocolate, and doing things outside.  I am the music director of RIT's Proof of Purchase (an acapella group) and play in the RIT orchestra.",
+			"bio": "Hi, I am Anne!  Aside from UI/UX design and 3D, I love music, chocolate, and doing things outside.  I am the music director of RIT's Proof of Purchase (an acapella group) and play in the RIT orchestra.",
 			"image": "AnneElliott.jpg",
 			"color": "#F2C94C",
 			"Year": "Third"
@@ -288,6 +281,14 @@
 			"Year": "Third"
 		},
 		{
+			"name": "Emily Frebowitz",
+			"title": "UX Interactions UI",
+			"bio": "I really like charcuterie and sushi and cheerios and ~nature~ and ~overestimating how in shape I am to go on that hike~ and cats even though I am allergic to cats and also I have a very distinct Birkenstock tan and also if you attend a concert in upstate NY I'll probably see ya there.",
+			"image": "EmilyFrebowitz.jpg",
+			"color": "#F2C94C",
+			"Year": "Fourth"
+		},
+		{
 			"name": "Nasha Torres",
 			"title": "UI UX Interactions Javascript",
 			"bio": "I like music and chubby plants. Bad at math.",
@@ -298,14 +299,14 @@
 		{
 			"name": "Zach Brown",
 			"title": "UI UX PHP C# Java Javascript",
-			"bio": "Hi my name is Zach Brown like the band, except I‰Ûªm not as cool or popular as them. I‰Ûªm a fourth year New Media Interactive Dev Major with a Web and Mobile dev minor. I‰Ûªm passionate about web design and development and how to create and implement intriguing web interfaces. My portfolio for that stuff can be viewed here http://zabrown.com/ Some fun facts about me are that I like playing ice hockey, volleyball and rock climbing. Looking forward to meet everyone!",
+			"bio": "Hi my name is Zach Brown like the band, except I'm not as cool or popular as them. I'm a fourth year New Media Interactive Dev Major with a Web and Mobile dev minor. I'm passionate about web design and development and how to create and implement intriguing web interfaces. My portfolio for that stuff can be viewed here http://zabrown.com/ Some fun facts about me are that I like playing ice hockey, volleyball and rock climbing. Looking forward to meet everyone!",
 			"image": "ZachBrown.jpg",
 			"color": "#F2C94C",
 			"Year": "Fourth"
 		},
 		{
 			"name": "Mohak Padukone",
-			"title": "UI UX Interactions Motion UI Unity Javscript",
+			"title": "UI UX Interactions Motion Unity Javscript",
 			"bio": "I am a development major who couldn't change my major to design, but I still do it anyways. My previous internship as a Product Design Intern helped me learn a lot in User Research, UX, UI and Motion Design and will be happy to share what I learned. Outside of design I like to keep learning new things and am interested in Film making, Fitness, Music, Psychology, Astronomy and a lot more.",
 			"image": "MohakPadukone.jpg",
 			"color": "#F2994A",
@@ -313,8 +314,8 @@
 		},
 		{
 			"name": "Nicole Lopez",
-			"title": "UI Interactions UI C#",
-			"bio": "I actually transferred into the New Media Design major last semester (so this is my second semester as a New Media Designer) from New Media Interactive Development, which I had previously switched to from Game Design & Development. So while I may have a slightly different experience from those who started in NMD, I do have some experience outside of NMD that I can share. Along with majoring in NMD, I'm also minoring in both Game Design and the Japanese Language. So basically, I'm really into video games as well as Japanese pop culture such as anime and J-Pop music, and I've even been to Japan twice. To be honest, I'm definitely on the more introverted side, but I also consider myself very friendly and open to meeting new people! When I was still part of the IGM department, I even participated on the IGM Ambassador team where I spoke about my major with new students and parents, so I think I definitely have the social and leadership skills to be a good new media mentor. Because I transferred into this major so late, I don't really know many of my current classmates. Everyone already has their current friend groups, so I'd love to have the opportunity to meet more new people in my new major! I hope it's okay that I wrote this much.",
+			"title": "UI Interactions C#",
+			"bio": "I actually transferred into the New Media Design major last semester (so this is my second semester as a New Media Designer) from New Media Interactive Development, which I had previously switched to from Game Design & Development. So while I may have a slightly different experience from those who started in NMD, I do have some experience outside of NMD that I can share. Along with majoring in NMD, I am also minoring in both Game Design and the Japanese Language. So basically, I am really into video games as well as Japanese pop culture such as anime and J-Pop music, and I've even been to Japan twice. To be honest, I am definitely on the more introverted side, but I also consider myself very friendly and open to meeting new people! When I was still part of the IGM department, I even participated on the IGM Ambassador team where I spoke about my major with new students and parents, so I think I definitely have the social and leadership skills to be a good new media mentor. Because I transferred into this major so late, I don't really know many of my current classmates. Everyone already has their current friend groups, so I'd love to have the opportunity to meet more new people in my new major! I hope it's okay that I wrote this much.",
 			"image": "NicoleLopez.jpg",
 			"color": "#27AE60",
 			"Year": "Third"
