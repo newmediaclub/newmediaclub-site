@@ -18,11 +18,11 @@ class Mentors extends React.Component {
   }
 
   createPerson = person => {
-    return <MentorPerson person={person} key={person.bio} />
+    return <MentorPerson person={person} key={person.name + person.image} />
   }
 
   createAlumni = person => {
-    return <AlumniPerson person={person} key={person.website} />
+    return <AlumniPerson person={person} key={person.website + person.name} />
   }
 
   createPeople = people => {
@@ -76,12 +76,20 @@ class Mentors extends React.Component {
       'Motion',
       'Visual',
       'Illustration',
-      'Prototyping',
+      'Interactions',
       '3D',
-      'Drawing',
-      'Coding',
-      'Photography',
-      'Printing',
+      'Harmony',
+      'Javascript',
+      'Animation',
+      'AR/VR',
+      'Zbrush',
+      'SubstancePainter',
+      'Axure',
+      'Unity',
+      'Maquette',
+      'Java',
+      'C#',
+      'PHP',
     ]
 
     const currentData = this.state.selected === 'mentor' ? mentor : alumni
