@@ -10,10 +10,10 @@ class Mentors extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      selected: 'alumni',
+      selected: 'mentor',
       selectedFilter: 'All',
-      button_active__eboard: 'button_active__eboard',
-      button_active__mentor: '',
+      button_active__eboard: '',
+      button_active__mentor: 'button_active__eboard',
     }
   }
 
