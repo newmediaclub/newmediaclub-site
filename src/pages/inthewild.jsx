@@ -16,7 +16,7 @@ export default class InTheWild extends Component {
 
     let photoArray = []
     function createPhotoGrid() {
-      for (var i = 0; i < 14; i++) {
+      for (var i = 0; i < photoGrid.photos.length; i++) {
         var width = getRandomSize(200, 400)
         var height = getRandomSize(200, 400)
 
@@ -28,7 +28,6 @@ export default class InTheWild extends Component {
             loading="lazy"
           ></img>
         )
-        // console.log(imageURL)
       }
       return photoArray
     }
