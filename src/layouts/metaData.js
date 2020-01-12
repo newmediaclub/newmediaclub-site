@@ -40,8 +40,8 @@ const TemplateWrapper = ({ children }) => (
     <meta name="author" content="Andrew Hurley" />
 
     <title>New Media Club</title>
-    <link rel="shortcut icon" href={NMC_favicon} type="image/x-icon" />
-    <link rel="icon" href={NMC_favicon} type="image/x-icon" />
+    <link rel="shortcut icon" href={NMC_favicon} type="image/png" />
+    <link rel="icon" href={NMC_favicon} type="image/png" />
     <link
       href="https://fonts.googleapis.com/css?family=Raleway:300,400,700|Source+Sans+Pro:300,300i,400,600,700"
       rel="stylesheet"

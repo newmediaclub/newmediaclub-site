@@ -11,6 +11,9 @@ import '../layouts/index.js'
 import CurrentEventCards from '../components/CurrentEventCards'
 import MetaTags from 'react-meta-tags'
 import '../layouts/metaData.js'
+
+import NMC_favicon from '../assets/NMC_favicon.png'
+
 export default class IndexPage extends Component {
   render() {
     return (
@@ -18,6 +21,7 @@ export default class IndexPage extends Component {
         <MetaTags>
           <title>Home</title>
           <meta name="google" content="notranslate" />
+          <link rel="icon" href={NMC_favicon} type="image/png" />
         </MetaTags>
 
         <Navigation page={'home'} />
