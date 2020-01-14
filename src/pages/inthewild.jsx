@@ -23,6 +23,7 @@ export default class InTheWild extends Component {
         photoArray.push(
           <img
             src={'/assets/photogrid/' + photoGrid.photos[i].image}
+            alt={photoGrid.photos[i].alt}
             height={height}
             width={width}
             loading="lazy"
