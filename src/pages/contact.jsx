@@ -7,13 +7,14 @@ import React, { Component } from 'react'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 import MetaTags from 'react-meta-tags'
-
+import NMC_favicon from '../assets/NMC_favicon.png'
 export default class ContactPage extends Component {
   render() {
     return (
       <div>
         <MetaTags>
           <title>Contact</title>
+          <link rel="icon" href={NMC_favicon} type="image/png" />
         </MetaTags>
         <Navigation page={'contact'} />
         <div className="wrapContainer">
