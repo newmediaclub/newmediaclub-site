@@ -5,25 +5,26 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "classnames": "^2.2.6",
-    "gatsby": "^2.15.29",
-    "gatsby-link": "^2.2.18",
-    "gatsby-plugin-google-analytics": "^2.1.20",
-    "gatsby-plugin-netlify": "^2.1.17",
-    "gatsby-plugin-react-helmet": "^3.1.10",
-    "gatsby-plugin-sass": "^2.1.17",
-    "gatsby-source-filesystem": "^2.1.29",
-    "gatsby-transformer-remark": "^2.6.27",
-    "node-sass": "^4.12.0",
+    "gatsby": "^2.19.35",
+    "gatsby-cli": "^2.10.4",
+    "gatsby-link": "^2.2.30",
+    "gatsby-plugin-google-analytics": "^2.1.37",
+    "gatsby-plugin-netlify": "^2.1.34",
+    "gatsby-plugin-react-helmet": "^3.1.23",
+    "gatsby-plugin-sass": "^2.1.30",
+    "gatsby-source-filesystem": "^2.1.51",
+    "gatsby-transformer-remark": "^2.6.56",
+    "node-sass": "^4.13.1",
     "normalize-scss": "^7.0.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "react-helmet": "^5.2.1",
     "react-mailchimp-subscribe": "^2.1.0",
     "react-meta-tags": "^0.7.4",
     "react-responsive": "^7.0.0",
     "react-router-redux": "^4.0.8",
     "sass-rem": "^2.0.1",
-    "webpack": "^4.41.0"
+    "webpack": "^4.42.0"
   },
   "keywords": [
     "gatsby"
@@ -38,6 +39,6 @@
     "clean": "gatsby clean"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1"
   }
 }

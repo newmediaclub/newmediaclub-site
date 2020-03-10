@@ -1,78 +1,103 @@
 {
 	"photos": [{
 		"image": "awhitedoggo.jpg",
-		"alt": "a white dog"
+		"alt": "a white dog",
+		"title": "facebook"
 	}, {
 		"image": "biggroupphoto.jpg",
-		"alt": "big group photo"
+		"alt": "big group photo",
+		"title": "facebook"
 	}, {
 		"image": "cartoondrawing.jpg",
-		"alt": "cartoon drawing in pen"
+		"alt": "cartoon drawing in pen",
+		"title": "facebook"
 	}, {
 		"image": "chattingaroundtable.jpg",
-		"alt": "a white dog"
+		"alt": "a white dog",
+		"title": "facebook"
 	}, {
 		"image": "groupphoto.jpg",
-		"alt": "group photo"
+		"alt": "group photo",
+		"title": "facebook"
 	}, {
 		"image": "groupphoto2.jpg",
-		"alt": "group photo"
+		"alt": "group photo",
+		"title": "facebook"
 	}, {
 		"image": "groupphoto3.jpg",
-		"alt": "group photo"
+		"alt": "group photo",
+		"title": "facebook"
 	}, {
 		"image": "groupphotoaroundtable.jpg",
-		"alt": "group photo around a table"
+		"alt": "group photo around a table",
+		"title": "facebook"
 	}, {
 		"image": "groupshotofthree.jpg",
-		"alt": "group photo"
+		"alt": "group photo",
+		"title": "facebook"
 	}, {
 		"image": "outdoorcandidshot.jpg",
-		"alt": "outdoor candid photo"
+		"alt": "outdoor candid photo",
+		"title": "facebook"
 	}, {
 		"image": "outdoorpicnic.jpg",
-		"alt": "outdoor picnic"
+		"alt": "outdoor picnic",
+		"title": "facebook"
 	}, {
 		"image": "peopleplayingjustdance.jpg",
-		"alt": "people playing justdance"
+		"alt": "people playing justdance",
+		"title": "facebook"
 	}, {
 		"image": "peopleplayingvolleyball.jpg",
-		"alt": "people playing volleyball"
+		"alt": "people playing volleyball",
+		"title": "facebook"
 	}, {
 		"image": "peopleplayingvolleyballfaraway.jpg",
-		"alt": "a white dog"
+		"alt": "a white dog",
+		"title": "facebook"
 	}, {
 		"image": "persongivingpeacesign.jpg",
-		"alt": "person giving peace sign"
+		"alt": "person giving peace sign",
+		"title": "facebook"
 	}, {
 		"image": "personholdingdrink.jpg",
-		"alt": "person holding a drink"
+		"alt": "person holding a drink",
+		"title": "facebook"
 	}, {
 		"image": "personlaughingandholdingpeacesign.jpg",
-		"alt": "person laughing and holding peace sign"
+		"alt": "person laughing and holding peace sign",
+		"title": "facebook"
 	}, {
 		"image": "pointingatscreen.jpg",
-		"alt": "person pointing at a computer screen"
+		"alt": "person pointing at a computer screen",
+		"title": "facebook"
 	}, {
 		"image": "professorsgroupphoto.jpg",
-		"alt": "professor group photo"
+		"alt": "professor group photo",
+		"title": "facebook"
 	}, {
 		"image": "professortalkingtostudent.jpg",
-		"alt": "professor talking to student"
+		"alt": "professor talking to student",
+		"title": "facebook"
 	}, {
 		"image": "takingaselfie.jpg",
-		"alt": "taking a selfie"
+		"alt": "taking a selfie",
+		"title": "facebook"
 	}, {
 		"image": "teachingovershoulder.jpg",
-		"alt": "teaching over shoulder"
+		"alt": "teaching over shoulder",
+		"title": "facebook"
 	}, {
 		"image": "twopeoplelaughing.jpg",
-		"alt": "two people laughing"
+		"alt": "two people laughing",
+		"title": "facebook"
 	}, {
 		"image": "twopeoplesmiling.jpg",
-		"alt": "two people smiling"
+		"alt": "two people smiling",
+		"title": "facebook"
 	}, {
 		"image": "twopeoplewithhandunderchin.jpg",
-		"alt": "two people with hand under chin"
+		"alt": "two people with hand under chin",
+		"title": "facebook"
 	}]
 }
