@@ -1,4 +1,5 @@
 import React from 'react'
+import ModalImage from 'react-modal-image'
 
 let ITWPhotoCard = function statelessFunctionComponentClass(props) {
   function getRandomSize(min, max) {
@@ -9,20 +10,27 @@ let ITWPhotoCard = function statelessFunctionComponentClass(props) {
 
   let altText = props.photo.name
 
-  const { person } = props
-
   var width = getRandomSize(200, 400)
   var height = getRandomSize(200, 400)
 
   return (
-    <img
-      className="personCard"
-      src={__PATH_PREFIX__ + imageURL}
-      alt={altText}
-      height={height}
-      width={width}
-      loading="lazy"
-    ></img>
+    <div>
+      {/* <img
+        className=""
+        src={__PATH_PREFIX__ + imageURL}
+        alt={altText}
+        height={height}
+        width={width}
+        loading="lazy"
+      ></img> */}
+      <ModalImage
+        small={__PATH_PREFIX__ + imageURL}
+        large={__PATH_PREFIX__ + imageURL}
+        height={height}
+        width={width}
+        loading="lazy"
+      />
+    </div>
   )
 }
 

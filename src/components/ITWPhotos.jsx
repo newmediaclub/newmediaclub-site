@@ -1,12 +1,6 @@
 import React from 'react'
-// import MentorPerson from './Members/MentorPerson.jsx'
-// import AlumniPerson from './Members/AlumniPerson.jsx'
 import PhotoCard from './Members/ITWPhotoCard.jsx'
-// insert new ITW PhotoCard
-
 import photodata from '../assets/photoGrid.json'
-// insert the new ITW photo json
-// import classnames from 'classnames'
 
 class ITWPhotos extends React.Component {
   constructor(props) {
@@ -17,9 +11,18 @@ class ITWPhotos extends React.Component {
     }
   }
 
+  shuffle = a => {
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[a[i], a[j]] = [a[j], a[i]]
+    }
+    return a
+  }
+
   createPhoto = photo => {
     return <PhotoCard photo={photo} key={photo.name + photo.image} />
   }
+
   createPhotos = photos => {
     const needle = this.state.selectedFilter.toLowerCase()
 
@@ -29,9 +32,9 @@ class ITWPhotos extends React.Component {
       return needle === 'all' || haystack.indexOf(needle) > -1
     })
 
-    if (this.state.selected === 'photo') {
-      return filtered.map(this.createPhoto)
-    }
+    // if (this.state.selected === 'photo') {
+    return this.shuffle(filtered.map(this.createPhoto))
+    // }
   }
 
   updateSelectedFilter = option => {
@@ -45,9 +48,11 @@ class ITWPhotos extends React.Component {
       'All',
       'Facebook',
       'Mentor Flags',
-      'Potluck',
+      'Picnic 2019',
       'Summer Recap 2019',
       'Public Speaking',
+      'Formal 2019',
+      'Formal 2016',
     ]
 
     const currentData = photodata
