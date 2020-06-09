@@ -1,12 +1,15 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "New Media Club Site",
+  "description": "Based off the gatsby starter, this site is for Rochester Institute of Technlogies New Media Design club.",
+  "version": "2.0.0",
+  "author": "Current E-board Webmaster",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "classnames": "^2.2.6",
     "gatsby": "^2.20.12",
-    "gatsby-cli": "^2.11.5",
+    "gatsby-cli": "^2.11.7",
     "gatsby-link": "^2.3.2",
     "gatsby-plugin-google-analytics": "^2.2.2",
     "gatsby-plugin-netlify": "^2.2.1",

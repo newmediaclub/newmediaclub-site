@@ -109,6 +109,7 @@ class ResourceCards extends React.Component {
                   <p
                     key={option}
                     onClick={() => this.updateSelectedFilter(option)}
+                    onKeyDown={() => this.updateSelectedFilter(option)}
                     className={`sortingContainer-button ${
                       selectedFilter === option ? activeClassName : ''
                     }

@@ -32,7 +32,7 @@ let MentorPerson = function statelessFunctionComponentClass(props) {
       <div className="colorSwatch" style={cardColor(myColor)}></div>
       <img
         className="photo"
-        loading="auto"
+        loading="lazy"
         src={__PATH_PREFIX__ + imageURL}
         alt={altText}
       />

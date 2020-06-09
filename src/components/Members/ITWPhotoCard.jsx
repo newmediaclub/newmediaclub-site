@@ -8,7 +8,7 @@ let ITWPhotoCard = function statelessFunctionComponentClass(props) {
 
   let imageURL = '/assets/photogrid/' + props.photo.image
 
-  let altText = props.photo.name
+  // let altText = props.photo.name
 
   var width = getRandomSize(200, 400)
   var height = getRandomSize(200, 400)

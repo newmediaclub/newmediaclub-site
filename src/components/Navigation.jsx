@@ -54,6 +54,17 @@ class Navigation extends React.Component {
                   }
                 ></div>
               </Link>
+              <Link className="navLink" to={'/portfolios/'}>
+                Portfolios
+                <div
+                  className={
+                    'navUnderline ' +
+                    (this.props.page === 'portfolios'
+                      ? 'displayShow'
+                      : 'displayHidden')
+                  }
+                ></div>
+              </Link>
 
               <a
                 href="https://www.facebook.com/groups/ritnewmediaclub/events/"

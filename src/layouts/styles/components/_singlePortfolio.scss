@@ -1,0 +1,41 @@
+.portfolioBannerImage {
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.info {
+	top: 0;
+	text-align: left;
+	padding: 15px;
+	align-items: flex-start;
+	padding-top: 0;
+}
+
+.portfolioLink {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 32px;
+	/* or 267% */
+	color: #333333;
+
+	opacity: 0.75;
+	border-radius: 10px;
+}
+
+.portfolioTags {
+	width: auto;
+	justify-content: left;
+	align-self: flex-start;
+}
+
+.portfolioLinkButton {
+
+	// border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 12px;
+	width: 22px;
+	height: 22px;
+	align-self: flex-end;
+}

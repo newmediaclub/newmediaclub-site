@@ -101,6 +101,7 @@ class Mentors extends React.Component {
             <p className="peopleHeading">Groups</p>
             <div
               onClick={this.setData}
+              onKeyDown={this.setData}
               className={classnames(
                 'buttonPeople',
                 this.state.button_active__eboard
@@ -110,6 +111,7 @@ class Mentors extends React.Component {
             </div>
             <div
               onClick={this.setMentor}
+              onKeyDown={this.setMentor}
               className={classnames(
                 'buttonPeople',
                 this.state.button_active__mentor
@@ -138,6 +140,7 @@ class Mentors extends React.Component {
                   <p
                     key={option}
                     onClick={() => this.updateSelectedFilter(option)}
+                    onKeyDown={() => this.updateSelectedFilter(option)}
                     className={`sortingContainer-button ${
                       selectedFilter === option ? activeClassName : ''
                     }
