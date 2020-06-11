@@ -57,6 +57,11 @@ const TemplateWrapper = ({ children }) => (
     <div className="scrollBarFix">{children()}</div>
   </div>
 )
+
+console.log(
+  '%c New 2020 Design and Code by Will McCloskey, @will.makes.things, RIT New Media Design 21, Webmaster 2020-2021 ',
+  'background: rgb(238,174,202); background: -webkit-linear-gradient(to right, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); border: 1px solid #3E0E02; color: white; display: block; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 3px 5px 3px -5px rgba(0, 0, 0, 0.5), 0 -13px 5px -10px rgba(255, 255, 255, 0.4) inset; line-height: 40px; text-align: center; font-weight: bold;'
+)
 console.log(
   '%c New 2019 Design and Code by Andrew Hurley, @andrew._.hurley, RIT New Media Design 20, Webmaster 2018-2020 ',
   'background: #77A1D3; background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); border: 1px solid #3E0E02; color: white; display: block; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 3px 5px 3px -5px rgba(0, 0, 0, 0.5), 0 -13px 5px -10px rgba(255, 255, 255, 0.4) inset; line-height: 40px; text-align: center; font-weight: bold;'
