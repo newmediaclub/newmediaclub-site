@@ -44,7 +44,7 @@ const TemplateWrapper = ({ children }) => (
       />
       <meta itemprop="image" content="New Media Club at RIT" />
 
-      <meta name="author" content="Andrew Hurley" />
+      <meta name="author" content="Will McCloskey" />
 
       <title>New Media Club</title>
       <link rel="shortcut icon" href={NMC_favicon} type="image/x-icon" />

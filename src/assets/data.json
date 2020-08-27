@@ -1,39 +1,32 @@
 {
 	"people": [
 		{
-			"image": "liam.png",
-			"name": "Liam Madigan",
-			"title": "Co-President",
-			"bio": "Walking by the Lab Lab? Peer in and observe Liam, feasting on cheez-its and Vanilla coke and blasting Sean Paul. Don’t knock on the glass though, you might scare him.",
+			"image": "caleb.png",
+			"name": "Caleb Ng",
+			"title": "President",
+			"bio": "Caleb is a male human being of 21 years of age. Like most adolescent boys, he enjoys a various number of physical activities such as wrestling, biking, and skating. Caleb also partakes in a unique sport involving many others chasing a rotating flying disc around a field while chanting “go RIT spudheds!”",
 			"color": "#6FCF97"
 		},
 		{
-			"image": "gabe.png",
-			"name": "Gabe Cagara",
-			"title": "Co-President",
-			"bio": "Gabe is a talkative and high key thrill seeker, and makes it a goal to do something crazy every summer (ask him and he’ll tell you :D ). Although Gabe has lived in three continents, he still has no clue how to hold chopsticks or how to play baseball. Pretty tragic. ",
-			"color": "#2D9CDB"
-		},
-		{
-			"image": "caleb.png",
-			"name": "Caleb Ng",
+			"image": "mary.png",
+			"name": "Mary Tannian",
 			"title": "Vice President",
-			"bio": "Caleb is a male human being of 19 years of age. Like most adolescent boys, he enjoys a various number of physical activities such as wrestling, biking, and skating. Caleb also partakes in a unique sport involving many others chasing a rotating flying disc around a field while chanting “go RIT spudheds!”",
+			"bio": "Mary is a confirmed plant enthusiast, just don’t ask how many she’s killed. When she’s not sneaking home another houseplant, she’s most likely rewatching adventure time and inhaling fettuccine. Her other hobbies include recruiting her roommate to dye her hair at the kitchen table and eating corn straight out of the can.",
 			"color": "#F2994A"
 
 		},
 		{
-			"image": "emily.png",
-			"name": "Emily Frebowitz",
+			"image": "liza.png",
+			"name": "Liza Comley",
 			"title": "Treasurer",
-			"bio": "Emily never ate a vegetable until the age of 20 and she has twice the amount of taste buds as the average person (really). Her best friend is a ladybug named Kevin and if you can’t find her she’s probably thrifting or crying. ¯\\_(ツ)_/¯",
+			"bio": "I love hoarding plants, making oddly specific playlists and traveling (I’ve fallen down in 8 different countries ~teehe~). I also have dreams of becoming a bee keeper but im terrified of bees :^)",
 			"color" : "#F2C94C"
 		},
 		{
-			"image": "andrew.png",
-			"name": "Andrew Hurley",
+			"image": "will.png",
+			"name": "Will McCloskey",
 			"title": "Webmaster",
-			"bio": "Andrew has an affinity for wood, more specifically mahogany and those who know him best will understand how important lemons are to him. But don’t let that fool you he also knows his way around a few bits and bytes as well.",
+			"bio": "Will, like many others, is a human. There is no evidence to suggest otherwise. He can use a computer, and seems to enjoy a hearty game of Dungeons & Dragons.",
 			"color": "#EB5757"
 		},
 		{
